@@ -1,4 +1,3 @@
-import React from "react";
 import Link from "next/link";
 
 const MainBanner = () => {
@@ -15,7 +14,7 @@ const MainBanner = () => {
                   data-aos-duration="700"
                   data-aos-once="true"
                 >
-                  WE ARE LEADING TECHNOLOGY SOLUTIONS PROVIDING COMPANY! 
+                  Personalized Care Meets Advanced Beauty
                 </span>
                 <h1
                   data-aos="fade-right"
@@ -23,7 +22,7 @@ const MainBanner = () => {
                   data-aos-duration="700"
                   data-aos-once="true"
                 >
-                  We Make The Best IT Solutions
+                  Radiate Beauty with AKAAS Laser MedSpa
                 </h1>
                 <p
                   data-aos="fade-right"
@@ -31,9 +30,12 @@ const MainBanner = () => {
                   data-aos-duration="700"
                   data-aos-once="true"
                 >
-                  We are leading technology solutions providing company all over
-                  the world doing over 40 years. Lorem ipsum dolor sit amet
-                  consetetur sadipscing elitr sed diam nonumy eirmod tempor.
+                  Discover the essence of beauty at AKAAS Laser MedSpa. Our
+                  Orlando-based center specializes in advanced aesthetic
+                  treatments tailored to your unique needs. From laser hair
+                  removal to rejuvenating facials, our expert team ensures a
+                  luxurious experience that enhances your natural beauty and
+                  confidence.
                 </p>
 
                 <div
@@ -44,7 +46,7 @@ const MainBanner = () => {
                   data-aos-once="true"
                 >
                   <Link href="/contact">
-                    <a className="default-btn">Get Started</a>
+                    <a className="default-btn">Begin Your Beauty Journe</a>
                   </Link>
                 </div>
               </div>

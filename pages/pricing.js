@@ -1,15 +1,14 @@
-import React from 'react'
-import Link from 'next/link'
-import NavbarTwo from '@/components/Layout/NavbarTwo'
-import PricingTable from '@/components/Pricing/PricingTable'
-import CTO from '@/components/Common/CTO'
-import ContactForm from '@/components/Common/ContactForm'
-import Footer from '@/components/Layout/Footer'
+import CTO from "@/components/Common/CTO";
+import ContactForm from "@/components/Common/ContactForm";
+import Footer from "@/components/Layout/Footer";
+import NavbarThree from "@/components/Layout/NavbarThree";
+import PricingTable from "@/components/Pricing/PricingTable";
+import Link from "next/link";
 
 export default function Pricing() {
   return (
     <>
-      <NavbarTwo />
+      <NavbarThree />
 
       <div
         className="page-banner-area mt-94"
@@ -44,5 +43,5 @@ export default function Pricing() {
 
       <Footer />
     </>
-  )
+  );
 }

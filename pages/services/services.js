@@ -1,15 +1,14 @@
-import React from "react";
-import Link from "next/link";
-import NavbarTwo from "@/components/Layout/NavbarTwo";
-import KeyFeatures from "@/components/Common/KeyFeatures";
-import AllServicesCard from "@/components/Services/AllServicesCard";
 import ContactForm from "@/components/Common/ContactForm";
+import KeyFeatures from "@/components/Common/KeyFeatures";
 import Footer from "@/components/Layout/Footer";
+import NavbarThree from "@/components/Layout/NavbarThree";
+import AllServicesCard from "@/components/Services/AllServicesCard";
+import Link from "next/link";
 
 export default function Services() {
   return (
     <>
-      <NavbarTwo />
+      <NavbarThree />
 
       <div
         className="page-banner-area mt-94"

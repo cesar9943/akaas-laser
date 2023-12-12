@@ -1,4 +1,3 @@
-import React from "react";
 import Link from "next/link";
 
 const WhoWeAre = () => {
@@ -29,14 +28,14 @@ const WhoWeAre = () => {
               >
                 <div className="about-bg-text">ABOUT US</div>
                 <span>WHO WE ARE</span>
-                <h3>
-                  Your Trusted Partner For All IT Solutions
-                </h3>
+
+                <h3> Our philosophy </h3>
                 <p>
-                  We are leading technology solutions providing company all over
-                  the world doing over 40 years. Lorem ipsum dolor sit amet
-                  consetetur sadipscing elitre sed diam non umy eirmod tempor
-                  invidunt ut labore.
+                  At Akaas Laser MedSpa, our philosophy isn't just about
+                  transforming appearances; it's about fostering confidence,
+                  inspiring self-love, and nurturing a sense of empowerment. We
+                  are committed to helping you embrace your beauty in its purest
+                  form, enabling you to shine from within.
                 </p>
               </div>
             </div>
@@ -54,17 +53,22 @@ const WhoWeAre = () => {
                 >
                   <h3>Our Vision</h3>
                   <p>
-                    Lorem ipsum dolor sit amet consetetur sadip scing elitr sed
-                    diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                    aliquyamei erat sed diam voluptua at vero eos et accusam et
-                    justo duo.
+                    At Akaas Laser MedSpa, our story is woven with a dedication
+                    to redefining beauty and well-being. Founded on the belief
+                    that everyone deserves to feel confident and comfortable in
+                    their skin, our journey began with a vision to merge
+                    advanced technology with personalized care. With a history
+                    rooted in expertise and innovation, our team of skilled
+                    professionals continually strives to exceed expectations by
+                    blending artistry with science. At Akaas Laser MedSpa, our
+                    vision transcends skincare; it encompasses a transformative
+                    experience that inspires confidence, radiance, and a renewed
+                    sense of self in every individual we serve.
                   </p>
 
                   <div className="about-btn">
                     <Link href="/about">
-                      <a className="default-btn">
-                        Know More About Us
-                      </a>
+                      <a className="default-btn">Know More About Us</a>
                     </Link>
                   </div>
                 </div>
@@ -80,10 +84,11 @@ const WhoWeAre = () => {
                 >
                   <h3>Our Mission</h3>
                   <p>
-                    Lorem ipsum dolor sit amet consetetur sadip scing elitr sed
-                    diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                    aliquyamei erat sed diam voluptua at vero eos et accusam et
-                    justo duo.
+                    Our mission is simple yet profound: to empower individuals
+                    on their path to self-assurance. Through our commitment to
+                    excellence, safety, and unwavering client focus, we've
+                    cultivated a nurturing environment where each treatment
+                    embodies our core philosophy of enhancing natural beauty.
                   </p>
                 </div>
               </div>

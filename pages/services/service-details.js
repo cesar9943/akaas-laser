@@ -1,16 +1,15 @@
-import React from "react";
-import Link from "next/link";
-import NavbarTwo from "@/components/Layout/NavbarTwo";
-import ServicesDetailsContent from "@/components/Services/ServicesDetailsContent";
-import ContactForm from "@/components/Common/ContactForm";
-import ServiceSlider from "@/components/Services/ServiceSlider";
 import CTO from "@/components/Common/CTO";
+import ContactForm from "@/components/Common/ContactForm";
 import Footer from "@/components/Layout/Footer";
+import NavbarThree from "@/components/Layout/NavbarThree";
+import ServiceSlider from "@/components/Services/ServiceSlider";
+import ServicesDetailsContent from "@/components/Services/ServicesDetailsContent";
+import Link from "next/link";
 
 export default function ServiceDetails() {
   return (
     <>
-      <NavbarTwo />
+      <NavbarThree />
 
       <div
         className="page-banner-area mt-94"

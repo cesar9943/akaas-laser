@@ -1,4 +1,4 @@
-import React from "react";
+import Image from "next/image";
 import Link from "next/link";
 
 const Footer = () => {
@@ -18,7 +18,12 @@ const Footer = () => {
                 <div className="widget-logo">
                   <Link href="/">
                     <a>
-                      <img src="/images/logo.png" alt="image" />
+                      <Image
+                        src="/images/black-logo.png"
+                        alt="image"
+                        width={180}
+                        height={180}
+                      />
                     </a>
                   </Link>
                 </div>
@@ -179,7 +184,7 @@ const Footer = () => {
           <div className="container">
             <div className="copyright-area-content">
               <p>
-                &copy; Stax is Proudly Owned by {' '}
+                &copy; Stax is Proudly Owned by{" "}
                 <a
                   href="https://envytheme.com/"
                   target="_blank"

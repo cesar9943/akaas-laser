@@ -1,5 +1,5 @@
-import React, { useState } from "react";
 import Link from "@/utils/ActiveLink";
+import React, { useState } from "react";
 
 const NavbarThree = () => {
   const [menu, setMenu] = React.useState(true);
@@ -46,7 +46,14 @@ const NavbarThree = () => {
               <nav className="navbar navbar-expand-md navbar-light">
                 <Link href="/">
                   <a className="navbar-brand">
-                    <img src="/images/black-logo.png" alt="Site logo" />
+                    <img
+                      src="/images/black-logo.png"
+                      alt="Site logo"
+                      style={{
+                        width: "100px",
+                        height: "auto",
+                      }}
+                    />
                   </a>
                 </Link>
 
@@ -68,67 +75,15 @@ const NavbarThree = () => {
                 <div className={classOne} id="navbarSupportedContent">
                   <ul className="navbar-nav ms-auto">
                     <li className="nav-item">
-                      <Link href="#">
-                        <a className="nav-link">
-                          Home <i className="ri-arrow-down-s-line"></i>
-                        </a>
+                      <Link href="/">
+                        <a className="nav-link">Home</a>
                       </Link>
-                      <ul className="dropdown-menu">
-                        <li className="nav-item">
-                          <Link href="/" activeClassName="active">
-                            <a className="nav-link">Home Demo - 1</a>
-                          </Link>
-                        </li>
-
-                        <li className="nav-item">
-                          <Link href="/index-2" activeClassName="active">
-                            <a className="nav-link">Home Demo - 2</a>
-                          </Link>
-                        </li>
-
-                        <li className="nav-item">
-                          <Link href="/index-3" activeClassName="active">
-                            <a className="nav-link">Home Demo - 3</a>
-                          </Link>
-                        </li>
-                      </ul>
                     </li>
 
                     <li className="nav-item">
-                      <a href="#" className="nav-link">
-                        About <i className="ri-arrow-down-s-line"></i>
-                      </a>
-                      <ul className="dropdown-menu">
-                        <li className="nav-item">
-                          <Link href="/about" activeClassName="active">
-                            <a className="nav-link">About Style - 1</a>
-                          </Link>
-                        </li>
-
-                        <li className="nav-item">
-                          <Link href="/about-2" activeClassName="active">
-                            <a className="nav-link">About Style - 2</a>
-                          </Link>
-                        </li>
-
-                        <li className="nav-item">
-                          <Link href="/about-3" activeClassName="active">
-                            <a className="nav-link">About Style - 3</a>
-                          </Link>
-                        </li>
-
-                        <li className="nav-item">
-                          <Link href="/gallery" activeClassName="active">
-                            <a className="nav-link">Gallery</a>
-                          </Link>
-                        </li>
-
-                        <li className="nav-item">
-                          <Link href="/testimonials" activeClassName="active">
-                            <a className="nav-link">Testimonials</a>
-                          </Link>
-                        </li>
-                      </ul>
+                      <Link href="/about" activeClassName="active">
+                        <a className="nav-link">About</a>
+                      </Link>
                     </li>
 
                     <li className="nav-item">
@@ -137,14 +92,11 @@ const NavbarThree = () => {
                       </a>
                       <ul className="dropdown-menu">
                         <li className="nav-item">
-                          <Link href="/services/services" activeClassName="active">
-                            <a className="nav-link">Services Style - 1</a>
-                          </Link>
-                        </li>
-
-                        <li className="nav-item">
-                          <Link href="/services/services-2" activeClassName="active">
-                            <a className="nav-link">Services Style - 2</a>
+                          <Link
+                            href="/services/services"
+                            activeClassName="active"
+                          >
+                            <a className="nav-link">Services</a>
                           </Link>
                         </li>
 
@@ -160,172 +112,9 @@ const NavbarThree = () => {
                     </li>
 
                     <li className="nav-item">
-                      <a href="#" className="nav-link">
-                        Projects <i className="ri-arrow-down-s-line"></i>
-                      </a>
-                      <ul className="dropdown-menu">
-                        <li className="nav-item">
-                          <Link href="/projects/projects" activeClassName="active">
-                            <a className="nav-link">Projects</a>
-                          </Link>
-                        </li>
-                        <li className="nav-item">
-                          <Link
-                            href="/projects/projects-details"
-                            activeClassName="active"
-                          >
-                            <a className="nav-link">Projects Details</a>
-                          </Link>
-                        </li>
-                      </ul>
-                    </li>
-
-                    <li className="nav-item">
-                      <Link href="#" activeClassName="active">
-                        <a className="nav-link">
-                          Pages <i className="ri-arrow-down-s-line"></i>
-                        </a>
+                      <Link href="/privacy-policy" activeClassName="active">
+                        <a className="nav-link">Privacy Policy</a>
                       </Link>
-                      <ul className="dropdown-menu">
-                        <li className="nav-item">
-                          <Link href="/pricing" activeClassName="active">
-                            <a className="nav-link">Pricing</a>
-                          </Link>
-                        </li>
-
-                        <li className="nav-item">
-                          <Link href="/team" activeClassName="active">
-                            <a className="nav-link">Team</a>
-                          </Link>
-                        </li>
-
-                        <li className="nav-item">
-                          <Link href="/faq" activeClassName="active">
-                            <a className="nav-link">FAQ</a>
-                          </Link>
-                        </li>
-
-                        <li className="nav-item">
-                          <a href="#" className="nav-link">
-                            Career <i className="ri-arrow-right-s-line"></i>
-                          </a>
-                          <ul className="dropdown-menu">
-                            <li className="nav-item">
-                              <Link href="/career/career" activeClassName="active">
-                                <a className="nav-link">Career</a>
-                              </Link>
-                            </li>
-
-                            <li className="nav-item">
-                              <Link
-                                href="/career/career-details"
-                                activeClassName="active"
-                              >
-                                <a className="nav-link">Career Details</a>
-                              </Link>
-                            </li>
-                          </ul>
-                        </li>
-
-                        <li className="nav-item">
-                          <Link
-                            href="/profile-authentication"
-                            activeClassName="active"
-                          >
-                            <a className="nav-link">Profile Authentication</a>
-                          </Link>
-                        </li>
-
-                        <li className="nav-item">
-                          <Link
-                            href="/membership-levels"
-                            activeClassName="active"
-                          >
-                            <a className="nav-link">Membership Levels</a>
-                          </Link>
-                        </li>
-
-                        <li className="nav-item">
-                          <Link
-                            href="/terms-of-service"
-                            activeClassName="active"
-                          >
-                            <a className="nav-link">Terms of Service</a>
-                          </Link>
-                        </li>
-
-                        <li className="nav-item">
-                          <Link href="/privacy-policy" activeClassName="active">
-                            <a className="nav-link">Privacy Policy</a>
-                          </Link>
-                        </li>
-
-                        <li className="nav-item">
-                          <Link href="/coming-soon" activeClassName="active">
-                            <a className="nav-link">Coming Soon</a>
-                          </Link>
-                        </li>
-
-                        <li className="nav-item">
-                          <Link href="/404" activeClassName="active">
-                            <a className="nav-link">404 Error Page</a>
-                          </Link>
-                        </li>
-                      </ul>
-                    </li>
-
-                    <li className="nav-item">
-                      <a href="#" className="nav-link">
-                        Blog <i className="ri-arrow-down-s-line"></i>
-                      </a>
-                      <ul className="dropdown-menu">
-                        <li className="nav-item">
-                          <Link href="/blog/blog" activeClassName="active">
-                            <a className="nav-link">Blog Style - 1</a>
-                          </Link>
-                        </li>
-
-                        <li className="nav-item">
-                          <Link href="/blog/blog-2" activeClassName="active">
-                            <a className="nav-link">Blog Style - 2</a>
-                          </Link>
-                        </li>
-
-                        <li className="nav-item">
-                          <Link
-                            href="/blog/blog-right-sidebar"
-                            activeClassName="active"
-                          >
-                            <a className="nav-link">Blog Right Sidebar</a>
-                          </Link>
-                        </li>
-
-                        <li className="nav-item">
-                          <a href="#" className="nav-link">
-                            Single Post
-                            <i className="ri-arrow-down-s-line"></i>
-                          </a>
-                          <ul className="dropdown-menu">
-                            <li className="nav-item">
-                              <Link
-                                href="/blog/single-blog"
-                                activeClassName="active"
-                              >
-                                <a className="nav-link">Default</a>
-                              </Link>
-                            </li>
-
-                            <li className="nav-item">
-                              <Link
-                                href="/blog/single-blog-2"
-                                activeClassName="active"
-                              >
-                                <a className="nav-link">With Video</a>
-                              </Link>
-                            </li>
-                          </ul>
-                        </li>
-                      </ul>
                     </li>
 
                     <li className="nav-item">
@@ -343,13 +132,6 @@ const NavbarThree = () => {
                 </div>
 
                 <div className="others-options d-flex align-items-center">
-                  <div className="option-item">
-                    <i
-                      className="search-btn ri-search-line"
-                      onClick={handleToggleSearchModal}
-                    ></i>
-                  </div>
-
                   <div className="option-item">
                     <div
                       className="side-menu-btn"
@@ -404,35 +186,37 @@ const NavbarThree = () => {
       {/* End Search Form */}
 
       {/* Sidebar Modal */}
-      <div className={`sidebarModal modal right fade ${isActiveSidebarModal ? "" : "show"}`}>
+      <div
+        className={`sidebarModal modal right fade ${
+          isActiveSidebarModal ? "" : "show"
+        }`}
+      >
         <div className="modal-dialog" role="document">
           <div className="modal-content">
-            <button type="button" className="close" onClick={handleToggleSidebarModal}>
+            <button
+              type="button"
+              className="close"
+              onClick={handleToggleSidebarModal}
+            >
               <i className="ri-close-line"></i>
             </button>
 
             <div className="modal-body">
               <Link href="/">
                 <a>
-                  <img
-                    src="/images/black-logo.png"
-                    alt="image"
-                  />
+                  <img src="/images/black-logo.png" alt="image" />
                 </a>
               </Link>
               <div className="sidebar-content">
                 <h3>About Us</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipiscing elit sed
-                  do eiusmod tempor incididunt ut labore et dolore magna
-                  aliqua.
+                  Lorem ipsum dolor sit amet consectetur adipiscing elit sed do
+                  eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
 
                 <div className="sidebar-btn">
                   <Link href="/contact">
-                    <a className="default-btn">
-                      Let’s Talk
-                    </a>
+                    <a className="default-btn">Let’s Talk</a>
                   </Link>
                 </div>
               </div>
@@ -452,30 +236,46 @@ const NavbarThree = () => {
                   </li>
 
                   <li>
-                    <i className="ri-map-pin-line"></i> 413 North Las Vegas,
-                    NV 89032
+                    <i className="ri-map-pin-line"></i> 413 North Las Vegas, NV
+                    89032
                   </li>
                 </ul>
               </div>
 
               <ul className="sidebar-social-list">
                 <li>
-                  <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
+                  <a
+                    href="https://www.facebook.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <i className="ri-facebook-fill"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.twitter.com/" target="_blank" rel="noreferrer">
+                  <a
+                    href="https://www.twitter.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <i className="ri-twitter-fill"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
+                  <a
+                    href="https://www.linkedin.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <i className="ri-linkedin-fill"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
+                  <a
+                    href="https://www.instagram.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <i className="ri-instagram-fill"></i>
                   </a>
                 </li>
