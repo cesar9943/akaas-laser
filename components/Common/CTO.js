@@ -1,5 +1,3 @@
-import React from "react";
-
 const CTO = () => {
   return (
     <>
@@ -10,7 +8,7 @@ const CTO = () => {
               <div className="overview-card">
                 <h3>Call Us</h3>
                 <span>
-                  <a href="tel:9901234567">+990-123-4567</a>
+                  <a href="tel:9901234567">+407-497-1272</a>
                 </span>
 
                 <div className="overview-shape">
@@ -23,7 +21,7 @@ const CTO = () => {
               <div className="overview-card">
                 <h3>Email Us</h3>
                 <span>
-                  <a href="mailto:hellostax@gmail.com">hellostax@gmail.com</a>
+                  <a href="mailto:hellostax@gmail.com">akaaslaser@gmail.com</a>
                 </span>
 
                 <div className="overview-shape">
@@ -34,9 +32,11 @@ const CTO = () => {
 
             <div className="col-lg-3 col-md-6">
               <div className="overview-card">
-                <h3>Tech Support</h3>
+                <h3>Whatsapp</h3>
                 <span>
-                  <a href="tel:15143125678">+1 (514) 312-5678</a>
+                  <a href="https://wa.me/message/LSHIRNNROM44K1">
+                    Whatsapp community
+                  </a>
                 </span>
 
                 <div className="overview-shape">
@@ -48,7 +48,7 @@ const CTO = () => {
             <div className="col-lg-3 col-md-6">
               <div className="overview-card">
                 <h3>Visit Us</h3>
-                <span>413 North Las Vegas, NV 89032</span>
+                <span>3151 N ALAFAYA TRL SUITE 102 ORLANDO FL 32826</span>
 
                 <div className="overview-shape">
                   <img src="/images/overview/overview-shape.png" alt="image" />
