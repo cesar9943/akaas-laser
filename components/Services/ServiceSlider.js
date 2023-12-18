@@ -22,8 +22,9 @@ const ServiceSlider = () => {
                   We Provide the Best Quality <b>Services</b>
                 </h3>
                 <p>
-                  We are technology solutions providing company all over the
-                  world doing over 40 years.
+                  We offer Laser Hair Removal, SculpSure, Facial, Body
+                  Contouring, Lymphatic Drainage, Cryolipolysis, Nails, Botox,
+                  Fillers, PRP, Weight Loss Injections, IV Therapy and more.
                 </p>
                 <div className="services-section-btn">
                   <Link href="/services/services">
