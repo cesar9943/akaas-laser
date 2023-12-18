@@ -80,11 +80,11 @@ const NavbarThree = () => {
                       </Link>
                     </li>
 
-                    <li className="nav-item">
+                    {/* <li className="nav-item">
                       <Link href="/about" activeClassName="active">
                         <a className="nav-link">About</a>
                       </Link>
-                    </li>
+                    </li> */}
 
                     <li className="nav-item">
                       <a href="#" className="nav-link">
@@ -117,11 +117,11 @@ const NavbarThree = () => {
                       </Link>
                     </li>
 
-                    <li className="nav-item">
+                    {/* <li className="nav-item">
                       <Link href="/pricing" activeClassName="active">
                         <a className="nav-link">Pricing</a>
                       </Link>
-                    </li>
+                    </li> */}
 
                     <li className="nav-item">
                       <Link href="/contact" activeClassName="active">

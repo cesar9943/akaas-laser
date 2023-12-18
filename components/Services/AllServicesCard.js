@@ -1,5 +1,5 @@
-import React from "react";
 import Link from "next/link";
+import { servicesData } from "./data";
 
 const AllServicesCard = () => {
   return (
@@ -12,161 +12,36 @@ const AllServicesCard = () => {
               We Provide the Best Quality <b>Services</b>
             </h2>
             <p>
-              We are technology solutions providing company all over the world
-              doing over 40 years. lorem ipsum dolor sit amet.
+              We are a technology solutions providing company all over the world
+              with over 40 years of experience. Lorem ipsum dolor sit amet.
             </p>
           </div>
 
           <div className="row justify-content-center">
-            <div className="col-lg-4 col-md-6">
-              <div className="services-item">
-                <div className="services-image">
-                  <Link href="/services/service-details">
-                    <a>
-                      <img src="/images/services/services-1.jpg" alt="image" />
-                    </a>
-                  </Link>
-                </div>
-                <div className="services-content">
-                  <h3>
-                    <Link href="/services/service-details">
-                      <a>Database Administrator</a>
+            {servicesData.map((service, index) => (
+              <div className="col-lg-4 col-md-6" key={index}>
+                <div className="services-item">
+                  <div className="services-image">
+                    <Link href={service.link}>
+                      <a>
+                        <img src={service.imageUrl} alt="image" />
+                      </a>
                     </Link>
-                  </h3>
-                  <p>
-                    Lorem ipsum dolor sit amet con setetur sadipscing elitr sed…
-                  </p>
-                  <Link href="/services/service-details">
-                    <a className="services-btn">View More</a>
-                  </Link>
+                  </div>
+                  <div className="services-content">
+                    <h3>
+                      <Link href={service.link}>
+                        <a>{service.title}</a>
+                      </Link>
+                    </h3>
+                    <p>{service.description}</p>
+                    <Link href={service.link}>
+                      <a className="services-btn">View More</a>
+                    </Link>
+                  </div>
                 </div>
               </div>
-            </div>
-
-            <div className="col-lg-4 col-md-6">
-              <div className="services-item">
-                <div className="services-image">
-                  <Link href="/services/service-details">
-                    <a>
-                      <img src="/images/services/services-2.jpg" alt="image" />
-                    </a>
-                  </Link>
-                </div>
-                <div className="services-content">
-                  <h3>
-                    <Link href="/services/service-details">
-                      <a>Software Development</a>
-                    </Link>
-                  </h3>
-                  <p>
-                    Lorem ipsum dolor sit amet con setetur sadipscing elitr sed…
-                  </p>
-                  <Link href="/services/service-details">
-                    <a className="services-btn">View More</a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-md-6">
-              <div className="services-item">
-                <div className="services-image">
-                  <Link href="/services/service-details">
-                    <a>
-                      <img src="/images/services/services-3.jpg" alt="image" />
-                    </a>
-                  </Link>
-                </div>
-                <div className="services-content">
-                  <h3>
-                    <Link href="/services/service-details">
-                      <a>App Development</a>
-                    </Link>
-                  </h3>
-                  <p>
-                    Lorem ipsum dolor sit amet con setetur sadipscing elitr sed…
-                  </p>
-                  <Link href="/services/service-details">
-                    <a className="services-btn">View More</a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-md-6">
-              <div className="services-item">
-                <div className="services-image">
-                  <Link href="/services/service-details">
-                    <a>
-                      <img src="/images/services/services-4.jpg" alt="image" />
-                    </a>
-                  </Link>
-                </div>
-                <div className="services-content">
-                  <h3>
-                    <Link href="/services/service-details">
-                      <a>Web Development</a>
-                    </Link>
-                  </h3>
-                  <p>
-                    Lorem ipsum dolor sit amet con setetur sadipscing elitr sed…
-                  </p>
-                  <Link href="/services/service-details">
-                    <a className="services-btn">View More</a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-md-6">
-              <div className="services-item">
-                <div className="services-image">
-                  <Link href="/services/service-details">
-                    <a>
-                      <img src="/images/services/services-5.jpg" alt="image" />
-                    </a>
-                  </Link>
-                </div>
-                <div className="services-content">
-                  <h3>
-                    <Link href="/services/service-details">
-                      <a>Analytic Solutions</a>
-                    </Link>
-                  </h3>
-                  <p>
-                    Lorem ipsum dolor sit amet con setetur sadipscing elitr sed…
-                  </p>
-                  <Link href="/services/service-details">
-                    <a className="services-btn">View More</a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-md-6">
-              <div className="services-item">
-                <div className="services-image">
-                  <Link href="/services/service-details">
-                    <a>
-                      <img src="/images/services/services-6.jpg" alt="image" />
-                    </a>
-                  </Link>
-                </div>
-                <div className="services-content">
-                  <h3>
-                    <Link href="/services/service-details">
-                      <a>Product Design</a>
-                    </Link>
-                  </h3>
-                  <p>
-                    Lorem ipsum dolor sit amet con setetur sadipscing elitr sed…
-                  </p>
-                  <Link href="/services/service-details">
-                    <a className="services-btn">View More</a>
-                  </Link>
-                </div>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
 

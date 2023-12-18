@@ -1,5 +1,59 @@
-import React from "react";
 import Link from "next/link";
+
+const pricingData = [
+  {
+    title: "Small Area",
+    price: "$49 / month",
+    description:
+      "Choose one of the following: Upper Lip, Chin, Ears, Between Brows, Feet/toes, Fingers, Hands, Areola",
+    features: [
+      "Upper Lip",
+      "Chin",
+      "Ears",
+      "Between Brows",
+      "Feet/toes",
+      "Fingers",
+      "Hands",
+      "Areola",
+    ],
+    mostPopular: true,
+  },
+  {
+    title: "Medium Area",
+    price: "$70 / 6 weeks",
+    description:
+      "Choose one of the following: Underarm, Bikini Line, Happy trail, Inner Thigh, Front or Back of Neck",
+    features: [
+      "Underarm",
+      "Bikini Line",
+      "Happy trail",
+      "Inner Thigh",
+      "Front or Back of Neck",
+    ],
+  },
+  {
+    title: "Large Area",
+    price: "$99 / 6 weeks",
+    description:
+      "Choose one of the following: Full Brazilian (intimate area), Buttocks, Face, Chest, Abdomen, Lower back, Upper back",
+    features: [
+      "Full Brazilian (intimate area)",
+      "Buttocks",
+      "Face",
+      "Chest",
+      "Abdomen",
+      "Lower back",
+      "Upper back",
+    ],
+  },
+  {
+    title: "Extra Large Area",
+    price: "$199 / 6 weeks",
+    description:
+      "Choose one of the following: Full Legs, Full Back, Chest & Abdomen, Full Arms",
+    features: ["Full Legs", "Full Back", "Chest & Abdomen", "Full Arms"],
+  },
+];
 
 const PricingTable = () => {
   return (
@@ -9,138 +63,54 @@ const PricingTable = () => {
           <div className="section-title">
             <span>PRICING</span>
             <h2>
-              Our <b>Pricing</b> For All Type Of Technology Services
+              Laser <b>Hair Removal</b> Services
             </h2>
             <p>
-              We are leading technology solutions providing company all over the
-              world doing over 40 years lorem ipsum dolor sit amet.
+              Experience the future of hair removal with our Elite MPX Laser
+              Service – tailored for all skin types, ensuring comfort with
+              cutting-edge technology. Achieve superior results in fewer
+              sessions, and enjoy a treatment that's as gentle as it is
+              effective. Join the revolution in skincare today!
             </p>
           </div>
 
           <div className="row justify-content-center">
-            <div className="col-lg-4 col-md-6">
-              <div
-                className="single-pricing-card"
-                data-aos="fade-up"
-                data-aos-delay="70"
-                data-aos-duration="1000"
-                data-aos-once="true"
-              >
-                <h3>Startup</h3>
-                <div className="price">
-                  $19 <span>/ month</span>
-                </div>
-                <p>
-                  Lorem ipsum dolor sit amet consetetur sadi scing elitr sed
-                  diam nonumy eirmod.
-                </p>
-
-                <ul className="pricing-list">
-                  <li>
-                    <i className="ri-check-fill"></i> Lorem ipsum dolor.
-                  </li>
-                  <li>
-                    <i className="ri-check-fill"></i> Sit amet consetetur set a
-                    ledip.
-                  </li>
-                </ul>
-                <div className="pricing-btn">
-                  <Link href="/contact">
-                    <a className="default-btn">Choose Plan</a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-md-6">
-              <div
-                className="single-pricing-card"
-                data-aos="fade-up"
-                data-aos-delay="80"
-                data-aos-duration="1100"
-                data-aos-once="true"
-              >
-                <h3>Basic</h3>
-                <div className="price">
-                  $49 <span>/ month</span>
-                </div>
-                <p>
-                  Lorem ipsum dolor sit amet consetetur sadi scing elitr sed
-                  diam nonumy eirmod.
-                </p>
-
-                <ul className="pricing-list">
-                  <li>
-                    <i className="ri-check-fill"></i> Lorem ipsum dolor.
-                  </li>
-                  <li>
-                    <i className="ri-check-fill"></i> Sit amet consetetur set a
-                    ledip.
-                  </li>
-                  <li>
-                    <i className="ri-check-fill"></i> Lorems Sit ledip ipsum
-                    dolor.
-                  </li>
-                </ul>
-                <div className="pricing-btn">
+            {pricingData.map((item, index) => (
+              <div className={`col-lg-12 col-md-6`} key={index}>
+                <div
+                  className="single-pricing-card"
+                  data-aos="fade-up"
+                  data-aos-delay={`${70 + index * 10}`}
+                  data-aos-duration="1000"
+                  data-aos-once="true"
+                >
+                  <h3>{item.title}</h3>
+                  <div className="price">{item.price}</div>
+                  <p>{item.description}</p>
+                  <ul className="pricing-list">
+                    {item.features.map((feature, featureIndex) => (
+                      <li key={featureIndex}>
+                        <i className="ri-check-fill"></i> {feature}
+                      </li>
+                    ))}
+                  </ul>
                   <div className="pricing-btn">
                     <Link href="/contact">
                       <a className="default-btn">Choose Plan</a>
                     </Link>
                   </div>
-                </div>
-                <div className="most-popular">
-                  <span>Most Popular</span>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-md-6">
-              <div
-                className="single-pricing-card"
-                data-aos="fade-up"
-                data-aos-delay="90"
-                data-aos-duration="1200"
-                data-aos-once="true"
-              >
-                <h3>Advanced</h3>
-                <div className="price">
-                  $79 <span>/ month</span>
-                </div>
-                <p>
-                  Lorem ipsum dolor sit amet consetetur sadi scing elitr sed
-                  diam nonumy eirmod.
-                </p>
-
-                <ul className="pricing-list">
-                  <li>
-                    <i className="ri-check-fill"></i> Lorem ipsum dolor.
-                  </li>
-                  <li>
-                    <i className="ri-check-fill"></i> Sit amet consetetur set a
-                    ledip.
-                  </li>
-                  <li>
-                    <i className="ri-check-fill"></i> Lorems Sit ledip ipsum
-                    dolor.
-                  </li>
-                  <li>
-                    <i className="ri-check-fill"></i> Lorem ipsum dolor.
-                  </li>
-                </ul>
-                <div className="pricing-btn">
-                  <div className="pricing-btn">
-                    <Link href="/contact">
-                      <a className="default-btn">Choose Plan</a>
-                    </Link>
-                  </div>
+                  {item.mostPopular && (
+                    <div className="most-popular">
+                      <span>Most Popular</span>
+                    </div>
+                  )}
                 </div>
               </div>
-            </div>
+            ))}
           </div>
         </div>
 
-        {/* Shape Image */}
+        {/* Shape Images */}
         <div className="pricing-bg-shape-1">
           <img src="/images/pricing/pricing-bg-shape.png" alt="image" />
         </div>
