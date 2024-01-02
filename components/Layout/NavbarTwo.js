@@ -1,5 +1,5 @@
-import React, { useState } from "react";
 import Link from "@/utils/ActiveLink";
+import React, { useState } from "react";
 
 const NavbarTwo = () => {
   const [menu, setMenu] = React.useState(true);
@@ -137,13 +137,13 @@ const NavbarTwo = () => {
                       </a>
                       <ul className="dropdown-menu">
                         <li className="nav-item">
-                          <Link href="/services/services" activeClassName="active">
+                          <Link href="/services" activeClassName="active">
                             <a className="nav-link">Services Style - 1</a>
                           </Link>
                         </li>
 
                         <li className="nav-item">
-                          <Link href="/services/services-2" activeClassName="active">
+                          <Link href="/services-2" activeClassName="active">
                             <a className="nav-link">Services Style - 2</a>
                           </Link>
                         </li>
@@ -165,7 +165,10 @@ const NavbarTwo = () => {
                       </a>
                       <ul className="dropdown-menu">
                         <li className="nav-item">
-                          <Link href="/projects/projects" activeClassName="active">
+                          <Link
+                            href="/projects/projects"
+                            activeClassName="active"
+                          >
                             <a className="nav-link">Projects</a>
                           </Link>
                         </li>
@@ -211,7 +214,10 @@ const NavbarTwo = () => {
                           </a>
                           <ul className="dropdown-menu">
                             <li className="nav-item">
-                              <Link href="/career/career" activeClassName="active">
+                              <Link
+                                href="/career/career"
+                                activeClassName="active"
+                              >
                                 <a className="nav-link">Career</a>
                               </Link>
                             </li>
@@ -404,35 +410,37 @@ const NavbarTwo = () => {
       {/* End Search Form */}
 
       {/* Sidebar Modal */}
-      <div className={`sidebarModal modal right fade ${isActiveSidebarModal ? "" : "show"}`}>
+      <div
+        className={`sidebarModal modal right fade ${
+          isActiveSidebarModal ? "" : "show"
+        }`}
+      >
         <div className="modal-dialog" role="document">
           <div className="modal-content">
-            <button type="button" className="close" onClick={handleToggleSidebarModal}>
+            <button
+              type="button"
+              className="close"
+              onClick={handleToggleSidebarModal}
+            >
               <i className="ri-close-line"></i>
             </button>
 
             <div className="modal-body">
               <Link href="/">
                 <a>
-                  <img
-                    src="/images/black-logo.png"
-                    alt="image"
-                  />
+                  <img src="/images/black-logo.png" alt="image" />
                 </a>
               </Link>
               <div className="sidebar-content">
                 <h3>About Us</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipiscing elit sed
-                  do eiusmod tempor incididunt ut labore et dolore magna
-                  aliqua.
+                  Lorem ipsum dolor sit amet consectetur adipiscing elit sed do
+                  eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
 
                 <div className="sidebar-btn">
                   <Link href="/contact">
-                    <a className="default-btn">
-                      Let’s Talk
-                    </a>
+                    <a className="default-btn">Let’s Talk</a>
                   </Link>
                 </div>
               </div>
@@ -452,30 +460,46 @@ const NavbarTwo = () => {
                   </li>
 
                   <li>
-                    <i className="ri-map-pin-line"></i> 413 North Las Vegas,
-                    NV 89032
+                    <i className="ri-map-pin-line"></i> 413 North Las Vegas, NV
+                    89032
                   </li>
                 </ul>
               </div>
 
               <ul className="sidebar-social-list">
                 <li>
-                  <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
+                  <a
+                    href="https://www.facebook.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <i className="ri-facebook-fill"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.twitter.com/" target="_blank" rel="noreferrer">
+                  <a
+                    href="https://www.twitter.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <i className="ri-twitter-fill"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
+                  <a
+                    href="https://www.linkedin.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <i className="ri-linkedin-fill"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
+                  <a
+                    href="https://www.instagram.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <i className="ri-instagram-fill"></i>
                   </a>
                 </li>

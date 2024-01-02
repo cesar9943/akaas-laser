@@ -7,41 +7,41 @@ export const servicesData = [
       cutting-edge technology. Achieve superior results in fewer
       sessions, and enjoy a treatment that's as gentle as it is
       effective. Join the revolution in skincare today!`,
-    link: "/services/service-details",
+    link: "/services/laser-hair-removal",
   },
   {
     title: "SculpSure Body Contouring Treatments",
     imageUrl: "/images/services/services-2.png",
     description:
       "Say goodbye to unwanted fat in just 25 minutes per treatment with SculpSure. This non-invasive solution uses FDA-cleared technology to reduce stubborn fat in areas like the abdomen and thighs, with visible results in as little as 6 weeks. It's a safe and comfortable choice for achieving a slimmer appearance without surgery or downtime.",
-    link: "/services/service-details",
+    link: "/services/sculpsure-body-contouring-treatments",
   },
   {
     title: "Facials",
     imageUrl: "/images/services/services-4.png",
     description:
       "Experience rejuvenation and relaxation with our facial treatments. Our skilled specialists provide customized facials to address your skincare needs, leaving your skin refreshed and glowing. Treat yourself to the ultimate pampering experience and enhance your natural beauty",
-    link: "/services/service-details",
+    link: "/services/facials",
   },
   {
     title: "Botox & Fillers",
     imageUrl: "/images/services/services-6.png",
     description:
       "Rediscover youthful radiance with our Botox and filler treatments. Our expert practitioners use these non-invasive procedures to reduce wrinkles and restore volume, helping you achieve a more youthful appearance. Enhance your natural beauty and boost your confidence with our safe and effective solutions.",
-    link: "/services/service-details",
+    link: "/services/botox-fillers",
   },
   {
     title: "Massages",
     imageUrl: "/images/services/services-3.png",
     description:
       "Indulge in pure relaxation and stress relief with our massage therapies. Our skilled therapists provide customized massages to alleviate tension, reduce muscle stiffness, and promote overall well-being. Treat yourself to a soothing experience that revitalizes your body and rejuvenates your mind",
-    link: "/services/service-details",
+    link: "/services/massages",
   },
   {
     title: "Nails",
     imageUrl: "/images/services/services-5.png",
     description:
       " Elevate your style and self-care with our nail treatments. Our talented nail technicians offer a range of services, from manicures to pedicures, providing precision and creativity to enhance your nail aesthetics. Pamper yourself and show off your beautiful, well-manicured nails.",
-    link: "/services/service-details",
+    link: "/services/nails",
   },
 ];

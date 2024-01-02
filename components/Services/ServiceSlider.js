@@ -27,7 +27,7 @@ const ServiceSlider = () => {
                   Fillers, PRP, Weight Loss Injections, IV Therapy and more.
                 </p>
                 <div className="services-section-btn">
-                  <Link href="/services/services">
+                  <Link href="/services">
                     <a className="default-btn">Explore All Services</a>
                   </Link>
                 </div>

@@ -92,10 +92,7 @@ const NavbarThree = () => {
                       </a>
                       <ul className="dropdown-menu">
                         <li className="nav-item">
-                          <Link
-                            href="/services/services"
-                            activeClassName="active"
-                          >
+                          <Link href="/services" activeClassName="active">
                             <a className="nav-link">Services</a>
                           </Link>
                         </li>

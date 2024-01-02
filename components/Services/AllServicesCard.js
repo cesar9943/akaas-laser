@@ -47,10 +47,10 @@ const AllServicesCard = () => {
 
         {/* Shape Images */}
         <div className="services-shape-1">
-          <img src="/images/services/services-shape-1.png" alt="image" />
+          <img src="/images/services-shape-1.png" alt="image" />
         </div>
         <div className="services-shape-2">
-          <img src="/images/services/services-shape-2.png" alt="image" />
+          <img src="/images/services-shape-2.png" alt="image" />
         </div>
       </div>
     </>
