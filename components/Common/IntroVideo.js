@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import FsLightbox from 'fslightbox-react';
+import FsLightbox from "fslightbox-react";
+import { useState } from "react";
 
 const IntroVideo = () => {
   // if toggler is updated when lightbox is closed it will open it
@@ -22,15 +22,8 @@ const IntroVideo = () => {
             data-aos-once="true"
           >
             <div className="video-image">
-              <img src="/images/video/video.jpg" alt="image" />
+              <img src="/images/akasplace.jpg" alt="image" />
             </div>
-
-            <button
-              className="video-btn" 
-              onClick={ () => setToggler(!toggler) }
-            >
-              <i className="ri-play-mini-fill"></i>
-            </button>
           </div>
         </div>
       </div>

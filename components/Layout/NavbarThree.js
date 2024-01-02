@@ -85,27 +85,10 @@ const NavbarThree = () => {
                         <a className="nav-link">About</a>
                       </Link>
                     </li> */}
-
                     <li className="nav-item">
-                      <a href="#" className="nav-link">
-                        Services <i className="ri-arrow-down-s-line"></i>
-                      </a>
-                      <ul className="dropdown-menu">
-                        <li className="nav-item">
-                          <Link href="/services" activeClassName="active">
-                            <a className="nav-link">Services</a>
-                          </Link>
-                        </li>
-
-                        <li className="nav-item">
-                          <Link
-                            href="/services/service-details"
-                            activeClassName="active"
-                          >
-                            <a className="nav-link">Services Details</a>
-                          </Link>
-                        </li>
-                      </ul>
+                      <Link href="/services" activeClassName="active">
+                        <a className="nav-link">Services</a>
+                      </Link>
                     </li>
 
                     <li className="nav-item">
@@ -126,17 +109,6 @@ const NavbarThree = () => {
                       </Link>
                     </li>
                   </ul>
-                </div>
-
-                <div className="others-options d-flex align-items-center">
-                  <div className="option-item">
-                    <div
-                      className="side-menu-btn"
-                      onClick={handleToggleSidebarModal}
-                    >
-                      <i className="ri-bar-chart-horizontal-line"></i>
-                    </div>
-                  </div>
                 </div>
               </nav>
             </div>

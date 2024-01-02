@@ -27,15 +27,12 @@ const Footer = () => {
                     </a>
                   </Link>
                 </div>
-                <p>
-                  Lorem ipsum dolor sit amet consetetur sadi scing elitr sed
-                  diam nonumy.
-                </p>
+                <p>Follow us to get the latest updates about our services.</p>
 
                 <ul className="widget-social">
                   <li>
                     <a
-                      href="https://www.facebook.com/EnvyTheme"
+                      href="https://www.facebook.com/laserhairremovalalafaya/?show_switched_toast=0&show_invite_to_follow=0&show_switched_tooltip=0&show_podcast_settings=0&show_community_review_changes=0&show_community_rollback=0&show_follower_visibility_disclosure=0"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -44,34 +41,17 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="https://twitter.com/?lang=en"
+                      href="https://www.facebook.com/akaasmedspa/?show_switched_toast=0&show_invite_to_follow=0&show_switched_tooltip=0&show_podcast_settings=0&show_community_review_changes=0&show_community_rollback=0&show_follower_visibility_disclosure=0"
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <i className="ri-twitter-fill"></i>
+                      <i className="ri-facebook-fill"></i>
                     </a>
                   </li>
+
                   <li>
                     <a
-                      href="https://www.youtube.com/"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <i className="ri-youtube-fill"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://vimeo.com/"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <i className="ri-vimeo-fill"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://www.instagram.com/"
+                      href="https://www.instagram.com/akaaslaser"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -101,16 +81,6 @@ const Footer = () => {
                   <li>
                     <Link href="/services">
                       <a>Services</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/pricing">
-                      <a>Pricing</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/projects/projects">
-                      <a>Projects</a>
                     </Link>
                   </li>
                 </ul>
@@ -183,29 +153,9 @@ const Footer = () => {
         <div className="copyright-area">
           <div className="container">
             <div className="copyright-area-content">
-              <p>
-                &copy; Stax is Proudly Owned by{" "}
-                <a
-                  href="https://envytheme.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  EnvyTheme
-                </a>
-              </p>
+              <p>&copy; Akaas Laser. All Rights Reserved.</p>
             </div>
           </div>
-        </div>
-
-        {/* Shape Images */}
-        <div className="footer-shape-1">
-          <img src="/images/footer/footer-shape-1.png" alt="image" />
-        </div>
-        <div className="footer-shape-2">
-          <img src="/images/footer/footer-shape-2.png" alt="image" />
-        </div>
-        <div className="footer-shape-3">
-          <img src="/images/footer/footer-shape-3.png" alt="image" />
         </div>
       </footer>
     </>

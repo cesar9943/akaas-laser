@@ -893,7 +893,7 @@ Main Banner Area CSS
 }
 
 .main-banner-content h1 {
-  font-size: 75px;
+  font-size: 60px;
   margin-bottom: 0;
   position: relative;
 }
@@ -1520,12 +1520,16 @@ Services Details Area CSS
 .services-details-desc .article-services-image {
   overflow: hidden;
   border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .services-details-desc .article-services-image img {
   border-radius: 15px;
   -webkit-transition: var(--transition);
   transition: var(--transition);
+  max-height: 600px;
 }
 
 .services-details-desc .article-services-image:hover img {
@@ -1809,12 +1813,7 @@ Video Area CSS
   overflow: hidden;
 }
 
-.video-view-content:hover .video-image img {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-  -webkit-filter: blur(5px);
-          filter: blur(5px);
-}
+
 
 @-webkit-keyframes ripple {
   0% {

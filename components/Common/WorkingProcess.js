@@ -1,5 +1,3 @@
-import React from "react";
-
 const WorkingProcess = () => {
   return (
     <>
@@ -7,11 +5,11 @@ const WorkingProcess = () => {
         <div className="container">
           <div className="section-title section-style-two">
             <div className="section-bg-text">PROCESS</div>
-            <span>WORK PROCESS</span>
-            <h2>We Follow Four Simple Steps</h2>
+            <span>OUR PROCESS</span>
+            <h2>Experience Our Seamless Four-Step Journey</h2>
             <p>
-              We are leading technology solutions providing company all over the
-              world doing over 40 years lorem ipsum dolor sit amet.
+              At AKAAS Laser MedSpa, we have crafted a meticulous process to
+              ensure your journey with us is smooth and effective.
             </p>
           </div>
 
@@ -29,10 +27,10 @@ const WorkingProcess = () => {
                   <div className="number">1</div>
                 </div>
                 <div className="choose-content">
-                  <h3>Discussion</h3>
+                  <h3>Consultation</h3>
                   <p>
-                    Lorem ipsum dolor sit amet conset sadipscing elitr sed diam
-                    nonumy eirm od tempor invidunt ut labore.
+                    Begin your journey with a personalized consultation where we
+                    discuss your unique needs and goals.
                   </p>
                 </div>
               </div>
@@ -51,10 +49,10 @@ const WorkingProcess = () => {
                   <div className="number">2</div>
                 </div>
                 <div className="choose-content">
-                  <h3>Testing & Trying</h3>
+                  <h3>Treatment & Evaluation</h3>
                   <p>
-                    Lorem ipsum dolor sit amet conset sadipscing elitr sed diam
-                    nonumy eirm od tempor invidunt ut labore.
+                    Experience cutting-edge treatments tailored to your needs,
+                    followed by a comprehensive evaluation for effectiveness.
                   </p>
                 </div>
               </div>
@@ -73,10 +71,10 @@ const WorkingProcess = () => {
                   <div className="number">3</div>
                 </div>
                 <div className="choose-content">
-                  <h3>Ideas & Concept</h3>
+                  <h3>Creative Solutions</h3>
                   <p>
-                    Lorem ipsum dolor sit amet conset sadipscing elitr sed diam
-                    nonumy eirm od tempor invidunt ut labore.
+                    Collaborate on creative solutions as we explore innovative
+                    ideas and concepts to enhance your aesthetic journey.
                   </p>
                 </div>
               </div>
@@ -95,10 +93,11 @@ const WorkingProcess = () => {
                   <div className="number">4</div>
                 </div>
                 <div className="choose-content">
-                  <h3>Execute & Install</h3>
+                  <h3>Precision & Results</h3>
                   <p>
-                    Lorem ipsum dolor sit amet conset sadipscing elitr sed diam
-                    nonumy eirm od tempor invidunt ut labore.
+                    Our skilled team executes treatments with precision,
+                    ensuring optimal results, and assists in the seamless
+                    installation of your enhanced self.
                   </p>
                 </div>
               </div>

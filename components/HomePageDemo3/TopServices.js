@@ -1,4 +1,3 @@
-import React from "react";
 import Link from "next/link";
 
 const TopServices = () => {
@@ -17,7 +16,7 @@ const TopServices = () => {
               >
                 <div className="single-features-card">
                   <div className="features-image">
-                    <Link href="/services/service-details">
+                    <Link href="/services/laser-hair-removal">
                       <a>
                         <img
                           src="/images/features/features-1.png"
@@ -29,17 +28,18 @@ const TopServices = () => {
                   <div className="content">
                     <h3>
                       <Link href="/services/service-details">
-                        <a>Product Design</a>
+                        <a>Laser Hair Removal</a>
                       </Link>
                     </h3>
                     <p>
-                      Lorem ipsum dolor sit amet consetetur sadipscing elitr
+                      Revolutionize hair removal with ourside-menu-btn gentle,
+                      effective Elite MPX Laser.
                     </p>
                   </div>
                   <div className="hover-content">
                     <h3>
                       <Link href="/services/service-details">
-                        <a>Product Design</a>
+                        <a>Laser Hair Removal</a>
                       </Link>
                     </h3>
                     <Link href="/services/service-details">
@@ -70,17 +70,18 @@ const TopServices = () => {
                   <div className="content">
                     <h3>
                       <Link href="/services/service-details">
-                        <a>Development</a>
+                        <a>SculpSure</a>
                       </Link>
                     </h3>
                     <p>
-                      Lorem ipsum dolor sit amet consetetur sadipscing elitr
+                      Slim down effortlessly with SculpSure&apos;s 25-minute,
+                      non-invasive fat reduction.
                     </p>
                   </div>
                   <div className="hover-content">
                     <h3>
                       <Link href="/services/service-details">
-                        <a>Development</a>
+                        <a>SculpSure</a>
                       </Link>
                     </h3>
                     <Link href="/services/service-details">
@@ -111,17 +112,18 @@ const TopServices = () => {
                   <div className="content">
                     <h3>
                       <Link href="/services/service-details">
-                        <a>Data Analysis</a>
+                        <a>Facials</a>
                       </Link>
                     </h3>
                     <p>
-                      Lorem ipsum dolor sit amet consetetur sadipscing elitr
+                      Indulge in rejuvenation with personalized facials for a
+                      radiant glow.
                     </p>
                   </div>
                   <div className="hover-content">
                     <h3>
                       <Link href="/services/service-details">
-                        <a>Data Analysis</a>
+                        <a>Facials</a>
                       </Link>
                     </h3>
                     <Link href="/services/service-details">

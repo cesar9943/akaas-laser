@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const FacialsDetailsContent = () => {
   return (
     <>
@@ -5,9 +7,11 @@ const FacialsDetailsContent = () => {
         <div className="container">
           <div className="services-details-desc">
             <div className="article-services-image">
-              <img
+              <Image
                 src="/images/services-details/facials-service.jpg"
                 alt="image"
+                width={2048}
+                height={1536}
               />
             </div>
             <div className="article-services-content">
@@ -81,10 +85,12 @@ const FacialsDetailsContent = () => {
 
               <div>
                 <h4>1 - Standard facial</h4>
-                <div className="article-services-middle-image mb-3">
-                  <img
+                <div className="article-services-middle-image mb-3 article-services-image">
+                  <Image
                     src="/images/services-details/facial-standar.jpg"
                     alt="image"
+                    width={2560}
+                    height={1440}
                   />
                 </div>
                 <p>
@@ -132,10 +138,12 @@ const FacialsDetailsContent = () => {
 
               <div className="mt-5">
                 <h4>2 - Chemical peels</h4>
-                <div className="article-services-middle-image mb-3">
-                  <img
+                <div className="article-services-middle-image mb-3 article-services-image">
+                  <Image
                     src="/images/services-details/facial-chemical.jpg"
                     alt="image"
+                    width={1000}
+                    height={600}
                   />
                 </div>
                 <p>
@@ -173,10 +181,12 @@ const FacialsDetailsContent = () => {
 
               <div className="mt-5">
                 <h4>3 - LED light therapy</h4>
-                <div className="article-services-middle-image mb-3">
-                  <img
+                <div className="article-services-middle-image mb-3 article-services-image">
+                  <Image
                     src="/images/services-details/facial-led.jpg"
                     alt="image"
+                    width={600}
+                    height={600}
                   />
                 </div>
 
@@ -305,10 +315,14 @@ const FacialsDetailsContent = () => {
                 Your provider will likely design a plan for the initial number
                 of sessions, as well as periodic maintenance.
               </p>
-              <img
-                src="/images/services-details/facial-microdermabrasion.jpg"
-                alt="image"
-              />
+              <div>
+                <Image
+                  src="/images/services-details/facial-microdermabrasion.jpg"
+                  alt="image"
+                  width={202}
+                  height={248}
+                />
+              </div>
 
               <h4 className="mt-5">How often should you get a facial?</h4>
               <p>
@@ -319,17 +333,15 @@ const FacialsDetailsContent = () => {
               </p>
 
               <div className="article-services-middle-image">
-                <img
+                <Image
                   src="/images/services-details/facial-offen.jpg"
                   alt="image"
+                  width={226}
+                  height={223}
                 />
               </div>
             </div>
           </div>
-        </div>
-
-        <div className="services-details-shape">
-          <img src="/images/services-details/line-shape.png" alt="image" />
         </div>
       </div>
     </>

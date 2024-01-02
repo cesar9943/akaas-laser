@@ -1,4 +1,4 @@
-import Link from "next/link";
+/* eslint-disable @next/next/no-img-element */
 
 const MainBanner = () => {
   return (
@@ -22,7 +22,7 @@ const MainBanner = () => {
                   data-aos-duration="700"
                   data-aos-once="true"
                 >
-                  Radiate Beauty with AKAAS Laser MedSpa
+                  Radiate Beauty with AKAAS
                 </h1>
                 <p
                   data-aos="fade-right"
@@ -45,9 +45,20 @@ const MainBanner = () => {
                   data-aos-duration="700"
                   data-aos-once="true"
                 >
-                  <Link href="/contact">
-                    <a className="default-btn">Begin Your Beauty Journe</a>
-                  </Link>
+                  <a
+                    href="https://squareup.com/appointments/book/k4rk6vt3qij078/L8GRWK7WDVDT7/start"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <button
+                      className="default-btn"
+                      style={{
+                        border: "none",
+                      }}
+                    >
+                      Begin Your Beauty Journe
+                    </button>
+                  </a>
                 </div>
               </div>
             </div>

@@ -1,5 +1,4 @@
 import ContactForm from "@/components/Common/ContactForm";
-import KeyFeatures from "@/components/Common/KeyFeatures";
 import Footer from "@/components/Layout/Footer";
 import NavbarThree from "@/components/Layout/NavbarThree";
 import AllServicesCard from "@/components/Services/AllServicesCard";
@@ -35,7 +34,7 @@ export default function Services() {
         </div>
       </div>
 
-      <KeyFeatures />
+      {/* <KeyFeatures /> */}
 
       <AllServicesCard />
 

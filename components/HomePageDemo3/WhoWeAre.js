@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Image from "next/image";
 
 const WhoWeAre = () => {
   return (
@@ -8,13 +8,15 @@ const WhoWeAre = () => {
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12">
               <div className="about-wrap-image">
-                <img
-                  src="/images/about/about-3.jpg"
+                <Image
+                  src="https://lh5.googleusercontent.com/p/AF1QipOG-eitLIdziUd7BkXaq0YA6l9jT8QxZggZkhbj=w500-h400-k-no"
                   alt="image"
                   data-aos="fade-down"
                   data-aos-delay="80"
                   data-aos-duration="800"
                   data-aos-once="true"
+                  width={500}
+                  height={400}
                 />
               </div>
             </div>
@@ -66,11 +68,11 @@ const WhoWeAre = () => {
                     sense of self in every individual we serve.
                   </p>
 
-                  <div className="about-btn">
+                  {/* <div className="about-btn">
                     <Link href="/about">
                       <a className="default-btn">Know More About Us</a>
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
               </div>
 
@@ -102,16 +104,15 @@ const WhoWeAre = () => {
                   data-aos-once="true"
                 >
                   <div className="card-image">
-                    <img src="/images/about/about-4.jpg" alt="image" />
+                    <img
+                      src="https://lh5.googleusercontent.com/p/AF1QipP1SNpjxpgz6Lp4uq3vXb4BYlbIX3gR0Cerav-t=w406-h540-k-no"
+                      alt="image"
+                    />
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-
-        <div className="about-circle-shape">
-          <img src="/images/about/about-circle.png" alt="image" />
         </div>
       </div>
     </>

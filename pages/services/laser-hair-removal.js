@@ -3,7 +3,7 @@ import ContactForm from "@/components/Common/ContactForm";
 import Footer from "@/components/Layout/Footer";
 import NavbarThree from "@/components/Layout/NavbarThree";
 import ServiceSlider from "@/components/Services/ServiceSlider";
-import FacialsDetailsContent from "@/components/Services/services-details/FacialsDetailsContent";
+import LaserDetailsContent from "@/components/Services/services-details/LaserDetailsContent";
 import Link from "next/link";
 
 export default function ServiceDetails() {
@@ -23,7 +23,7 @@ export default function ServiceDetails() {
             data-aos-duration="500"
             data-aos-once="true"
           >
-            <h2>Facials Services</h2>
+            <h2>Laser Services</h2>
             <ul>
               <li>
                 <Link href="/">
@@ -35,13 +35,13 @@ export default function ServiceDetails() {
                   <a>Services</a>
                 </Link>
               </li>
-              <li>Facials</li>
+              <li>Laser Hair Removal</li>
             </ul>
           </div>
         </div>
       </div>
 
-      <FacialsDetailsContent />
+      <LaserDetailsContent />
 
       <ContactForm />
 

@@ -52,7 +52,7 @@ const ServiceSlider = () => {
                   <SwiperSlide key={index}>
                     <div className="services-item">
                       <div className="services-image">
-                        <Link href="/services/service-details">
+                        <Link href={service.link}>
                           <a>
                             <img src={service.imageUrl} alt="image" />
                           </a>
@@ -60,7 +60,7 @@ const ServiceSlider = () => {
                       </div>
                       <div className="services-content">
                         <h3>
-                          <Link href="/services/service-details">
+                          <Link href={service.link}>
                             <a>{service.title}</a>
                           </Link>
                         </h3>
@@ -71,7 +71,7 @@ const ServiceSlider = () => {
                             ? service.description.slice(0, 100) + "..."
                             : service.description}
                         </p>
-                        <Link href="/services/service-details">
+                        <Link href={service.link}>
                           <a className="services-btn">View More</a>
                         </Link>
                       </div>
