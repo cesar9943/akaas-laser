@@ -32,7 +32,7 @@ export default function PrivacyPolicy() {
                 <p>
                   This Privacy Policy describes how your personal information is
                   collected, used, and shared when you visit or make a purchase
-                  from this website (the “Site”).
+                  from this website (https://akaaslasermedspa.com/).
                 </p>
 
                 <h3>PERSONAL INFORMATION WE COLLECT</h3>

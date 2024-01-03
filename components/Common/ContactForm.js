@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import baseUrl from "@/utils/baseUrl";
 import axios from "axios";
+import { useState } from "react";
 import Swal from "sweetalert2";
 import withReactContent from "sweetalert2-react-content";
 const MySwal = withReactContent(Swal);
-import baseUrl from "@/utils/baseUrl";
 
 const alertContent = () => {
   MySwal.fire({
@@ -56,7 +56,7 @@ const ContactForm = () => {
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12">
               <div className="talk-image">
-                <img src="/images/talk/talk.png" alt="image" />
+                <img src="/images/talk/talk.jpg" alt="image" />
               </div>
             </div>
 
