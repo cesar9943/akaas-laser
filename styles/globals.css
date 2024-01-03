@@ -64,22 +64,22 @@ Default CSS
 =================================================*/
 :root {
   --main-font-family: "Open Sans", sans-serif;
-  --heading-font-family: "Jost", sans-serif;
+  --heading-font-family: "Roboto", sans-serif;
   --monoton-font-family: "Monoton", cursive;
-  --main-color: #feb302;
-  --optional-color: #3e019a;
+  --main-color: #02e1fe;
+  --optional-color: #6536ac;
   --white-color: #ffffff;
-  --black-color: #14042c;
+  --black-color: #070b47;
   --paragraph-color: #646464;
   --font-size: 16px;
   --transition: 0.6s;
   --btn-gradient-color: radial-gradient(
     circle,
-    #feb302,
-    #f8c600,
-    #eed900,
-    #e0ec00,
-    #cdff05
+    #3bc5cf,
+    #27d2fd,
+    #4ee0fa,
+    #64dbff,
+    #6fcaff
   );
 }
 
@@ -305,7 +305,7 @@ Section Title CSS
 }
 
 .section-title h2 b {
-  background: radial-gradient(circle, #a66bff, #c666ef, #dd62df, #ee61cf, #fb64bf);
+  background: radial-gradient(circle, #7c4dff, #8f66ef, #7d62df, #6361ee, #6466fb);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -4059,6 +4059,10 @@ Features Area CSS
   left: 25px;
   top: 22px;
   max-width: 90px;
+}
+.single-features-card .features-image img{
+
+  border-radius: 10px;
 }
 
 .single-features-card .content {

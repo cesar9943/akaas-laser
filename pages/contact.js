@@ -12,7 +12,9 @@ export default function Contact() {
 
       <div
         className="page-banner-area mt-94"
-        style={{ backgroundImage: `url(/images/page-banner/banner-bg-5.jpg` }}
+        style={{
+          backgroundImage: `url(/images/page-banner/conrtact-banner.jpg`,
+        }}
       >
         <div className="container">
           <div
