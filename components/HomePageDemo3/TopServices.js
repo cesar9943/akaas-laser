@@ -39,7 +39,7 @@ const TopServices = () => {
                         <a>Laser Hair Removal</a>
                       </Link>
                     </h3>
-                    <Link href="/services/service-details">
+                    <Link href="/services/laser-hair-removal">
                       <a className="features-btn">View More</a>
                     </Link>
                   </div>

@@ -25,7 +25,7 @@ const TeamMember = () => {
       },
     },
     {
-      name: "Amilys",
+      name: "Amilys García",
       role: "Doctor",
       imageUrl: "/images/team/team-1.jpg",
       socialLinks: {

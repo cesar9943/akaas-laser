@@ -7,10 +7,7 @@ const LaserDetailsContent = () => {
         <div className="container">
           <div className="services-details-desc">
             <div className="article-services-image">
-              <img
-                src="/images/services-details/services-details-1.jpg"
-                alt="image"
-              />
+              <img src="/images/services-details/laser-0.jpeg" alt="image" />
             </div>
             <div className="article-services-content">
               <h3>Cynosure Laser Hair Removal</h3>
