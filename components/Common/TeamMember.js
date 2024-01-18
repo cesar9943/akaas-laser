@@ -37,7 +37,7 @@ const TeamMember = () => {
     {
       name: "Larissa Carvalho",
       role: "Massage therapist",
-      imageUrl: "/images/team/team-4.jpg",
+      imageUrl: "/images/team/team-4.0.jpg",
       socialLinks: {
         facebook: "https://www.facebook.com/EnvyTheme",
         twitter: "https://twitter.com/?lang=en",
