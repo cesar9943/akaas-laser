@@ -4,24 +4,26 @@ import sgTransport from "nodemailer-sendgrid-transport";
 const transporter = {
   auth: {
     // Update your SendGrid API key here
-    api_key: "...",
+    api_key:
+      "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",
   },
 };
 
 const mailer = nodemailer.createTransport(sgTransport(transporter));
 
-export default async (req, res) => {
-  // console.log(req.body)
+const contactHandler = async (req, res) => {
+  console.log(req.body);
   const { name, email, number, subject, text } = req.body;
 
   const data = {
     // Update your email here
-    to: "exampleyourdomain@gmail.com",
-    from: email,
+    to: "armandoc9943@gmail.com",
+    from: "armandoc9943@gmail.com",
     subject: "Hi there",
     text: text,
     html: `
             <b>From:</b> ${name} <br /> 
+            <b>Email:</b> ${email} <br /> 
             <b>Number:</b> ${number} <br /> 
             <b>Subject:</b> ${subject} <br /> 
             <b>Message:</b> ${text} 
@@ -36,3 +38,5 @@ export default async (req, res) => {
     res.status(500).send("Error proccessing charge");
   }
 };
+
+export default contactHandler;
