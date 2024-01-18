@@ -90,18 +90,17 @@ const NavbarThree = () => {
                         <a className="nav-link">Services</a>
                       </Link>
                     </li>
+                    <li className="nav-item">
+                      <Link href="/pricing" activeClassName="active">
+                        <a className="nav-link">Pricing</a>
+                      </Link>
+                    </li>
 
                     <li className="nav-item">
                       <Link href="/privacy-policy" activeClassName="active">
                         <a className="nav-link">Privacy Policy</a>
                       </Link>
                     </li>
-
-                    {/* <li className="nav-item">
-                      <Link href="/pricing" activeClassName="active">
-                        <a className="nav-link">Pricing</a>
-                      </Link>
-                    </li> */}
 
                     <li className="nav-item">
                       <Link href="/contact" activeClassName="active">
