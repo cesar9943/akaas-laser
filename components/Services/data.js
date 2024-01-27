@@ -44,4 +44,10 @@ export const servicesData = [
       " Elevate your style and self-care with our nail treatments. Our talented nail technicians offer a range of services, from manicures to pedicures, providing precision and creativity to enhance your nail aesthetics. Pamper yourself and show off your beautiful, well-manicured nails.",
     link: "/services/nails",
   },
+  {
+    title: "IV Nutritional Therapy",
+    imageUrl: "/images/services/services-7.png",
+    description: `Enhance your well-being with IV Nutritional Therapy. Our swift and effective treatment delivers essential nutrients directly to your bloodstream, offering benefits like improved immune function, energy boost, and detoxification. Administered by professional medical staff in a serene spa setting, this therapy is tailored to your unique health needs. Experience revitalized health with our specialized IV solutions.`,
+    link: "/services/iv-nutritional-therapy",
+  },
 ];
