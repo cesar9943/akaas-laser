@@ -28,7 +28,7 @@ const IVTherapyDetailsContent = () => {
                 Administered directly into the veins, IV therapy often yields
                 quicker results than oral or traditional medicines. It is
                 considered safe, effective, restorative, and customizable for
-                each patient's unique needs.
+                each patient&apos;s unique needs.
               </p>
 
               <h4>Benefits of IV Nutritional Therapy:</h4>
@@ -40,7 +40,7 @@ const IVTherapyDetailsContent = () => {
                   Improves hangovers and reverses symptoms of malnutrition.
                 </li>
                 <li>
-                  Assists with age management and helps treat Parkinson's
+                  Assists with age management and helps treat Parkinson&apos;s
                   disease.
                 </li>
               </ul>

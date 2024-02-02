@@ -1,5 +1,12 @@
+import baseUrl from "@/utils/baseUrl";
+import axios from "axios";
 import Image from "next/image";
 import Link from "next/link";
+import { useState } from "react";
+import Swal from "sweetalert2";
+import withReactContent from "sweetalert2-react-content";
+
+const MySwal = withReactContent(Swal);
 
 const Footer = () => {
   return (
@@ -108,11 +115,7 @@ const Footer = () => {
                       <a>FAQ</a>
                     </Link>
                   </li>
-                  <li>
-                    <Link href="/terms-of-service">
-                      <a>Terms of Service</a>
-                    </Link>
-                  </li>
+
                   <li>
                     <Link href="/privacy-policy">
                       <a>Privacy Policy</a>
@@ -123,29 +126,7 @@ const Footer = () => {
             </div>
 
             <div className="col-lg-3 col-md-6">
-              <div
-                className="single-footer-widget"
-                data-aos="fade-up"
-                data-aos-delay="80"
-                data-aos-duration="800"
-                data-aos-once="true"
-              >
-                <h3>Subscribe Newsletter</h3>
-
-                <form className="newsletter-form">
-                  <input
-                    type="email"
-                    className="input-newsletter"
-                    placeholder="Enter your email"
-                    name="EMAIL"
-                    required
-                  />
-
-                  <button type="submit" className="default-btn">
-                    Subscribe
-                  </button>
-                </form>
-              </div>
+              <Subscribe />
             </div>
           </div>
         </div>
@@ -163,3 +144,72 @@ const Footer = () => {
 };
 
 export default Footer;
+
+const alertContent = () => {
+  MySwal.fire({
+    title: "Congratulations!",
+    text: "Your subscription has been confirmed.",
+    icon: "success",
+    timer: 2000,
+    timerProgressBar: true,
+    showConfirmButton: false,
+  });
+};
+
+// Form initial state
+const INITIAL_STATE = {
+  email: "",
+};
+
+export const Subscribe = () => {
+  const [contact, setContact] = useState(INITIAL_STATE);
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setContact((prevState) => ({ ...prevState, [name]: value }));
+    // console.log(contact)
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      const url = `${baseUrl}/api/newsletter`;
+      const { email } = contact;
+      const payload = { email };
+      const response = await axios.post(url, payload);
+      console.log(response);
+      setContact(INITIAL_STATE);
+      alertContent();
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
+  return (
+    <div
+      className="single-footer-widget"
+      data-aos="fade-up"
+      data-aos-delay="80"
+      data-aos-duration="800"
+      data-aos-once="true"
+    >
+      <h3>Subscribe Newsletter</h3>
+
+      <form className="newsletter-form" onSubmit={handleSubmit}>
+        <input
+          type="email"
+          className="input-newsletter"
+          placeholder="Enter your email"
+          name="email"
+          value={contact.email}
+          onChange={handleChange}
+          required
+        />
+
+        <button type="submit" className="default-btn">
+          Subscribe
+        </button>
+      </form>
+    </div>
+  );
+};

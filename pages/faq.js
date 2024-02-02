@@ -1,14 +1,13 @@
-import React from 'react'
-import Link from 'next/link'
-import NavbarTwo from '@/components/Layout/NavbarTwo'
-import CTO from '@/components/Common/CTO'
-import FaqContent from '@/components/FAQ/FaqContent'
-import Footer from '@/components/Layout/Footer'
+import CTO from "@/components/Common/CTO";
+import FaqContent from "@/components/FAQ/FaqContent";
+import Footer from "@/components/Layout/Footer";
+import NavbarThree from "@/components/Layout/NavbarThree";
+import Link from "next/link";
 
 export default function Faq() {
   return (
     <>
-      <NavbarTwo />
+      <NavbarThree />
 
       <div
         className="page-banner-area mt-94"
@@ -41,5 +40,5 @@ export default function Faq() {
 
       <Footer />
     </>
-  )
+  );
 }
