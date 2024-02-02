@@ -6,7 +6,7 @@ const contactHandler = async (req, res) => {
 
   const emailData = {
     from: "lourdes@akaaslasermedspa.com",
-    to: ["armandoc9943@gmail.com"],
+    to: ["akaaslaser@gmail.com"],
     subject: "Mensaje desde el Landing page: " + subject,
     react: ContactEmailTemplate({ name, email, number, subject, text }),
   };
