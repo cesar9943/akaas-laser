@@ -7,13 +7,15 @@ const AllServicesCard = () => {
       <div className="services-area bg-with-14042C-color rounded-0 ptb-100">
         <div className="container">
           <div className="section-title">
-            <span>SERVICES</span>
             <h2>
-              We Provide the Best Quality <b>Services</b>
+              <b>Services</b>
             </h2>
             <p>
-              We are a technology solutions providing company all over the world
-              with over 40 years of experience. Lorem ipsum dolor sit amet.
+              We provide the best in laser hair removal and medical spa
+              services. Elevate your self-care routine with our expert
+              treatments tailored for your ultimate satisfaction. Your journey
+              to radiant beauty starts here. Continue to discover the
+              unparalleled excellence that sets us apart.
             </p>
           </div>
 
