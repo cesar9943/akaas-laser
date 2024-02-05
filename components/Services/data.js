@@ -53,9 +53,17 @@ export const servicesData = [
 
   {
     title: "Eyebrow Threading",
-    imageUrl: "/images/services/services-2.png",
+    imageUrl: "/images/services/services-8.webp",
     description:
       "Explore the art of eyebrow threading, an ancient beauty technique for sophisticated brow shaping. Learn how this precise method uses cotton thread to enhance your look with minimal discomfort. Ideal for those seeking a refined appearance, our guide simplifies the process, highlighting its benefits and offering tips for flawless results. Embrace a grooming ritual that combines tradition with modern elegance.",
     link: "/services/eyebrow-threading",
+  },
+
+  {
+    title: "Microblading & Eyelash Extensions",
+    imageUrl: "/images/services/services-9.webp",
+    description:
+      "Elevate your look with microblading and eyelash extensions at ALo Medical. Achieve fuller brows and longer lashes with our non-invasive treatments, designed for lasting beauty without daily makeup. Perfect for enhancing natural allure effortlessly.",
+    link: "/services/microblading-eyelash-extensions",
   },
 ];

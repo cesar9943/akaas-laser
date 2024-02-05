@@ -3,7 +3,7 @@ import ContactForm from "@/components/Common/ContactForm";
 import Footer from "@/components/Layout/Footer";
 import NavbarThree from "@/components/Layout/NavbarThree";
 import ServiceSlider from "@/components/Services/ServiceSlider";
-import EyebrowThreadingContent from "@/components/Services/services-details/EyebroContent";
+import MicrobladingEyelashExtensionsContent from "@/components/Services/services-details/MicrobladingDetailsContent";
 import Link from "next/link";
 
 export default function ServiceDetails() {
@@ -23,7 +23,7 @@ export default function ServiceDetails() {
             data-aos-duration="500"
             data-aos-once="true"
           >
-            <h2>Eye Brow Services</h2>
+            <h2>Microblading Services</h2>
             <ul>
               <li>
                 <Link href="/">
@@ -35,13 +35,13 @@ export default function ServiceDetails() {
                   <a>Services</a>
                 </Link>
               </li>
-              <li>Eye Brow</li>
+              <li>Microblading Eyelash-Extensions.</li>
             </ul>
           </div>
         </div>
       </div>
 
-      <EyebrowThreadingContent />
+      <MicrobladingEyelashExtensionsContent />
 
       <ContactForm />
 

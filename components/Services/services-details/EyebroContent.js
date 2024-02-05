@@ -118,8 +118,8 @@ const EyebrowThreadingContent = () => {
               </p>
             </div>
 
-            <h2>Tips for First Time Eyebrow Threading</h2>
             <div className="article-services-content">
+              <h2>Tips for First Time Eyebrow Threading</h2>
               <p>
                 If you decide that threading is for you, here are a few things
                 to remember for your first appointment. Do your research. Don’t
@@ -129,8 +129,8 @@ const EyebrowThreadingContent = () => {
               </p>
             </div>
 
-            <h2>Conclusion</h2>
             <div className="article-services-content">
+              <h2>Conclusion</h2>
               <p>
                 The next time your brows are looking a little rough, consider
                 getting them threaded. As long as you go into it knowing what’s

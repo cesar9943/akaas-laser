@@ -1364,6 +1364,8 @@ Services Area CSS
   position: relative;
   -webkit-transition: var(--transition);
   transition: var(--transition);
+  
+
 }
 
 .services-item .services-image {
@@ -1383,6 +1385,9 @@ Services Area CSS
 
 .services-item .services-content {
   padding: 30px 15px 20px;
+
+  height: 330px;
+
 }
 
 .services-item .services-content h3 {
@@ -1398,6 +1403,7 @@ Services Area CSS
 .services-item .services-content p {
   color: #cdc4d9;
   margin-bottom: 0;
+  font-size: 14px;
 }
 
 .services-item .services-content .services-btn {
