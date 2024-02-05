@@ -50,4 +50,12 @@ export const servicesData = [
     description: `Enhance your well-being with IV Nutritional Therapy. Our swift and effective treatment delivers essential nutrients directly to your bloodstream, offering benefits like improved immune function, energy boost, and detoxification. Administered by professional medical staff in a serene spa setting, this therapy is tailored to your unique health needs. Experience revitalized health with our specialized IV solutions.`,
     link: "/services/iv-nutritional-therapy",
   },
+
+  {
+    title: "Eyebrow Threading",
+    imageUrl: "/images/services/services-2.png",
+    description:
+      "Explore the art of eyebrow threading, an ancient beauty technique for sophisticated brow shaping. Learn how this precise method uses cotton thread to enhance your look with minimal discomfort. Ideal for those seeking a refined appearance, our guide simplifies the process, highlighting its benefits and offering tips for flawless results. Embrace a grooming ritual that combines tradition with modern elegance.",
+    link: "/services/eyebrow-threading",
+  },
 ];
