@@ -3,7 +3,7 @@ import ContactForm from "@/components/Common/ContactForm";
 import Footer from "@/components/Layout/Footer";
 import NavbarThree from "@/components/Layout/NavbarThree";
 import ServiceSlider from "@/components/Services/ServiceSlider";
-import IVTherapyDetailsContent from "@/components/Services/services-details/LaserDetailsContent";
+import IVNutritionalTherapyContent from "@/components/Services/services-details/IvDetailsContent";
 import Link from "next/link";
 
 export default function ServiceDetails() {
@@ -41,7 +41,7 @@ export default function ServiceDetails() {
         </div>
       </div>
 
-      <IVTherapyDetailsContent />
+      <IVNutritionalTherapyContent />
 
       <ContactForm />
 

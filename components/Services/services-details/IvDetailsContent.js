@@ -1,208 +1,142 @@
-import Image from "next/image";
-
-const IvDetailsContent = () => {
+const IVNutritionalTherapyContent = () => {
   return (
     <>
       <div className="services-details-area ptb-100">
         <div className="container">
           <div className="services-details-desc">
             <div className="article-services-image">
-              <img src="/images/services-details/laser-0.jpeg" alt="image" />
+              <img
+                src="/images/services-details/iv-therapy-0.jpeg"
+                alt="IV Nutritional Therapy"
+              />
             </div>
+
             <div className="article-services-content">
-              <h3>Cynosure Laser Hair Removal</h3>
+              <h2>What Is IV Nutritional Therapy?</h2>
               <p>
-                Are you searching for quick and easy laser hair removal methods?
-                Try Cynosure laser hair removal at AKAAS Laser MedSpa for a
-                hassle-free experience.
+                IV nutritional therapy, also known as intravenous therapy, IV
+                nutrition, IV therapy, or IV nutrient therapy, offers a range of
+                health benefits including anti-aging, immune system improvement,
+                anxiety minimization, hangover symptom reversal, and more.
+                Despite the reduction in nutrient deficiencies, many individuals
+                still lack essential nutrients needed for optimal body
+                performance.
               </p>
               <p>
-                While shaving and waxing are effective hair removal solutions,
-                they are time-consuming, and the results don’t last long. Are
-                you sick of the expense of monthly waxes or razor bumps and
-                ingrown hair? It is time to bid goodbye to these temporary fixes
-                and try laser hair removal. Laser hair removal solutions are an
-                excellent way to get rid of unwanted body hair. We recommend
-                that you try Cynosure laser at AKAAS Laser MedSpa to simplify
-                your beauty routine and make your life just a little bit easier.
-              </p>
-
-              {/* Additional information about Do’s and Don'ts Before and After Laser Hair Removal */}
-              <h4>Do’s and Don&apos;ts Before and After Laser Hair Removal</h4>
-              <p>
-                There are certain steps you should follow to ensure the best
-                possible results and minimize any potential side effects:
+                Administered directly into the veins, IV treatment can yield
+                faster results than oral or traditional medicines. It is
+                considered safe, effective, and restorative, tailored to meet
+                the individual needs of each patient.
               </p>
 
-              {/* List of Do’s Before Laser Hair Removal Treatment */}
-              <h5>Before Laser Hair Removal Treatment:</h5>
-              <ul>
+              <h2>Benefits of IV Nutritional Therapy</h2>
+              <ul className="list">
+                <li></li>
                 <li>
-                  Schedule a consultation with a qualified laser hair removal
-                  provider to discuss your goals, assess your skin and hair
-                  type, and create a personalized treatment plan.
+                  <i className="ri-checkbox-circle-line"></i> Boosts energy
                 </li>
                 <li>
-                  Shave the area to be treated no less than 24 hours before your
-                  appointment, as this allows the laser to target the hair
-                  follicle more effectively.
+                  <i className="ri-checkbox-circle-line"></i> Detoxifies the
+                  body
                 </li>
                 <li>
-                  Make sure your skin is clean and free of any products, such as
-                  lotions, creams, or deodorants, before the treatment.
+                  <i className="ri-checkbox-circle-line"></i> Enhances the
+                  immune system
                 </li>
                 <li>
-                  Wear loose, comfortable clothing because it will help minimize
-                  any potential irritation in the treatment area after the
-                  procedure.
+                  <i className="ri-checkbox-circle-line"></i> Helps prevent
+                  illness
+                </li>
+                <li>
+                  <i className="ri-checkbox-circle-line"></i> Decreases artery
+                  plaque
+                </li>
+                <li>
+                  <i className="ri-checkbox-circle-line"></i> Combats chronic
+                  fatigue
+                </li>
+                <li>
+                  <i className="ri-checkbox-circle-line"></i> Improves hangovers
+                </li>
+                <li>
+                  <i className="ri-checkbox-circle-line"></i> Reverses symptoms
+                  of malnutrition
+                </li>
+                <li>
+                  <i className="ri-checkbox-circle-line"></i> Assists with age
+                  management
+                </li>
+                <li>
+                  <i className="ri-checkbox-circle-line"></i> Helps treat
+                  Parkinson's disease
                 </li>
               </ul>
-
-              {/* List of Don’ts Before Laser Hair Removal Treatment */}
-              <h5>Don’ts:</h5>
-              <ul>
-                <li>
-                  Avoid sun exposure for at least two weeks before your
-                  treatment, as tanned skin can increase the risk of side
-                  effects like hyperpigmentation.
-                </li>
-                <li>
-                  Do not wax, pluck, or use depilatory creams for at least 4
-                  weeks before your laser treatment. These methods remove the
-                  hair from the follicle, making the laser treatment less
-                  effective. Stick to shaving instead.
-                </li>
-                <li>
-                  Avoid skin irritants: Stop using any products with harsh
-                  active ingredients that could irritate your skin (e.g.,
-                  retinol, glycolic acid, or harsh exfoliants) at least 3-5 days
-                  before treatment.
-                </li>
-              </ul>
-
-              {/* Additional sections and information as needed... */}
             </div>
-            <div className="row">
-              <div className="col-lg-6 col-sm-6">
-                <div className="article-services-middle-image">
-                  <Image
-                    src="/images/services-details/laser-2.jpg"
-                    alt="image"
-                    width={884}
-                    height={1509}
-                  />
-                </div>
-              </div>
-              <div className="col-lg-6 col-sm-6">
-                <div className="article-services-middle-image">
-                  <Image
-                    src="/images/services-details/laser-1.jpg"
-                    alt="image"
-                    width={375}
-                    height={667}
-                  />
-                </div>
-              </div>
-            </div>
+
             <div className="article-services-content">
-              {/* Additional information about Cynosure laser */}
+              <h2>What is IV Therapy?</h2>
               <p>
-                <strong>What is Cynosure laser hair removal?</strong>
+                IV Hydration Therapy is a low-risk, minimally invasive procedure
+                safely administered by licensed medical staff in a relaxing spa
+                environment. Delivering fluids mixed with vitamins, minerals,
+                and antioxidants directly into the bloodstream, it bypasses the
+                digestive system for more effective nutrient absorption.
               </p>
               <p>
-                Cynosure laser is a revolutionary hair removal laser system that
-                can help you safely get rid of unwanted body and facial hair.
-                The treatment works by using a concentrated beam of light to
-                remove body hair. It emits light throughout the procedure, which
-                then is absorbed by the pigment (melanin) in the hair. The light
-                energy is converted to heat, which causes damage to your hair
-                follicles...
-              </p>
-
-              {/* Additional information about Cynosure laser benefits */}
-              <p>
-                <strong>What are the benefits of Cynosure laser?</strong>
-              </p>
-              <p>
-                Are you wondering why you should switch to laser hair removal?
-                Wax, shave, and tweeze no more! We have rounded up the top
-                Cynosure benefits to help you make the right choice:
-              </p>
-              <ul>
-                <li>
-                  Convenient: We know how messy or time-consuming shaving and
-                  waxing can get. With this method, you don’t have to worry
-                  about that as it is simple and hassle-free.
-                </li>
-                <li>
-                  Quick procedure: Despite the fact that numerous sessions are
-                  needed, the procedure is quick. Each laser pulse lasts only a
-                  fraction of a second and can remove a lot of hair in a short
-                  period of time.
-                </li>
-                <li>
-                  Long-lasting results: With Cynosure laser hair removal, you
-                  don’t have to plan your life around your waxing appointments
-                  or deal with the hassle of shaving hair every other day.
-                </li>
-                <li>
-                  Gentle: Shaving, tweezing, and waxing can be abrasive on your
-                  skin, especially if done regularly. With Cynosure, you don’t
-                  have to worry about this as it gently removes unwanted body
-                  hair without causing skin irritation or infection. This laser
-                  hair removal method also prevents ingrown hair.
-                </li>
-                <li>
-                  Suitable for all skin types: Unlike some laser hair removal
-                  solutions that only work on lighter skin tones, Cynosure works
-                  effectively on all skin tones and types.
-                </li>
-                <li>
-                  No downtime required: Regardless of where the laser hair
-                  removal was performed on your body, most patients are able to
-                  return to work or daily activities immediately following their
-                  Cynosure laser session.
-                </li>
-              </ul>
-
-              {/* Additional information about the number of Cynosure laser sessions required */}
-              <p>
-                <strong>How many Cynosure laser sessions are required?</strong>
-              </p>
-              <p>
-                You can see visible results after just one session. The Cynosure
-                laser only works on hair follicles that are actively growing.
-                Since our hair is not all at the same stage at the same time
-                when an area is treated, just a portion of the hair follicles is
-                affected. Therefore, we recommend six to eight Cynosure laser
-                sessions depending on the area of the body for lasting results.
-              </p>
-
-              {/* Additional information about where to get Cynosure laser hair removal */}
-              <p>
-                <strong>Where to get Cynosure laser hair removal?</strong>
-              </p>
-              <p>
-                If you wish to try Cynosure laser hair removal, visit AKAAS
-                Laser MedSpa, our team of experts will analyze your goals and
-                devise a customized treatment plan for you. To learn more about
-                Cynosure, schedule a consultation with us. You can speak to us
-                on +14074971272 , email on akaaslaser@gmail.com, or schedule an
-                appointment here.
-              </p>
-
-              {/* Call to action */}
-              <p>
-                Ready to experience smooth, hair-free skin that lasts all
-                year-round?
+                Oral intake of vitamins and minerals can be less effective due
+                to digestive system barriers, leading to reduced potency or
+                complete non-absorption. IV Therapy maintains an optimal healthy
+                lifestyle by circumventing these issues.
               </p>
             </div>
             <div className="article-services-middle-image">
-              <Image
-                src="/images/services-details/laser-3.jpg"
+              <img
+                src="/images/services-details/iv-therapy-1.jpeg"
                 alt="image"
-                width={447}
-                height={243}
+              />
+            </div>
+
+            <div className="article-services-content">
+              <h2>Specialized IV Therapy Treatments</h2>
+              <p>
+                Among various IV vitamin therapies, the Myers’ cocktail includes
+                high doses of vitamins B and C, calcium, and magnesium. Other
+                notable treatments include IV magnesium sulfate for acute
+                asthma, IV selenium for acute respiratory distress syndrome, and
+                IV vitamin C for cancer patients, offering targeted benefits
+                based on individual health conditions.
+              </p>
+            </div>
+            <div className="article-services-middle-image">
+              <img
+                src="/images/services-details/iv-therapy-2.jpeg"
+                alt="image"
+              />
+            </div>
+
+            <div className="article-services-content">
+              <h2>WEIGHT LOSS INJECTIONS</h2>
+              <p>
+                Semaglutide, approved under the brand name Wegovy for weight
+                loss, is administered as weekly subcutaneous injections.
+                Suitable for individuals with a BMI of 27kg/m2 or greater with
+                at least one weight-related condition, or those with a BMI of
+                30kg/m2 or greater. Avoid if you have a history of specific
+                health conditions.
+              </p>
+              <p>
+                The FDA also approved Zepbound (tirzepatide) injection for
+                chronic weight management, to be used alongside a
+                reduced-calorie diet and increased physical activity.
+                Tirzepatide helps improve blood sugar in adults with type 2
+                diabetes as part of an overall health management plan.
+              </p>
+            </div>
+
+            <div className="article-services-middle-image">
+              <img
+                src="/images/services-details/iv-therapy-3.jpeg"
+                alt="image"
               />
             </div>
           </div>
@@ -212,4 +146,4 @@ const IvDetailsContent = () => {
   );
 };
 
-export default IvDetailsContent;
+export default IVNutritionalTherapyContent;
