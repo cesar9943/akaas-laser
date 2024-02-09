@@ -68,7 +68,7 @@ const IVNutritionalTherapyContent = () => {
                 </li>
                 <li>
                   <i className="ri-checkbox-circle-line"></i> Helps treat
-                  Parkinson's disease
+                  Parkinson&apos;s disease
                 </li>
               </ul>
             </div>

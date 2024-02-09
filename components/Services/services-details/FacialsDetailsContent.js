@@ -122,7 +122,7 @@ const FacialsDetailsContent = () => {
                 <ul className="list">
                   <li></li>
                   <li>
-                    <i className="ri-checkbox-circle-line"></i> CFacial steaming
+                    <i className="ri-checkbox-circle-line"></i> Facial steaming
                     to open your pores and soften your skin.
                   </li>
                   <li>

@@ -23,7 +23,17 @@ const WorkingProcess = () => {
                 data-aos-once="true"
               >
                 <div className="choose-image">
-                  <img src="/images/choose/choose-1.png" alt="image" />
+                  <div
+                    style={{
+                      backgroundImage: `url(/images/consulation.jpg)`,
+                      backgroundRepeat: `no-repeat`,
+                      backgroundPosition: `center center`,
+                      backgroundSize: `cover`,
+                      width: 140,
+                      height: 150,
+                      borderRadius: "10px",
+                    }}
+                  ></div>
                   <div className="number">1</div>
                 </div>
                 <div className="choose-content">
@@ -45,7 +55,17 @@ const WorkingProcess = () => {
                 data-aos-once="true"
               >
                 <div className="choose-image">
-                  <img src="/images/choose/choose-2.png" alt="image" />
+                  <div
+                    style={{
+                      backgroundImage: `url(/images/evolution.jpg)`,
+                      backgroundRepeat: `no-repeat`,
+                      backgroundPosition: `center center`,
+                      backgroundSize: `cover`,
+                      width: 140,
+                      height: 150,
+                      borderRadius: "10px",
+                    }}
+                  ></div>
                   <div className="number">2</div>
                 </div>
                 <div className="choose-content">
@@ -67,7 +87,17 @@ const WorkingProcess = () => {
                 data-aos-once="true"
               >
                 <div className="choose-image">
-                  <img src="/images/choose/choose-3.png" alt="image" />
+                  <div
+                    style={{
+                      backgroundImage: `url(/images/creative.jpg)`,
+                      backgroundRepeat: `no-repeat`,
+                      backgroundPosition: `center center`,
+                      backgroundSize: `cover`,
+                      width: 140,
+                      height: 150,
+                      borderRadius: "10px",
+                    }}
+                  ></div>
                   <div className="number">3</div>
                 </div>
                 <div className="choose-content">
@@ -89,7 +119,17 @@ const WorkingProcess = () => {
                 data-aos-once="true"
               >
                 <div className="choose-image">
-                  <img src="/images/choose/choose-4.png" alt="image" />
+                  <div
+                    style={{
+                      backgroundImage: `url(/images/precision.jpg)`,
+                      backgroundRepeat: `no-repeat`,
+                      backgroundPosition: `center center`,
+                      backgroundSize: `cover`,
+                      width: 140,
+                      height: 150,
+                      borderRadius: "10px",
+                    }}
+                  ></div>
                   <div className="number">4</div>
                 </div>
                 <div className="choose-content">

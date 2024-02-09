@@ -66,4 +66,18 @@ export const servicesData = [
       "Elevate your look with microblading and eyelash extensions at ALo Medical. Achieve fuller brows and longer lashes with our non-invasive treatments, designed for lasting beauty without daily makeup. Perfect for enhancing natural allure effortlessly.",
     link: "/services/microblading-eyelash-extensions",
   },
+  {
+    title: "Fibroblast Plasma Skin Tightening",
+    imageUrl: "/images/services/fibroblast-plasma-skin-tightening.webp",
+    description:
+      "Revitalize your skin with Fibroblast Plasma Skin Tightening at ALo Medical. This cutting-edge, non-surgical treatment tightens and lifts sagging skin, reduces wrinkles, and improves skin texture with minimal downtime. Ideal for those seeking a natural rejuvenation without invasive procedures. Discover a younger-looking you today.",
+    link: "/services/fibroblast-plasma-skin-tightening",
+  },
+  {
+    title: "Inkless Stretch Mark Removal",
+    imageUrl: "/images/services/inkless-stretch-mark-removal.webp",
+    description:
+      "Experience the innovative Inkless Stretch Mark Removal Camouflage Treatment, designed to naturally diminish stretch marks. Utilizing fine needles, this technique precisely targets and rejuvenates damaged skin without ink, enhancing skin tone and texture. Achieve visible reduction in stretch marks in just one session, suitable for all skin types, for a more confident you.",
+    link: "/services/inkless-stretch-mark-removal",
+  },
 ];

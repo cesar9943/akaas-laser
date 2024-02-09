@@ -56,7 +56,7 @@ const MainBanner = () => {
                         border: "none",
                       }}
                     >
-                      Begin Your Beauty Journe
+                      Begin Your Beauty Journey
                     </button>
                   </a>
                 </div>
