@@ -80,4 +80,12 @@ export const servicesData = [
       "Experience the innovative Inkless Stretch Mark Removal Camouflage Treatment, designed to naturally diminish stretch marks. Utilizing fine needles, this technique precisely targets and rejuvenates damaged skin without ink, enhancing skin tone and texture. Achieve visible reduction in stretch marks in just one session, suitable for all skin types, for a more confident you.",
     link: "/services/inkless-stretch-mark-removal",
   },
+
+  {
+    title: "Morpheus8 Skin Rejuvenation",
+    imageUrl: "/images/services/morpheus8-treatment.jpg",
+    description:
+      "Unlock a rejuvenated appearance with Morpheus8, a state-of-the-art skin treatment designed to improve facial lines, wrinkles, acne scars, and uneven skin tones, as well as enhance the texture and contour of the neck, décolletage, arms, abdomen, thighs, and buttocks. This minimally invasive treatment uses microneedling with Radio Frequency (RF) technology, providing long-lasting results and minimal downtime.",
+    link: "/services/morpheus8-treatment",
+  },
 ];
