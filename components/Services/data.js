@@ -88,4 +88,12 @@ export const servicesData = [
       "Unlock a rejuvenated appearance with Morpheus8, a state-of-the-art skin treatment designed to improve facial lines, wrinkles, acne scars, and uneven skin tones, as well as enhance the texture and contour of the neck, décolletage, arms, abdomen, thighs, and buttocks. This minimally invasive treatment uses microneedling with Radio Frequency (RF) technology, providing long-lasting results and minimal downtime.",
     link: "/services/morpheus8-treatment",
   },
+
+  {
+    title: "HIFU Non-Surgical Facelift",
+    imageUrl: "/images/services/hifu.jpg",
+    description:
+      "Discover the age-defying benefits of our HIFU (High Intensity Focused Ultrasound) Treatment at AKAAS Laser MedSpa. This non-invasive procedure tightens and lifts skin without surgery, offering results in just one session. Ideal for those seeking a natural lift of the face, neck, and body areas like the stomach and thighs. Enjoy a younger appearance with no downtime and ongoing collagen regeneration for lasting effects.",
+    link: "/services/hifu-treatment",
+  },
 ];
