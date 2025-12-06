@@ -1,5 +1,3 @@
-import React from "react";
-
 const WhoWeAre = () => {
   return (
     <>
@@ -28,16 +26,52 @@ const WhoWeAre = () => {
               >
                 <span>WHO WE ARE</span>
                 <h3>
-                  We Are All In One IT Solution & Technology Company
+                  Your Premier Destination for Aesthetic Excellence in Orlando
                 </h3>
                 <p>
-                  We are leading technology solutions providing company all over
-                  the world doing over 40 years lorem ipsum dolor sit amet.
+                  We are Akaas Laser Medspa, specialists in advanced aesthetic
+                  treatments in Orlando. Since our inception, we have helped
+                  thousands of clients achieve their beauty goals. We specialize
+                  in Laser Hair Removal, Body Contouring, and Skin Rejuvenation
+                  using state-of-the-art technology.
                 </p>
                 <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                  We work with individuals who seek effective, non-invasive
+                  solutions for their skin and body concerns. Our typical
+                  clients are those looking for permanent hair reduction,
+                  anti-aging treatments, and overall wellness, valuing safety
+                  and results above all.
                 </p>
-                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+
+                <div className="about-features">
+                  <ul>
+                    <li>
+                      <i className="ri-check-double-line"></i>
+                      State-of-the-art Elite MPX Laser Technology
+                    </li>
+                    <li>
+                      <i className="ri-check-double-line"></i>
+                      Highly trained and certified specialists
+                    </li>
+                    <li>
+                      <i className="ri-check-double-line"></i>
+                      Personalized care with proven results
+                    </li>
+                  </ul>
+                </div>
+
+                <p>
+                  <strong>Success Stories:</strong>
+                  <br />• <strong>Laser Hair Removal:</strong> Clients achieve
+                  up to 90% permanent hair reduction after a full course of
+                  treatment.
+                  <br />• <strong>Body Contouring:</strong> Visible fat
+                  reduction in treated areas with our non-invasive SculpSure
+                  technology.
+                  <br />• <strong>Skin Rejuvenation:</strong> Significant
+                  improvement in skin texture and tone reported by 95% of our
+                  facial clients.
+                </p>
               </div>
             </div>
           </div>

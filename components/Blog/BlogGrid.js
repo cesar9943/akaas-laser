@@ -1,5 +1,4 @@
-import React from 'react'
-import Link from 'next/link'
+import Link from "next/link";
 
 const BlogGrid = () => {
   return (
@@ -9,7 +8,7 @@ const BlogGrid = () => {
           <div className="section-title">
             <span>ARTICLE</span>
             <h2>
-              Read Our Blog To Get All Recent Tech <b>News</b>
+              Read Our Blog To Get All Recent <b>News</b>
             </h2>
           </div>
 
@@ -25,230 +24,28 @@ const BlogGrid = () => {
                 <div className="row align-items-center">
                   <div className="col-lg-6">
                     <div className="blog-image">
-                      <Link href="/blog/single-blog">
-
+                      <Link href="/blog/top-6-laser-clinics-orlando">
                         <img src="/images/blog/blog-1.jpg" alt="image" />
-
                       </Link>
                     </div>
                   </div>
                   <div className="col-lg-6">
                     <div className="blog-content">
-                      <div className="date">9th July, 2022</div>
+                      <div className="date">December 6, 2025</div>
                       <h3>
-                        <Link href="/blog/single-blog">
-                          
-                            How Technology Dominate In The new World In 2022
-                          
+                        <Link href="/blog/top-6-laser-clinics-orlando">
+                          Top 6 Laser Clinics in Orlando (2025)
                         </Link>
                       </h3>
                       <p>
-                        Lorem ipsum dolor sit amet conset sadipscing elitr sed
-                        diam nonumy eir m od tempor invidunt ut labore.
+                        Discover the best laser clinics in Orlando for 2025. We
+                        compare services, prices, and results to help you choose
+                        the right medspa for your needs.
                       </p>
-                      <Link href="/blog/single-blog" className="blog-btn">
-                        View More
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-6 col-md-12">
-              <div
-                className="blog-card"
-                data-aos="fade-up"
-                data-aos-delay="890"
-                data-aos-duration="900"
-                data-aos-once="true"
-              >
-                <div className="row align-items-center">
-                  <div className="col-lg-6">
-                    <div className="blog-image">
-                      <Link href="/blog/single-blog">
-
-                        <img src="/images/blog/blog-2.jpg" alt="image" />
-
-                      </Link>
-                    </div>
-                  </div>
-                  <div className="col-lg-6">
-                    <div className="blog-content">
-                      <div className="date">7th July, 2022</div>
-                      <h3>
-                        <Link href="/blog/single-blog">
-                          Top 10 Most Famous Technology Trend In 2022
-                        </Link>
-                      </h3>
-                      <p>
-                        Lorem ipsum dolor sit amet conset sadipscing elitr sed
-                        diam nonumy eir m od tempor invidunt ut labore.
-                      </p>
-                      <Link href="/blog/single-blog" className="blog-btn">
-                        View More
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-6 col-md-12">
-              <div
-                className="blog-card"
-                data-aos="fade-up"
-                data-aos-delay="80"
-                data-aos-duration="800"
-                data-aos-once="true"
-              >
-                <div className="row align-items-center">
-                  <div className="col-lg-6">
-                    <div className="blog-image">
-                      <Link href="/blog/single-blog">
-
-                        <img src="/images/blog/blog-3.jpg" alt="image" />
-
-                      </Link>
-                    </div>
-                  </div>
-                  <div className="col-lg-6">
-                    <div className="blog-content">
-                      <div className="date">9th July, 2022</div>
-                      <h3>
-                        <Link href="/blog/single-blog">
-                          Open Source Job Report Show More Openings Fewer
-                        </Link>
-                      </h3>
-                      <p>
-                        Lorem ipsum dolor sit amet conset sadipscing elitr sed
-                        diam nonumy eir m od tempor invidunt ut labore.
-                      </p>
-                      <Link href="/blog/single-blog" className="blog-btn">
-                        View More
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-6 col-md-12">
-              <div
-                className="blog-card"
-                data-aos="fade-up"
-                data-aos-delay="90"
-                data-aos-duration="900"
-                data-aos-once="true"
-              >
-                <div className="row align-items-center">
-                  <div className="col-lg-6">
-                    <div className="blog-image">
-                      <Link href="/blog/single-blog">
-
-                        <img src="/images/blog/blog-4.jpg" alt="image" />
-
-                      </Link>
-                    </div>
-                  </div>
-                  <div className="col-lg-6">
-                    <div className="blog-content">
-                      <div className="date">7th July, 2022</div>
-                      <h3>
-                        <Link href="/blog/single-blog">
-                          
-                            Tech Products That Makes Its Easier To Stay At Home
-                          
-                        </Link>
-                      </h3>
-                      <p>
-                        Lorem ipsum dolor sit amet conset sadipscing elitr sed
-                        diam nonumy eir m od tempor invidunt ut labore.
-                      </p>
-                      <Link href="/blog/single-blog" className="blog-btn">
-                        View More
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-6 col-md-12">
-              <div
-                className="blog-card"
-                data-aos="fade-up"
-                data-aos-delay="90"
-                data-aos-duration="900"
-                data-aos-once="true"
-              >
-                <div className="row align-items-center">
-                  <div className="col-lg-6">
-                    <div className="blog-image">
-                      <Link href="/blog/single-blog">
-
-                        <img src="/images/blog/blog-5.jpg" alt="image" />
-
-                      </Link>
-                    </div>
-                  </div>
-                  <div className="col-lg-6">
-                    <div className="blog-content">
-                      <div className="date">7th July, 2022</div>
-                      <h3>
-                        <Link href="/blog/single-blog">
-                          
-                            Necessity May Give Us Your Best Virtual Court System
-                          
-                        </Link>
-                      </h3>
-                      <p>
-                        Lorem ipsum dolor sit amet conset sadipscing elitr sed
-                        diam nonumy eir m od tempor invidunt ut labore.
-                      </p>
-                      <Link href="/blog/single-blog" className="blog-btn">
-                        View More
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-6 col-md-12">
-              <div
-                className="blog-card"
-                data-aos="fade-up"
-                data-aos-delay="90"
-                data-aos-duration="900"
-                data-aos-once="true"
-              >
-                <div className="row align-items-center">
-                  <div className="col-lg-6">
-                    <div className="blog-image">
-                      <Link href="/blog/single-blog">
-
-                        <img src="/images/blog/blog-6.jpg" alt="image" />
-
-                      </Link>
-                    </div>
-                  </div>
-                  <div className="col-lg-6">
-                    <div className="blog-content">
-                      <div className="date">7th July, 2022</div>
-                      <h3>
-                        <Link href="/blog/single-blog">
-                          
-                            How Technology Helps In The Education System In The
-                            World
-                          
-                        </Link>
-                      </h3>
-                      <p>
-                        Lorem ipsum dolor sit amet conset sadipscing elitr sed
-                        diam nonumy eir m od tempor invidunt ut labore.
-                      </p>
-                      <Link href="/blog/single-blog" className="blog-btn">
+                      <Link
+                        href="/blog/top-10-laser-clinics-orlando"
+                        className="blog-btn"
+                      >
                         View More
                       </Link>
                     </div>
@@ -265,6 +62,6 @@ const BlogGrid = () => {
       </div>
     </>
   );
-}
+};
 
-export default BlogGrid
+export default BlogGrid;

@@ -95,6 +95,12 @@ const NavbarThree = () => {
                     </li>
 
                     <li className="nav-item">
+                      <Link href="/blog" className="nav-link">
+                        Blog
+                      </Link>
+                    </li>
+
+                    <li className="nav-item">
                       <Link href="/privacy-policy" className="nav-link">
                         Privacy Policy
                       </Link>
@@ -167,9 +173,7 @@ const NavbarThree = () => {
 
             <div className="modal-body">
               <Link href="/">
-
                 <img src="/images/black-logo.png" alt="image" />
-
               </Link>
               <div className="sidebar-content">
                 <h3>About Us</h3>

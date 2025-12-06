@@ -24,14 +24,12 @@ const Footer = () => {
               >
                 <div className="widget-logo">
                   <Link href="/">
-
                     <Image
                       src="/images/black-logo.png"
                       alt="image"
                       width={180}
                       height={180}
                     />
-
                   </Link>
                 </div>
                 <p>Follow us to get the latest updates about our services.</p>
@@ -81,14 +79,13 @@ const Footer = () => {
 
                 <ul className="quick-links">
                   <li>
-                    <Link href="/pricing">
-                      Pricing
-                    </Link>
+                    <Link href="/pricing">Pricing</Link>
                   </li>
                   <li>
-                    <Link href="/services">
-                      Services
-                    </Link>
+                    <Link href="/services">Services</Link>
+                  </li>
+                  <li>
+                    <Link href="/blog">Blog</Link>
                   </li>
                 </ul>
               </div>
@@ -106,20 +103,14 @@ const Footer = () => {
 
                 <ul className="quick-links">
                   <li>
-                    <Link href="/contact">
-                      Contact Us
-                    </Link>
+                    <Link href="/contact">Contact Us</Link>
                   </li>
                   <li>
-                    <Link href="/faq">
-                      FAQ
-                    </Link>
+                    <Link href="/faq">FAQ</Link>
                   </li>
 
                   <li>
-                    <Link href="/privacy-policy">
-                      Privacy Policy
-                    </Link>
+                    <Link href="/privacy-policy">Privacy Policy</Link>
                   </li>
                 </ul>
               </div>

@@ -2,9 +2,46 @@ import CTO from "@/components/Common/CTO";
 import FaqContent from "@/components/FAQ/FaqContent";
 import Footer from "@/components/Layout/Footer";
 import NavbarThree from "@/components/Layout/NavbarThree";
+import Head from "next/head";
 import Link from "next/link";
+
 // Definición de datos para las FAQs
 const faqData = [
+  {
+    question: "What are your main services?",
+    answer:
+      "Our main services include Laser Hair Removal using Elite MPX technology, SculpSure Body Contouring, custom Facials, Botox & Fillers, Massage Therapy, Nail Treatments, and IV Nutritional Therapy.",
+  },
+  {
+    question: "What type of clients do you work with?",
+    answer:
+      "We work with both men and women of all skin types who are looking for effective, non-invasive aesthetic treatments. Our technology is safe and effective for a wide range of skin tones.",
+  },
+  {
+    question: "How much do your services cost?",
+    answer:
+      "Pricing varies depending on the treatment area and the number of sessions required. We offer competitive pricing and packages. Please contact us for a personalized consultation and quote.",
+  },
+  {
+    question: "What results do you guarantee?",
+    answer:
+      "While individual results may vary, we use FDA-approved technology proven to deliver results. For laser hair removal, most clients see significant permanent reduction after a series of treatments.",
+  },
+  {
+    question: "How are you different from other medspas?",
+    answer:
+      "We distinguish ourselves through our use of the Elite MPX Laser, which allows us to treat all skin types safely. Our team is highly trained, and we prioritize client comfort and safety above all else.",
+  },
+  {
+    question: "How long have you been in the sector?",
+    answer:
+      "Akaas Laser Medspa has been serving the Orlando community with dedication and expertise, establishing a reputation for excellence in aesthetic treatments.",
+  },
+  {
+    question: "What certifications do you have?",
+    answer:
+      "Our specialists are certified in their respective fields, including laser safety and specific treatment protocols. We adhere to the highest standards of medical aesthetics.",
+  },
   {
     question: "How does Laser Hair Removal work?",
     answer:
@@ -45,30 +82,30 @@ const faqData = [
     answer:
       "Absolutely! Many of our clients combine services like facials, massages, and nail treatments for a comprehensive spa experience. Our team can help you plan the perfect spa day.",
   },
-  {
-    question: "How long do the effects of Botox last?",
-    answer:
-      "The effects of Botox can last anywhere from 3 to 6 months. As muscle action gradually returns, the lines and wrinkles begin to reappear and need to be treated again to maintain the smooth appearance.",
-  },
-  {
-    question: "Is there any downtime after a SculpSure treatment?",
-    answer:
-      "There is no downtime required after SculpSure treatments, allowing clients to resume their daily activities immediately. Some may experience temporary redness or soreness in the treated area.",
-  },
-  {
-    question: "How do I know which facial is right for me?",
-    answer:
-      "Our skincare specialists will evaluate your skin type and concerns to recommend the best facial treatment. We customize our facials to address your unique skin needs, ensuring optimal results.",
-  },
-  {
-    question: "Are the spa treatments suitable for men as well?",
-    answer:
-      "Yes, our spa services are designed to be inclusive and beneficial for both men and women. We offer a range of treatments that cater to everyone's needs.",
-  },
 ];
+
 export default function Faq() {
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqData.map((faq) => ({
+      "@type": "Question",
+      name: faq.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: faq.answer,
+      },
+    })),
+  };
+
   return (
     <>
+      <Head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+        />
+      </Head>
       <NavbarThree />
       <div
         className="page-banner-area mt-94"
@@ -85,9 +122,7 @@ export default function Faq() {
             <h2>Faq</h2>
             <ul>
               <li>
-                <Link href="/">
-                  Home
-                </Link>
+                <Link href="/">Home</Link>
               </li>
               <li>Faq</li>
             </ul>

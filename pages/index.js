@@ -10,10 +10,43 @@ import WhoWeAre from "@/components/HomePageDemo3/WhoWeAre";
 import Footer from "@/components/Layout/Footer";
 import NavbarThree from "@/components/Layout/NavbarThree";
 import ServiceSlider from "@/components/Services/ServiceSlider";
+import Head from "next/head";
 
 export default function Home3() {
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    name: "Akaas Laser Medspa",
+    description:
+      "Premier medical spa in Orlando specializing in Laser Hair Removal, Body Contouring, and Facials.",
+    url: "https://akaaslasermedspa.com",
+    telephone: "+14074971272",
+    email: "akaaslaser@gmail.com",
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: "3151 N Alafaya Trl Suite 102",
+      addressLocality: "Orlando",
+      postalCode: "32826",
+      addressCountry: "US",
+    },
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: 28.5846472,
+      longitude: -81.2071182,
+    },
+    openingHours: "Mo-Fr 09:00-18:00",
+    priceRange: "$$",
+    image: "https://akaaslasermedspa.com/images/black-logo.png",
+  };
+
   return (
     <>
+      <Head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+        />
+      </Head>
       <NavbarThree />
 
       <MainBanner />

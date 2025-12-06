@@ -1,17 +1,15 @@
-import React from 'react'
-import Link from 'next/link'
-import NavbarTwo from '@/components/Layout/NavbarTwo'
-import BlogGrid from '@/components/Blog/BlogGrid'
-import CTO from '@/components/Common/CTO'
-import Footer from '@/components/Layout/Footer'
+import BlogGrid from "@/components/Blog/BlogGrid";
+import Footer from "@/components/Layout/Footer";
+import NavbarThree from "@/components/Layout/NavbarThree";
+import Link from "next/link";
 
 export default function Blog() {
   return (
     <>
-      <NavbarTwo />
+      <NavbarThree />
       <div
         className="page-banner-area mt-94"
-        style={{ backgroundImage: `url(/images/page-banner/banner-bg-2.jpg` }}
+        style={{ backgroundImage: `url(/images/page-banner/banner-bg.jpg)` }}
       >
         <div className="container">
           <div
@@ -21,12 +19,10 @@ export default function Blog() {
             data-aos-duration="500"
             data-aos-once="true"
           >
-            <h2>Blog Style One</h2>
+            <h2>Blog</h2>
             <ul>
               <li>
-                <Link href="/">
-                  Home
-                </Link>
+                <Link href="/">Home</Link>
               </li>
               <li>Blog</li>
             </ul>
@@ -34,7 +30,6 @@ export default function Blog() {
         </div>
       </div>
       <BlogGrid />
-      <CTO />
       <Footer />
     </>
   );
