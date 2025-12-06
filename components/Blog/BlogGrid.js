@@ -43,7 +43,7 @@ const BlogGrid = () => {
                         the right medspa for your needs.
                       </p>
                       <Link
-                        href="/blog/top-10-laser-clinics-orlando"
+                        href="/blog/top-6-laser-clinics-orlando"
                         className="blog-btn"
                       >
                         View More

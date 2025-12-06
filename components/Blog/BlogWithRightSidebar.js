@@ -1,6 +1,5 @@
-import React from 'react'
-import Link from 'next/link'
-import Sidebar from './Sidebar'
+import Link from "next/link";
+import Sidebar from "./Sidebar";
 
 const BlogWithRightSidebar = () => {
   return (
@@ -14,9 +13,7 @@ const BlogWithRightSidebar = () => {
                   <div className="single-blog-card">
                     <div className="blog-image">
                       <Link href="/blog/single-blog">
-
                         <img src="/images/blog/blog-1.jpg" alt="image" />
-
                       </Link>
 
                       <div className="date">9th July, 2022</div>
@@ -24,9 +21,7 @@ const BlogWithRightSidebar = () => {
                     <div className="blog-content">
                       <h3>
                         <Link href="/blog/single-blog">
-                          
-                            How Technology Dominate In The new World In 2022
-                          
+                          How Technology Dominate In The new World In 2022
                         </Link>
                       </h3>
                       <p>
@@ -44,9 +39,7 @@ const BlogWithRightSidebar = () => {
                   <div className="single-blog-card">
                     <div className="blog-image">
                       <Link href="/blog/single-blog">
-
                         <img src="/images/blog/blog-2.jpg" alt="image" />
-
                       </Link>
 
                       <div className="date">9th July, 2022</div>
@@ -54,7 +47,7 @@ const BlogWithRightSidebar = () => {
                     <div className="blog-content">
                       <h3>
                         <Link href="/blog/single-blog">
-                          Top 10 Most Famous Technology Trend In 2022
+                          Top 6 Most Famous Technology Trend In 2022
                         </Link>
                       </h3>
                       <p>
@@ -72,9 +65,7 @@ const BlogWithRightSidebar = () => {
                   <div className="single-blog-card">
                     <div className="blog-image">
                       <Link href="/blog/single-blog">
-
                         <img src="/images/blog/blog-3.jpg" alt="image" />
-
                       </Link>
 
                       <div className="date">9th July, 2022</div>
@@ -100,9 +91,7 @@ const BlogWithRightSidebar = () => {
                   <div className="single-blog-card">
                     <div className="blog-image">
                       <Link href="/blog/single-blog">
-
                         <img src="/images/blog/blog-4.jpg" alt="image" />
-
                       </Link>
 
                       <div className="date">9th July, 2022</div>
@@ -110,9 +99,7 @@ const BlogWithRightSidebar = () => {
                     <div className="blog-content">
                       <h3>
                         <Link href="/blog/single-blog">
-                          
-                            Tech Products That Makes Its Easier To Stay At Home
-                          
+                          Tech Products That Makes Its Easier To Stay At Home
                         </Link>
                       </h3>
                       <p>
@@ -130,9 +117,7 @@ const BlogWithRightSidebar = () => {
                   <div className="single-blog-card">
                     <div className="blog-image">
                       <Link href="/blog/single-blog">
-
                         <img src="/images/blog/blog-5.jpg" alt="image" />
-
                       </Link>
 
                       <div className="date">9th July, 2022</div>
@@ -140,9 +125,7 @@ const BlogWithRightSidebar = () => {
                     <div className="blog-content">
                       <h3>
                         <Link href="/blog/single-blog">
-                          
-                            Necessity May Give Us Your Best Virtual Court System
-                          
+                          Necessity May Give Us Your Best Virtual Court System
                         </Link>
                       </h3>
                       <p>
@@ -160,9 +143,7 @@ const BlogWithRightSidebar = () => {
                   <div className="single-blog-card">
                     <div className="blog-image">
                       <Link href="/blog/single-blog">
-
                         <img src="/images/blog/blog-6.jpg" alt="image" />
-
                       </Link>
 
                       <div className="date">9th July, 2022</div>
@@ -170,10 +151,8 @@ const BlogWithRightSidebar = () => {
                     <div className="blog-content">
                       <h3>
                         <Link href="/blog/single-blog">
-                          
-                            How Technology Helps In The Education System In The
-                            World
-                          
+                          How Technology Helps In The Education System In The
+                          World
                         </Link>
                       </h3>
                       <p>
@@ -217,6 +196,6 @@ const BlogWithRightSidebar = () => {
       </div>
     </>
   );
-}
+};
 
-export default BlogWithRightSidebar
+export default BlogWithRightSidebar;

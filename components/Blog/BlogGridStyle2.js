@@ -1,5 +1,4 @@
-import React from 'react'
-import Link from 'next/link'
+import Link from "next/link";
 
 const BlogGridStyle2 = () => {
   return (
@@ -18,9 +17,7 @@ const BlogGridStyle2 = () => {
               <div className="single-blog-card">
                 <div className="blog-image">
                   <Link href="/blog/single-blog">
-
                     <img src="/images/blog/blog-7.jpg" alt="image" />
-
                   </Link>
 
                   <div className="date">9th July, 2022</div>
@@ -46,9 +43,7 @@ const BlogGridStyle2 = () => {
               <div className="single-blog-card">
                 <div className="blog-image">
                   <Link href="/blog/single-blog">
-
                     <img src="/images/blog/blog-8.jpg" alt="image" />
-
                   </Link>
 
                   <div className="date">10th July, 2022</div>
@@ -56,7 +51,7 @@ const BlogGridStyle2 = () => {
                 <div className="blog-content">
                   <h3>
                     <Link href="/blog/single-blog">
-                      Top 10 Most Famous Technology Trend In 2022
+                      Top 6 Most Famous Technology Trend In 2022
                     </Link>
                   </h3>
                   <p>
@@ -74,9 +69,7 @@ const BlogGridStyle2 = () => {
               <div className="single-blog-card">
                 <div className="blog-image">
                   <Link href="/blog/single-blog">
-
                     <img src="/images/blog/blog-9.jpg" alt="image" />
-
                   </Link>
 
                   <div className="date">11th July, 2022</div>
@@ -102,9 +95,7 @@ const BlogGridStyle2 = () => {
               <div className="single-blog-card">
                 <div className="blog-image">
                   <Link href="/blog/single-blog">
-
                     <img src="/images/blog/blog-10.jpg" alt="image" />
-
                   </Link>
 
                   <div className="date">12th July, 2022</div>
@@ -130,9 +121,7 @@ const BlogGridStyle2 = () => {
               <div className="single-blog-card">
                 <div className="blog-image">
                   <Link href="/blog/single-blog">
-
                     <img src="/images/blog/blog-11.jpg" alt="image" />
-
                   </Link>
 
                   <div className="date">13th July, 2022</div>
@@ -140,9 +129,7 @@ const BlogGridStyle2 = () => {
                 <div className="blog-content">
                   <h3>
                     <Link href="/blog/single-blog">
-                      
-                        Necessity May Give Us Your Best Virtual Court System
-                      
+                      Necessity May Give Us Your Best Virtual Court System
                     </Link>
                   </h3>
                   <p>
@@ -160,9 +147,7 @@ const BlogGridStyle2 = () => {
               <div className="single-blog-card">
                 <div className="blog-image">
                   <Link href="/blog/single-blog">
-
                     <img src="/images/blog/blog-12.jpg" alt="image" />
-
                   </Link>
 
                   <div className="date">14th July, 2022</div>
@@ -170,10 +155,7 @@ const BlogGridStyle2 = () => {
                 <div className="blog-content">
                   <h3>
                     <Link href="/blog/single-blog">
-                      
-                        How Technology Helps In The Education System In The
-                        World
-                      
+                      How Technology Helps In The Education System In The World
                     </Link>
                   </h3>
                   <p>
@@ -195,6 +177,6 @@ const BlogGridStyle2 = () => {
       </div>
     </>
   );
-}
+};
 
-export default BlogGridStyle2
+export default BlogGridStyle2;

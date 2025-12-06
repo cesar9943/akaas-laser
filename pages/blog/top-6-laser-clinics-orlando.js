@@ -40,7 +40,7 @@ export default function Top10LaserClinics() {
   return (
     <>
       <Head>
-        <title>Top 10 Laser Clinics in Orlando (2025) - Expert Review</title>
+        <title>Top 6 Laser Clinics in Orlando (2025) - Expert Review</title>
         <meta
           name="description"
           content="Discover the best laser clinics in Orlando for 2025. We compare services, prices, and results to help you choose the right medspa for your needs."
@@ -63,7 +63,7 @@ export default function Top10LaserClinics() {
             data-aos-duration="500"
             data-aos-once="true"
           >
-            <h2>Top 10 Laser Clinics in Orlando (2025)</h2>
+            <h2>Top 6 Laser Clinics in Orlando (2025)</h2>
             <ul>
               <li>
                 <Link href="/">Home</Link>
@@ -71,7 +71,7 @@ export default function Top10LaserClinics() {
               <li>
                 <Link href="/blog">Blog</Link>
               </li>
-              <li>Top 10 Laser Clinics</li>
+              <li>Top 6 Laser Clinics</li>
             </ul>
           </div>
         </div>
@@ -85,7 +85,7 @@ export default function Top10LaserClinics() {
                 <div className="article-image">
                   <img
                     src="/images/blog/blog-1.jpg"
-                    alt="Top 10 Laser Clinics in Orlando"
+                    alt="Top 6 Laser Clinics in Orlando"
                   />
                 </div>
 

@@ -1,5 +1,4 @@
-import React from 'react'
-import Link from 'next/link'
+import Link from "next/link";
 
 const Sidebar = () => {
   return (
@@ -23,9 +22,7 @@ const Sidebar = () => {
 
           <article className="item">
             <Link href="/blog/single-blog" className="thumb">
-
               <span className="fullimage bg1" role="img"></span>
-
             </Link>
             <div className="info">
               <span>09th July 2022</span>
@@ -39,15 +36,13 @@ const Sidebar = () => {
 
           <article className="item">
             <Link href="/blog/single-blog" className="thumb">
-
               <span className="fullimage bg2" role="img"></span>
-
             </Link>
             <div className="info">
               <span>09th July 2022</span>
               <h4 className="title usmall">
                 <Link href="/blog/single-blog">
-                  Top 10 Most Famous Technology Trend In 2022
+                  Top 6 Most Famous Technology Trend In 2022
                 </Link>
               </h4>
             </div>
@@ -55,9 +50,7 @@ const Sidebar = () => {
 
           <article className="item">
             <Link href="/blog/single-blog" className="thumb">
-
               <span className="fullimage bg3" role="img"></span>
-
             </Link>
             <div className="info">
               <span>09th July 2022</span>
@@ -77,41 +70,41 @@ const Sidebar = () => {
             <li>
               <Link
                 href="/blog/categories"
-                className=" d-flex justify-content-between align-items-center">
+                className=" d-flex justify-content-between align-items-center"
+              >
                 Technology <span>(11)</span>
-
               </Link>
             </li>
             <li>
               <Link
                 href="/blog/categories"
-                className=" d-flex justify-content-between align-items-center">
+                className=" d-flex justify-content-between align-items-center"
+              >
                 Information <span>(09)</span>
-
               </Link>
             </li>
             <li>
               <Link
                 href="/blog/categories"
-                className=" d-flex justify-content-between align-items-center">
+                className=" d-flex justify-content-between align-items-center"
+              >
                 Business <span>(29)</span>
-
               </Link>
             </li>
             <li>
               <Link
                 href="/blog/categories"
-                className=" d-flex justify-content-between align-items-center">
+                className=" d-flex justify-content-between align-items-center"
+              >
                 Development <span>(31)</span>
-
               </Link>
             </li>
             <li>
               <Link
                 href="/blog/categories"
-                className=" d-flex justify-content-between align-items-center">
+                className=" d-flex justify-content-between align-items-center"
+              >
                 IT Services <span>(25)</span>
-
               </Link>
             </li>
           </ul>
@@ -119,6 +112,6 @@ const Sidebar = () => {
       </aside>
     </>
   );
-}
+};
 
-export default Sidebar
+export default Sidebar;
