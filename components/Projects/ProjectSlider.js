@@ -1,7 +1,6 @@
-import React from "react";
 import Link from "next/link";
+import { Autoplay, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Navigation } from "swiper";
 
 const ProjectSlider = () => {
   return (

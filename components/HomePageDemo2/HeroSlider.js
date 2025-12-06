@@ -1,8 +1,6 @@
-import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation } from "swiper";
-import { Autoplay } from "swiper";
 import Link from "next/link";
+import { Autoplay, Navigation } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
 
 const HeroSlider = () => {
   return (

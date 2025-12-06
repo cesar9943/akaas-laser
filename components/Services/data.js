@@ -96,4 +96,11 @@ export const servicesData = [
       "Discover the age-defying benefits of our HIFU (High Intensity Focused Ultrasound) Treatment at AKAAS Laser MedSpa. This non-invasive procedure tightens and lifts skin without surgery, offering results in just one session. Ideal for those seeking a natural lift of the face, neck, and body areas like the stomach and thighs. Enjoy a younger appearance with no downtime and ongoing collagen regeneration for lasting effects.",
     link: "/services/hifu-treatment",
   },
+  {
+    title: "Hydra Lips with Microneedling",
+    imageUrl: "/images/services/hydra-lips.jpg",
+    description:
+      "Hydra Lips with Microneedling is an advanced, non-invasive lip rejuvenation treatment that combines deep hydration with the collagen-stimulating benefits of microneedling. This treatment smooths, revitalizes, and enhances the natural color and texture of the lips, giving them a healthier, fuller appearance.",
+    link: "/services/hydra-lips-microneedling",
+  },
 ];

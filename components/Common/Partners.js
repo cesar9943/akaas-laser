@@ -1,6 +1,5 @@
-import React from "react";
+import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay } from "swiper";
 
 const Partners = () => {
   return (
@@ -35,25 +34,34 @@ const Partners = () => {
               <div className="partner-card">
                 <a href="#" target="_blank" rel="noreferrer">
                   <img src="/images/partner/partner-1.png" alt="partner" />
-                  <img src="/images/partner/partner-hover-1.png" alt="partner" />
+                  <img
+                    src="/images/partner/partner-hover-1.png"
+                    alt="partner"
+                  />
                 </a>
               </div>
             </SwiperSlide>
-            
+
             <SwiperSlide>
               <div className="partner-card">
                 <a href="#" target="_blank" rel="noreferrer">
                   <img src="/images/partner/partner-2.png" alt="partner" />
-                  <img src="/images/partner/partner-hover-2.png" alt="partner" />
+                  <img
+                    src="/images/partner/partner-hover-2.png"
+                    alt="partner"
+                  />
                 </a>
               </div>
             </SwiperSlide>
-            
+
             <SwiperSlide>
               <div className="partner-card">
                 <a href="#" target="_blank" rel="noreferrer">
                   <img src="/images/partner/partner-3.png" alt="partner" />
-                  <img src="/images/partner/partner-hover-3.png" alt="partner" />
+                  <img
+                    src="/images/partner/partner-hover-3.png"
+                    alt="partner"
+                  />
                 </a>
               </div>
             </SwiperSlide>
@@ -62,7 +70,10 @@ const Partners = () => {
               <div className="partner-card">
                 <a href="#" target="_blank" rel="noreferrer">
                   <img src="/images/partner/partner-4.png" alt="partner" />
-                  <img src="/images/partner/partner-hover-4.png" alt="partner" />
+                  <img
+                    src="/images/partner/partner-hover-4.png"
+                    alt="partner"
+                  />
                 </a>
               </div>
             </SwiperSlide>
@@ -71,7 +82,10 @@ const Partners = () => {
               <div className="partner-card">
                 <a href="#" target="_blank" rel="noreferrer">
                   <img src="/images/partner/partner-5.png" alt="partner" />
-                  <img src="/images/partner/partner-hover-5.png" alt="partner" />
+                  <img
+                    src="/images/partner/partner-hover-5.png"
+                    alt="partner"
+                  />
                 </a>
               </div>
             </SwiperSlide>
@@ -80,7 +94,10 @@ const Partners = () => {
               <div className="partner-card">
                 <a href="#" target="_blank" rel="noreferrer">
                   <img src="/images/partner/partner-6.png" alt="partner" />
-                  <img src="/images/partner/partner-hover-6.png" alt="partner" />
+                  <img
+                    src="/images/partner/partner-hover-6.png"
+                    alt="partner"
+                  />
                 </a>
               </div>
             </SwiperSlide>
@@ -89,7 +106,10 @@ const Partners = () => {
               <div className="partner-card">
                 <a href="#" target="_blank" rel="noreferrer">
                   <img src="/images/partner/partner-4.png" alt="partner" />
-                  <img src="/images/partner/partner-hover-4.png" alt="partner" />
+                  <img
+                    src="/images/partner/partner-hover-4.png"
+                    alt="partner"
+                  />
                 </a>
               </div>
             </SwiperSlide>

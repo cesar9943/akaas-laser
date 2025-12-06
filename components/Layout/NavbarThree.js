@@ -1,4 +1,4 @@
-import Link from "@/utils/ActiveLink";
+import Link from "next/link";
 import React, { useState } from "react";
 
 const NavbarThree = () => {
@@ -44,17 +44,15 @@ const NavbarThree = () => {
           <div className="main-navbar">
             <div className="container-fluid">
               <nav className="navbar navbar-expand-md navbar-light">
-                <Link href="/">
-                  <a className="navbar-brand">
-                    <img
-                      src="/images/black-logo.png"
-                      alt="Site logo"
-                      style={{
-                        width: "100px",
-                        height: "auto",
-                      }}
-                    />
-                  </a>
+                <Link href="/" className="navbar-brand">
+                  <img
+                    src="/images/black-logo.png"
+                    alt="Site logo"
+                    style={{
+                      width: "100px",
+                      height: "auto",
+                    }}
+                  />
                 </Link>
 
                 <button
@@ -75,8 +73,8 @@ const NavbarThree = () => {
                 <div className={classOne} id="navbarSupportedContent">
                   <ul className="navbar-nav ms-auto">
                     <li className="nav-item">
-                      <Link href="/">
-                        <a className="nav-link">Home</a>
+                      <Link href="/" className="nav-link">
+                        Home
                       </Link>
                     </li>
 
@@ -86,25 +84,25 @@ const NavbarThree = () => {
                       </Link>
                     </li> */}
                     <li className="nav-item">
-                      <Link href="/services" activeClassName="active">
-                        <a className="nav-link">Services</a>
+                      <Link href="/services" className="nav-link">
+                        Services
                       </Link>
                     </li>
                     <li className="nav-item">
-                      <Link href="/pricing" activeClassName="active">
-                        <a className="nav-link">Pricing</a>
-                      </Link>
-                    </li>
-
-                    <li className="nav-item">
-                      <Link href="/privacy-policy" activeClassName="active">
-                        <a className="nav-link">Privacy Policy</a>
+                      <Link href="/pricing" className="nav-link">
+                        Pricing
                       </Link>
                     </li>
 
                     <li className="nav-item">
-                      <Link href="/contact" activeClassName="active">
-                        <a className="nav-link">Contact</a>
+                      <Link href="/privacy-policy" className="nav-link">
+                        Privacy Policy
+                      </Link>
+                    </li>
+
+                    <li className="nav-item">
+                      <Link href="/contact" className="nav-link">
+                        Contact
                       </Link>
                     </li>
                   </ul>

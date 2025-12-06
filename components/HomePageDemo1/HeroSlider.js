@@ -1,8 +1,6 @@
-import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { EffectFade, Pagination } from "swiper";
-import { Autoplay } from "swiper";
 import Link from "next/link";
+import { Autoplay, EffectFade, Pagination } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
 
 const HeroSlider = () => {
   return (
@@ -49,10 +47,10 @@ const HeroSlider = () => {
                         data-aos-duration="700"
                         data-aos-once="true"
                       >
-                        We are leading technology solutions providing company all
-                        over the world doing over 40 years. Lorem ipsum dolor sit
-                        amet consetetur sadipscing elitr sed diam nonumy eirmod
-                        tempor.
+                        We are leading technology solutions providing company
+                        all over the world doing over 40 years. Lorem ipsum
+                        dolor sit amet consetetur sadipscing elitr sed diam
+                        nonumy eirmod tempor.
                       </p>
 
                       <div
@@ -63,9 +61,7 @@ const HeroSlider = () => {
                         data-aos-once="true"
                       >
                         <Link href="/contact">
-                          <a className="default-btn">
-                            Get Started
-                          </a>
+                          <a className="default-btn">Get Started</a>
                         </Link>
                       </div>
                     </div>
@@ -86,7 +82,7 @@ const HeroSlider = () => {
               </div>
             </div>
           </SwiperSlide>
-          
+
           <SwiperSlide>
             <div className="main-slides-item">
               <div className="container-fluid">
@@ -115,10 +111,10 @@ const HeroSlider = () => {
                         data-aos-duration="700"
                         data-aos-once="true"
                       >
-                        We are leading technology solutions providing company all
-                        over the world doing over 40 years. Lorem ipsum dolor sit
-                        amet consetetur sadipscing elitr sed diam nonumy eirmod
-                        tempor.
+                        We are leading technology solutions providing company
+                        all over the world doing over 40 years. Lorem ipsum
+                        dolor sit amet consetetur sadipscing elitr sed diam
+                        nonumy eirmod tempor.
                       </p>
 
                       <div
@@ -129,9 +125,7 @@ const HeroSlider = () => {
                         data-aos-once="true"
                       >
                         <Link href="/contact">
-                          <a className="default-btn">
-                            Get Started
-                          </a>
+                          <a className="default-btn">Get Started</a>
                         </Link>
                       </div>
                     </div>
@@ -151,39 +145,24 @@ const HeroSlider = () => {
                 </div>
               </div>
             </div>
-            </SwiperSlide>
+          </SwiperSlide>
         </Swiper>
 
         {/* Shape Images */}
         <div className="main-slides-shape-1">
-          <img 
-            src="/images/home-slides/slides-shape-1.png" 
-            alt="image" 
-          />
+          <img src="/images/home-slides/slides-shape-1.png" alt="image" />
         </div>
         <div className="main-slides-shape-2">
-          <img 
-            src="/images/home-slides/slides-shape-2.png" 
-            alt="image" 
-          />
+          <img src="/images/home-slides/slides-shape-2.png" alt="image" />
         </div>
         <div className="main-slides-shape-3">
-          <img 
-            src="/images/home-slides/slides-shape-3.png" 
-            alt="image" 
-          />
+          <img src="/images/home-slides/slides-shape-3.png" alt="image" />
         </div>
         <div className="main-slides-shape-4">
-          <img 
-            src="/images/home-slides/slides-shape-4.png" 
-            alt="image" 
-          />
+          <img src="/images/home-slides/slides-shape-4.png" alt="image" />
         </div>
         <div className="main-slides-shape-5">
-          <img 
-            src="/images/home-slides/slides-shape-5.png" 
-            alt="image" 
-          />
+          <img src="/images/home-slides/slides-shape-5.png" alt="image" />
         </div>
       </div>
     </>
