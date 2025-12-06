@@ -12,7 +12,7 @@ export default function Contact() {
       <div
         className="page-banner-area mt-94"
         style={{
-          backgroundImage: `url(/images/page-banner/conrtact-banner.jpg`,
+          backgroundImage: `url(/images/page-banner/banner-bg.jpg)`,
         }}
       >
         <div className="container">
@@ -26,9 +26,7 @@ export default function Contact() {
             <h2>Contact</h2>
             <ul>
               <li>
-                <Link href="/">
-                  Home
-                </Link>
+                <Link href="/">Home</Link>
               </li>
               <li>Contact</li>
             </ul>
