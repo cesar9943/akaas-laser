@@ -34,16 +34,6 @@ const TeamMember = () => {
         instagram: "https://www.instagram.com/",
       },
     },
-    {
-      name: "Larissa Carvalho",
-      role: "Massage therapist",
-      imageUrl: "/images/team/team-4.0.jpg",
-      socialLinks: {
-        facebook: "https://www.facebook.com/EnvyTheme",
-        twitter: "https://twitter.com/?lang=en",
-        instagram: "https://www.instagram.com/",
-      },
-    },
   ];
 
   return (
