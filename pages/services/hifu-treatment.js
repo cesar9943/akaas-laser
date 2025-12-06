@@ -10,7 +10,6 @@ export default function ServiceDetails() {
   return (
     <>
       <NavbarThree />
-
       <div
         className="page-banner-area mt-94"
         style={{ backgroundImage: `url(/images/page-banner/banner-bg-4.jpg` }}
@@ -27,12 +26,12 @@ export default function ServiceDetails() {
             <ul>
               <li>
                 <Link href="/">
-                  <a>Home</a>
+                  Home
                 </Link>
               </li>
               <li>
                 <Link href="/services">
-                  <a>Services</a>
+                  Services
                 </Link>
               </li>
               <li>HIFU Non-Surgical Facelift</li>
@@ -40,17 +39,12 @@ export default function ServiceDetails() {
           </div>
         </div>
       </div>
-
       <HIFUServiceContent />
-
       <ContactForm />
-
       <div className="radius-0">
         <ServiceSlider />
       </div>
-
       <CTO />
-
       <Footer />
     </>
   );

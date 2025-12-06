@@ -25,20 +25,20 @@ const AllServicesCard = () => {
                 <div className="services-item">
                   <div className="services-image">
                     <Link href={service.link}>
-                      <a>
-                        <img src={service.imageUrl} alt="image" />
-                      </a>
+
+                      <img src={service.imageUrl} alt="image" />
+
                     </Link>
                   </div>
                   <div className="services-content">
                     <h3>
                       <Link href={service.link}>
-                        <a>{service.title}</a>
+                        {service.title}
                       </Link>
                     </h3>
                     <p>{service.description}</p>
-                    <Link href={service.link}>
-                      <a className="services-btn">View More</a>
+                    <Link href={service.link} className="services-btn">
+                      View More
                     </Link>
                   </div>
                 </div>

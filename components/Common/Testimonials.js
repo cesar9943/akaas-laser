@@ -30,8 +30,8 @@ const Testimonials = () => {
                 </p>
 
                 <div className="testimonials-btn">
-                  <Link href="/about">
-                    <a className="default-btn">Know More About Us</a>
+                  <Link href="/about" className="default-btn">
+                    Know More About Us
                   </Link>
                 </div>
               </div>

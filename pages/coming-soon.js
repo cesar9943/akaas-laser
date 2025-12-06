@@ -46,14 +46,14 @@ export default function ComingSoon() {
       <div className="coming-soon-area">
         <div className="container">
           <div className="coming-soon-content">
-            <Link href="/">
-              <a className="logo">
-                <img
-                  src="/images/black-logo.png"
-                  className="black-logo"
-                  alt="image"
-                />
-              </a>
+            <Link href="/" className="logo">
+
+              <img
+                src="/images/black-logo.png"
+                className="black-logo"
+                alt="image"
+              />
+
             </Link>
             <h2>We Are Launching Soon!</h2>
             <div id="timer" className="flex-wrap d-flex justify-content-center">
@@ -100,5 +100,5 @@ export default function ComingSoon() {
         </div>
       </div>
     </>
-  )
+  );
 }

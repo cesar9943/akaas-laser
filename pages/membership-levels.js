@@ -8,7 +8,6 @@ export default function MembershipLevels() {
   return (
     <>
       <NavbarTwo />
-
       <div
         className="page-banner-area mt-94"
         style={{ backgroundImage: `url(/images/page-banner/banner-bg-4.jpg` }}
@@ -25,7 +24,7 @@ export default function MembershipLevels() {
             <ul>
               <li>
                 <Link href="/">
-                  <a>Home</a>
+                  Home
                 </Link>
               </li>
               <li>Membership Levels</li>
@@ -33,7 +32,6 @@ export default function MembershipLevels() {
           </div>
         </div>
       </div>
-
       <div className="membership-levels-area ptb-100">
         <div className="container">
           <div className="membership-levels-table table-responsive">
@@ -368,10 +366,8 @@ export default function MembershipLevels() {
           </div>
         </div>
       </div>
-
       <CTO />
-
       <Footer />
     </>
-  )
+  );
 }

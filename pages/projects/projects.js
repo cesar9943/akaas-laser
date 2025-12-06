@@ -9,7 +9,6 @@ export default function Projects() {
   return (
     <>
       <NavbarTwo />
-
       <div
         className="page-banner-area mt-94"
         style={{ backgroundImage: `url(/images/page-banner/banner-bg-3.jpg` }}
@@ -26,7 +25,7 @@ export default function Projects() {
             <ul>
               <li>
                 <Link href="/">
-                  <a>Home</a>
+                  Home
                 </Link>
               </li>
               <li>Projects</li>
@@ -34,7 +33,6 @@ export default function Projects() {
           </div>
         </div>
       </div>
-
       <div className="projects-area pt-100 pb-75">
         <div className="container">
           <div className="section-title">
@@ -55,25 +53,25 @@ export default function Projects() {
               >
                 <div className="projects-image">
                   <Link href="/projects/projects-details">
-                    <a>
-                      <img
-                        src="/images/projects-two/projects-1.jpg"
-                        alt="image"
-                      />
-                    </a>
+
+                    <img
+                      src="/images/projects-two/projects-1.jpg"
+                      alt="image"
+                    />
+
                   </Link>
                 </div>
                 <div className="projects-content">
-                  <Link href="#">
-                    <a className="category">Animation</a>
+                  <Link href="#" className="category">
+                    Animation
                   </Link>
                   <h3>
                     <Link href="/projects/projects-details">
-                      <a>3D Animation</a>
+                      3D Animation
                     </Link>
                   </h3>
-                  <Link href="/projects/projects-details">
-                    <a className="projects-btn">View More</a>
+                  <Link href="/projects/projects-details" className="projects-btn">
+                    View More
                   </Link>
                 </div>
               </div>
@@ -87,25 +85,25 @@ export default function Projects() {
               >
                 <div className="projects-image">
                   <Link href="/projects/projects-details">
-                    <a>
-                      <img
-                        src="/images/projects-two/projects-2.jpg"
-                        alt="image"
-                      />
-                    </a>
+
+                    <img
+                      src="/images/projects-two/projects-2.jpg"
+                      alt="image"
+                    />
+
                   </Link>
                 </div>
                 <div className="projects-content">
-                  <Link href="#">
-                    <a className="category">Software</a>
+                  <Link href="#" className="category">
+                    Software
                   </Link>
                   <h3>
                     <Link href="/projects/projects-details">
-                      <a>Online Banking Software</a>
+                      Online Banking Software
                     </Link>
                   </h3>
-                  <Link href="/projects/projects-details">
-                    <a className="projects-btn">View More</a>
+                  <Link href="/projects/projects-details" className="projects-btn">
+                    View More
                   </Link>
                 </div>
               </div>
@@ -120,25 +118,25 @@ export default function Projects() {
               >
                 <div className="projects-image">
                   <Link href="/projects/projects-details">
-                    <a>
-                      <img
-                        src="/images/projects-two/projects-3.jpg"
-                        alt="image"
-                      />
-                    </a>
+
+                    <img
+                      src="/images/projects-two/projects-3.jpg"
+                      alt="image"
+                    />
+
                   </Link>
                 </div>
                 <div className="projects-content">
-                  <Link href="#">
-                    <a className="category">Web Design</a>
+                  <Link href="#" className="category">
+                    Web Design
                   </Link>
                   <h3>
                     <Link href="/projects/projects-details">
-                      <a>Cashier Software</a>
+                      Cashier Software
                     </Link>
                   </h3>
-                  <Link href="/projects/projects-details">
-                    <a className="projects-btn">View More</a>
+                  <Link href="/projects/projects-details" className="projects-btn">
+                    View More
                   </Link>
                 </div>
               </div>
@@ -153,25 +151,25 @@ export default function Projects() {
               >
                 <div className="projects-image">
                   <Link href="/projects/projects-details">
-                    <a>
-                      <img
-                        src="/images/projects-two/projects-4.jpg"
-                        alt="image"
-                      />
-                    </a>
+
+                    <img
+                      src="/images/projects-two/projects-4.jpg"
+                      alt="image"
+                    />
+
                   </Link>
                 </div>
                 <div className="projects-content">
-                  <Link href="#">
-                    <a className="category">Mobile App</a>
+                  <Link href="#" className="category">
+                    Mobile App
                   </Link>
                   <h3>
                     <Link href="/projects/projects-details">
-                      <a>Messaging App</a>
+                      Messaging App
                     </Link>
                   </h3>
-                  <Link href="/projects/projects-details">
-                    <a className="projects-btn">View More</a>
+                  <Link href="/projects/projects-details" className="projects-btn">
+                    View More
                   </Link>
                 </div>
               </div>
@@ -185,25 +183,25 @@ export default function Projects() {
               >
                 <div className="projects-image">
                   <Link href="/projects/projects-details">
-                    <a>
-                      <img
-                        src="/images/projects-two/projects-5.jpg"
-                        alt="image"
-                      />
-                    </a>
+
+                    <img
+                      src="/images/projects-two/projects-5.jpg"
+                      alt="image"
+                    />
+
                   </Link>
                 </div>
                 <div className="projects-content">
-                  <Link href="#">
-                    <a className="category">Development</a>
+                  <Link href="#" className="category">
+                    Development
                   </Link>
                   <h3>
                     <Link href="/projects/projects-details">
-                      <a>Analytics Software</a>
+                      Analytics Software
                     </Link>
                   </h3>
-                  <Link href="/projects/projects-details">
-                    <a className="projects-btn">View More</a>
+                  <Link href="/projects/projects-details" className="projects-btn">
+                    View More
                   </Link>
                 </div>
               </div>
@@ -215,12 +213,9 @@ export default function Projects() {
           <img src="/images/projects/projects-bg-shape.png" alt="image" />
         </div>
       </div>
-
       <CTO />
-
       <ContactForm />
-
       <Footer />
     </>
-  )
+  );
 }

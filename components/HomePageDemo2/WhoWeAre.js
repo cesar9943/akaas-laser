@@ -40,8 +40,8 @@ const WhoWeAre = () => {
                   invidunt ut labore.
                 </p>
                 <div className="about-btn">
-                  <Link href="/about">
-                    <a className="default-btn">Know More About Us</a>
+                  <Link href="/about" className="default-btn">
+                    Know More About Us
                   </Link>
                 </div>
               </div>

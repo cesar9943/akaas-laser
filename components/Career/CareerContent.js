@@ -19,7 +19,7 @@ const CareerContent = () => {
                 <div className="career-content">
                   <h3>
                     <Link href="/career/career-details">
-                      <a>Team Lead - Digital Marketing</a>
+                      Team Lead - Digital Marketing
                     </Link>
                   </h3>
                   <p>
@@ -40,8 +40,8 @@ const CareerContent = () => {
               </div>
               <div className="col-lg-3 col-md-3">
                 <div className="career-btn text-end">
-                  <Link href="/contact">
-                    <a className="default-btn">Get Started</a>
+                  <Link href="/contact" className="default-btn">
+                    Get Started
                   </Link>
                 </div>
               </div>
@@ -54,7 +54,7 @@ const CareerContent = () => {
                 <div className="career-content">
                   <h3>
                     <Link href="/career/career-details">
-                      <a>Senior ASP.Net Core Developer</a>
+                      Senior ASP.Net Core Developer
                     </Link>
                   </h3>
                   <p>
@@ -75,8 +75,8 @@ const CareerContent = () => {
               </div>
               <div className="col-lg-3 col-md-3">
                 <div className="career-btn text-end">
-                  <Link href="/contact">
-                    <a className="default-btn">Get Started</a>
+                  <Link href="/contact" className="default-btn">
+                    Get Started
                   </Link>
                 </div>
               </div>
@@ -89,7 +89,7 @@ const CareerContent = () => {
                 <div className="career-content">
                   <h3>
                     <Link href="/career/career-details">
-                      <a>Android Developer</a>
+                      Android Developer
                     </Link>
                   </h3>
                   <p>
@@ -110,8 +110,8 @@ const CareerContent = () => {
               </div>
               <div className="col-lg-3 col-md-3">
                 <div className="career-btn text-end">
-                  <Link href="/contact">
-                    <a className="default-btn">Get Started</a>
+                  <Link href="/contact" className="default-btn">
+                    Get Started
                   </Link>
                 </div>
               </div>
@@ -124,7 +124,7 @@ const CareerContent = () => {
                 <div className="career-content">
                   <h3>
                     <Link href="/career/career-details">
-                      <a>Graphic Designer</a>
+                      Graphic Designer
                     </Link>
                   </h3>
                   <p>
@@ -145,8 +145,8 @@ const CareerContent = () => {
               </div>
               <div className="col-lg-3 col-md-3">
                 <div className="career-btn text-end">
-                  <Link href="/contact">
-                    <a className="default-btn">Get Started</a>
+                  <Link href="/contact" className="default-btn">
+                    Get Started
                   </Link>
                 </div>
               </div>
@@ -159,7 +159,7 @@ const CareerContent = () => {
                 <div className="career-content">
                   <h3>
                     <Link href="/career/career-details">
-                      <a>Digital Marketing Executive</a>
+                      Digital Marketing Executive
                     </Link>
                   </h3>
                   <p>
@@ -180,8 +180,8 @@ const CareerContent = () => {
               </div>
               <div className="col-lg-3 col-md-3">
                 <div className="career-btn text-end">
-                  <Link href="/contact">
-                    <a className="default-btn">Get Started</a>
+                  <Link href="/contact" className="default-btn">
+                    Get Started
                   </Link>
                 </div>
               </div>
@@ -190,7 +190,7 @@ const CareerContent = () => {
         </div>
       </div>
     </>
-  )
+  );
 }
 
 export default CareerContent

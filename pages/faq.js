@@ -70,7 +70,6 @@ export default function Faq() {
   return (
     <>
       <NavbarThree />
-
       <div
         className="page-banner-area mt-94"
         style={{ backgroundImage: `url(/images/page-banner/banner-bg-4.jpg` }}
@@ -87,7 +86,7 @@ export default function Faq() {
             <ul>
               <li>
                 <Link href="/">
-                  <a>Home</a>
+                  Home
                 </Link>
               </li>
               <li>Faq</li>
@@ -95,11 +94,8 @@ export default function Faq() {
           </div>
         </div>
       </div>
-
       <FaqContent faqData={faqData} />
-
       <CTO />
-
       <Footer />
     </>
   );

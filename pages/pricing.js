@@ -9,7 +9,6 @@ export default function Pricing() {
   return (
     <>
       <NavbarThree />
-
       <div
         className="page-banner-area mt-94"
         style={{ backgroundImage: `url(/images/page-banner/banner-bg.jpg` }}
@@ -26,7 +25,7 @@ export default function Pricing() {
             <ul>
               <li>
                 <Link href="/">
-                  <a>Home</a>
+                  Home
                 </Link>
               </li>
               <li>Pricing</li>
@@ -34,13 +33,9 @@ export default function Pricing() {
           </div>
         </div>
       </div>
-
       <PricingTable />
-
       <ContactForm />
-
       <CTO />
-
       <Footer />
     </>
   );

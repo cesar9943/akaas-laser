@@ -8,7 +8,6 @@ export default function SingleBlog() {
   return (
     <>
       <NavbarTwo />
-
       <div className="page-banner-area mt-94" style={{ backgroundImage: `url(/images/page-banner/banner-bg-2.jpg` }}>
         <div className="container">
           <div
@@ -22,7 +21,7 @@ export default function SingleBlog() {
             <ul>
               <li>
                 <Link href="/">
-                  <a>Home</a>
+                  Home
                 </Link>
               </li>
               <li>Blog Details</li>
@@ -30,9 +29,7 @@ export default function SingleBlog() {
           </div>
         </div>
       </div>
-
       <SingleBlogContent />
-  
       <Footer />
     </>
   );

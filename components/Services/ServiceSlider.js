@@ -27,8 +27,8 @@ const ServiceSlider = () => {
                   Fillers, PRP, Weight Loss Injections, IV Therapy and more.
                 </p>
                 <div className="services-section-btn">
-                  <Link href="/services">
-                    <a className="default-btn">Explore All Services</a>
+                  <Link href="/services" className="default-btn">
+                    Explore All Services
                   </Link>
                 </div>
               </div>
@@ -53,15 +53,15 @@ const ServiceSlider = () => {
                     <div className="services-item">
                       <div className="services-image">
                         <Link href={service.link}>
-                          <a>
-                            <img src={service.imageUrl} alt="image" />
-                          </a>
+
+                          <img src={service.imageUrl} alt="image" />
+
                         </Link>
                       </div>
                       <div className="services-content">
                         <h3>
                           <Link href={service.link}>
-                            <a>{service.title}</a>
+                            {service.title}
                           </Link>
                         </h3>
                         {/* Max 100 chars */}
@@ -71,8 +71,8 @@ const ServiceSlider = () => {
                             ? service.description.slice(0, 100) + "..."
                             : service.description}
                         </p>
-                        <Link href={service.link}>
-                          <a className="services-btn">View More</a>
+                        <Link href={service.link} className="services-btn">
+                          View More
                         </Link>
                       </div>
                     </div>

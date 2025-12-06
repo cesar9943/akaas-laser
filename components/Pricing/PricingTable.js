@@ -95,8 +95,8 @@ const PricingTable = () => {
                     ))}
                   </ul>
                   <div className="pricing-btn">
-                    <Link href="/contact">
-                      <a className="default-btn">Choose Plan</a>
+                    <Link href="/contact" className="default-btn">
+                      Choose Plan
                     </Link>
                   </div>
                   {item.mostPopular && (

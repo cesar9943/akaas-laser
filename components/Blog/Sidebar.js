@@ -22,48 +22,48 @@ const Sidebar = () => {
           <h3 className="widget-title">Recent Post</h3>
 
           <article className="item">
-            <Link href="/blog/single-blog">
-              <a className="thumb">
-                <span className="fullimage bg1" role="img"></span>
-              </a>
+            <Link href="/blog/single-blog" className="thumb">
+
+              <span className="fullimage bg1" role="img"></span>
+
             </Link>
             <div className="info">
               <span>09th July 2022</span>
               <h4 className="title usmall">
                 <Link href="/blog/single-blog">
-                  <a>How Technology Dominate In The new World In 2022</a>
+                  How Technology Dominate In The new World In 2022
                 </Link>
               </h4>
             </div>
           </article>
 
           <article className="item">
-            <Link href="/blog/single-blog">
-              <a className="thumb">
-                <span className="fullimage bg2" role="img"></span>
-              </a>
+            <Link href="/blog/single-blog" className="thumb">
+
+              <span className="fullimage bg2" role="img"></span>
+
             </Link>
             <div className="info">
               <span>09th July 2022</span>
               <h4 className="title usmall">
                 <Link href="/blog/single-blog">
-                  <a>Top 10 Most Famous Technology Trend In 2022</a>
+                  Top 10 Most Famous Technology Trend In 2022
                 </Link>
               </h4>
             </div>
           </article>
 
           <article className="item">
-            <Link href="/blog/single-blog">
-              <a className="thumb">
-                <span className="fullimage bg3" role="img"></span>
-              </a>
+            <Link href="/blog/single-blog" className="thumb">
+
+              <span className="fullimage bg3" role="img"></span>
+
             </Link>
             <div className="info">
               <span>09th July 2022</span>
               <h4 className="title usmall">
                 <Link href="/blog/single-blog">
-                  <a>Open Source Job Report Show More Openings Fewer</a>
+                  Open Source Job Report Show More Openings Fewer
                 </Link>
               </h4>
             </div>
@@ -75,45 +75,50 @@ const Sidebar = () => {
 
           <ul className="list">
             <li>
-              <Link href="/blog/categories">
-                <a className=" d-flex justify-content-between align-items-center">
-                  Technology <span>(11)</span>
-                </a>
+              <Link
+                href="/blog/categories"
+                className=" d-flex justify-content-between align-items-center">
+                Technology <span>(11)</span>
+
               </Link>
             </li>
             <li>
-              <Link href="/blog/categories">
-                <a className=" d-flex justify-content-between align-items-center">
-                  Information <span>(09)</span>
-                </a>
+              <Link
+                href="/blog/categories"
+                className=" d-flex justify-content-between align-items-center">
+                Information <span>(09)</span>
+
               </Link>
             </li>
             <li>
-              <Link href="/blog/categories">
-                <a className=" d-flex justify-content-between align-items-center">
-                  Business <span>(29)</span>
-                </a>
+              <Link
+                href="/blog/categories"
+                className=" d-flex justify-content-between align-items-center">
+                Business <span>(29)</span>
+
               </Link>
             </li>
             <li>
-              <Link href="/blog/categories">
-                <a className=" d-flex justify-content-between align-items-center">
-                  Development <span>(31)</span>
-                </a>
+              <Link
+                href="/blog/categories"
+                className=" d-flex justify-content-between align-items-center">
+                Development <span>(31)</span>
+
               </Link>
             </li>
             <li>
-              <Link href="/blog/categories">
-                <a className=" d-flex justify-content-between align-items-center">
-                  IT Services <span>(25)</span>
-                </a>
+              <Link
+                href="/blog/categories"
+                className=" d-flex justify-content-between align-items-center">
+                IT Services <span>(25)</span>
+
               </Link>
             </li>
           </ul>
         </div>
       </aside>
     </>
-  )
+  );
 }
 
 export default Sidebar

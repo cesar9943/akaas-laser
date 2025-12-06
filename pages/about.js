@@ -14,7 +14,6 @@ export default function About() {
   return (
     <>
       <NavbarThree />
-
       <div
         className="page-banner-area mt-94"
         style={{ backgroundImage: `url(/images/page-banner/banner-bg.jpg` }}
@@ -31,7 +30,7 @@ export default function About() {
             <ul>
               <li>
                 <Link href="/">
-                  <a>Home</a>
+                  Home
                 </Link>
               </li>
               <li>About Us</li>
@@ -39,25 +38,16 @@ export default function About() {
           </div>
         </div>
       </div>
-
       <WhoWeAre />
-
       <Partners />
-
       <OurGoal />
-
       <div className="bg-with-F5F5F5-color">
         <WhyChooseUs />
       </div>
-
       <Skills />
-
       <PricingTable />
-
       <ContactForm />
-
       <Article />
-
       <Footer />
     </>
   );

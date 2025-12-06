@@ -18,9 +18,9 @@ const BlogGridStyle2 = () => {
               <div className="single-blog-card">
                 <div className="blog-image">
                   <Link href="/blog/single-blog">
-                    <a>
-                      <img src="/images/blog/blog-7.jpg" alt="image" />
-                    </a>
+
+                    <img src="/images/blog/blog-7.jpg" alt="image" />
+
                   </Link>
 
                   <div className="date">9th July, 2022</div>
@@ -28,15 +28,15 @@ const BlogGridStyle2 = () => {
                 <div className="blog-content">
                   <h3>
                     <Link href="/blog/single-blog">
-                      <a>How Technology Dominate In The new World In 2022</a>
+                      How Technology Dominate In The new World In 2022
                     </Link>
                   </h3>
                   <p>
                     Lorem ipsum dolor sit amet conset sadipscing elitr sed diam
                     nonumy eir m od tempor invidunt ut labore.
                   </p>
-                  <Link href="/blog/single-blog">
-                    <a className="blog-btn">View More</a>
+                  <Link href="/blog/single-blog" className="blog-btn">
+                    View More
                   </Link>
                 </div>
               </div>
@@ -46,9 +46,9 @@ const BlogGridStyle2 = () => {
               <div className="single-blog-card">
                 <div className="blog-image">
                   <Link href="/blog/single-blog">
-                    <a>
-                      <img src="/images/blog/blog-8.jpg" alt="image" />
-                    </a>
+
+                    <img src="/images/blog/blog-8.jpg" alt="image" />
+
                   </Link>
 
                   <div className="date">10th July, 2022</div>
@@ -56,15 +56,15 @@ const BlogGridStyle2 = () => {
                 <div className="blog-content">
                   <h3>
                     <Link href="/blog/single-blog">
-                      <a>Top 10 Most Famous Technology Trend In 2022</a>
+                      Top 10 Most Famous Technology Trend In 2022
                     </Link>
                   </h3>
                   <p>
                     Lorem ipsum dolor sit amet conset sadipscing elitr sed diam
                     nonumy eir m od tempor invidunt ut labore.
                   </p>
-                  <Link href="/blog/single-blog">
-                    <a className="blog-btn">View More</a>
+                  <Link href="/blog/single-blog" className="blog-btn">
+                    View More
                   </Link>
                 </div>
               </div>
@@ -74,9 +74,9 @@ const BlogGridStyle2 = () => {
               <div className="single-blog-card">
                 <div className="blog-image">
                   <Link href="/blog/single-blog">
-                    <a>
-                      <img src="/images/blog/blog-9.jpg" alt="image" />
-                    </a>
+
+                    <img src="/images/blog/blog-9.jpg" alt="image" />
+
                   </Link>
 
                   <div className="date">11th July, 2022</div>
@@ -84,15 +84,15 @@ const BlogGridStyle2 = () => {
                 <div className="blog-content">
                   <h3>
                     <Link href="/blog/single-blog">
-                      <a>Open Source Job Report Show More Openings Fewer</a>
+                      Open Source Job Report Show More Openings Fewer
                     </Link>
                   </h3>
                   <p>
                     Lorem ipsum dolor sit amet conset sadipscing elitr sed diam
                     nonumy eir m od tempor invidunt ut labore.
                   </p>
-                  <Link href="/blog/single-blog">
-                    <a className="blog-btn">View More</a>
+                  <Link href="/blog/single-blog" className="blog-btn">
+                    View More
                   </Link>
                 </div>
               </div>
@@ -102,9 +102,9 @@ const BlogGridStyle2 = () => {
               <div className="single-blog-card">
                 <div className="blog-image">
                   <Link href="/blog/single-blog">
-                    <a>
-                      <img src="/images/blog/blog-10.jpg" alt="image" />
-                    </a>
+
+                    <img src="/images/blog/blog-10.jpg" alt="image" />
+
                   </Link>
 
                   <div className="date">12th July, 2022</div>
@@ -112,15 +112,15 @@ const BlogGridStyle2 = () => {
                 <div className="blog-content">
                   <h3>
                     <Link href="/blog/single-blog">
-                      <a>Tech Products That Makes Its Easier To Stay At Home</a>
+                      Tech Products That Makes Its Easier To Stay At Home
                     </Link>
                   </h3>
                   <p>
                     Lorem ipsum dolor sit amet conset sadipscing elitr sed diam
                     nonumy eir m od tempor invidunt ut labore.
                   </p>
-                  <Link href="/blog/single-blog">
-                    <a className="blog-btn">View More</a>
+                  <Link href="/blog/single-blog" className="blog-btn">
+                    View More
                   </Link>
                 </div>
               </div>
@@ -130,9 +130,9 @@ const BlogGridStyle2 = () => {
               <div className="single-blog-card">
                 <div className="blog-image">
                   <Link href="/blog/single-blog">
-                    <a>
-                      <img src="/images/blog/blog-11.jpg" alt="image" />
-                    </a>
+
+                    <img src="/images/blog/blog-11.jpg" alt="image" />
+
                   </Link>
 
                   <div className="date">13th July, 2022</div>
@@ -140,17 +140,17 @@ const BlogGridStyle2 = () => {
                 <div className="blog-content">
                   <h3>
                     <Link href="/blog/single-blog">
-                      <a>
+                      
                         Necessity May Give Us Your Best Virtual Court System
-                      </a>
+                      
                     </Link>
                   </h3>
                   <p>
                     Lorem ipsum dolor sit amet conset sadipscing elitr sed diam
                     nonumy eir m od tempor invidunt ut labore.
                   </p>
-                  <Link href="/blog/single-blog">
-                    <a className="blog-btn">View More</a>
+                  <Link href="/blog/single-blog" className="blog-btn">
+                    View More
                   </Link>
                 </div>
               </div>
@@ -160,9 +160,9 @@ const BlogGridStyle2 = () => {
               <div className="single-blog-card">
                 <div className="blog-image">
                   <Link href="/blog/single-blog">
-                    <a>
-                      <img src="/images/blog/blog-12.jpg" alt="image" />
-                    </a>
+
+                    <img src="/images/blog/blog-12.jpg" alt="image" />
+
                   </Link>
 
                   <div className="date">14th July, 2022</div>
@@ -170,18 +170,18 @@ const BlogGridStyle2 = () => {
                 <div className="blog-content">
                   <h3>
                     <Link href="/blog/single-blog">
-                      <a>
+                      
                         How Technology Helps In The Education System In The
                         World
-                      </a>
+                      
                     </Link>
                   </h3>
                   <p>
                     Lorem ipsum dolor sit amet conset sadipscing elitr sed diam
                     nonumy eir m od tempor invidunt ut labore.
                   </p>
-                  <Link href="/blog/single-blog">
-                    <a className="blog-btn">View More</a>
+                  <Link href="/blog/single-blog" className="blog-btn">
+                    View More
                   </Link>
                 </div>
               </div>
@@ -194,7 +194,7 @@ const BlogGridStyle2 = () => {
         </div>
       </div>
     </>
-  )
+  );
 }
 
 export default BlogGridStyle2

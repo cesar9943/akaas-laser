@@ -7,7 +7,6 @@ export default function Testimonials() {
   return (
     <>
       <NavbarTwo />
-
       <div
         className="page-banner-area mt-94"
         style={{ backgroundImage: `url(/images/page-banner/banner-bg-5.jpg` }}
@@ -24,7 +23,7 @@ export default function Testimonials() {
             <ul>
               <li>
                 <Link href="/">
-                  <a>Home</a>
+                  Home
                 </Link>
               </li>
               <li>Testimonials</li>
@@ -32,7 +31,6 @@ export default function Testimonials() {
           </div>
         </div>
       </div>
-
       <div className="testimonials-area pt-100 pb-75">
         <div className="container">
           <div className="section-title">
@@ -304,8 +302,7 @@ export default function Testimonials() {
           </div>
         </div>
       </div>
-
       <Footer />
     </>
-  )
+  );
 }

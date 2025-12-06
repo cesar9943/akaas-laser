@@ -28,15 +28,15 @@ const WhyChooseUs = () => {
               >
                 <div className="choose-image">
                   <Link href="/services/service-details">
-                    <a>
-                      <img src="/images/choose/choose-1.png" alt="image" />
-                    </a>
+
+                    <img src="/images/choose/choose-1.png" alt="image" />
+
                   </Link>
                 </div>
                 <div className="choose-content">
                   <h3>
                     <Link href="/services/service-details">
-                      <a>Mobile Apps</a>
+                      Mobile Apps
                     </Link>
                   </h3>
                   <p>
@@ -57,15 +57,15 @@ const WhyChooseUs = () => {
               >
                 <div className="choose-image">
                   <Link href="/services/service-details">
-                    <a>
-                      <img src="/images/choose/choose-2.png" alt="image" />
-                    </a>
+
+                    <img src="/images/choose/choose-2.png" alt="image" />
+
                   </Link>
                 </div>
                 <div className="choose-content">
                   <h3>
                     <Link href="/services/service-details">
-                      <a>Branding Strategy</a>
+                      Branding Strategy
                     </Link>
                   </h3>
                   <p>
@@ -86,15 +86,15 @@ const WhyChooseUs = () => {
               >
                 <div className="choose-image">
                   <Link href="/services/service-details">
-                    <a>
-                      <img src="/images/choose/choose-3.png" alt="image" />
-                    </a>
+
+                    <img src="/images/choose/choose-3.png" alt="image" />
+
                   </Link>
                 </div>
                 <div className="choose-content">
                   <h3>
                     <Link href="/services/service-details">
-                      <a>Graphic Design</a>
+                      Graphic Design
                     </Link>
                   </h3>
                   <p>
@@ -115,15 +115,15 @@ const WhyChooseUs = () => {
               >
                 <div className="choose-image">
                   <Link href="/services/service-details">
-                    <a>
-                      <img src="/images/choose/choose-4.png" alt="image" />
-                    </a>
+
+                    <img src="/images/choose/choose-4.png" alt="image" />
+
                   </Link>
                 </div>
                 <div className="choose-content">
                   <h3>
                     <Link href="/services/service-details">
-                      <a>Search Optimization</a>
+                      Search Optimization
                     </Link>
                   </h3>
                   <p>

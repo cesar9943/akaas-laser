@@ -9,7 +9,6 @@ export default function BlogRightSidebar() {
   return (
     <>
       <NavbarTwo />
-
       <div
         className="page-banner-area mt-94"
         style={{ backgroundImage: `url(/images/page-banner/banner-bg-2.jpg` }}
@@ -26,7 +25,7 @@ export default function BlogRightSidebar() {
             <ul>
               <li>
                 <Link href="/">
-                  <a>Home</a>
+                  Home
                 </Link>
               </li>
               <li>Blog Right Sidebar</li>
@@ -34,12 +33,9 @@ export default function BlogRightSidebar() {
           </div>
         </div>
       </div>
-
       <BlogWithRightSidebar />
-
       <CTO />
-
       <Footer />
     </>
-  )
+  );
 }

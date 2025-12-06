@@ -113,7 +113,6 @@ const NavbarThree = () => {
         </div>
       </header>
       {/* End Header Area */}
-
       {/* Search Form */}
       <div
         className={`search-overlay ${
@@ -150,7 +149,6 @@ const NavbarThree = () => {
         </div>
       </div>
       {/* End Search Form */}
-
       {/* Sidebar Modal */}
       <div
         className={`sidebarModal modal right fade ${
@@ -169,9 +167,9 @@ const NavbarThree = () => {
 
             <div className="modal-body">
               <Link href="/">
-                <a>
-                  <img src="/images/black-logo.png" alt="image" />
-                </a>
+
+                <img src="/images/black-logo.png" alt="image" />
+
               </Link>
               <div className="sidebar-content">
                 <h3>About Us</h3>
@@ -181,8 +179,8 @@ const NavbarThree = () => {
                 </p>
 
                 <div className="sidebar-btn">
-                  <Link href="/contact">
-                    <a className="default-btn">Let’s Talk</a>
+                  <Link href="/contact" className="default-btn">
+                    Let’s Talk
                   </Link>
                 </div>
               </div>

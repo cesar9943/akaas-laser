@@ -7,7 +7,6 @@ export default function Custom404() {
   return (
     <>
       <NavbarThree />
-
       <div
         className="page-banner-area mt-94"
         style={{ backgroundImage: `url(/images/page-banner/banner-bg-4.jpg` }}
@@ -24,7 +23,7 @@ export default function Custom404() {
             <ul>
               <li>
                 <Link href="/">
-                  <a>Home</a>
+                  Home
                 </Link>
               </li>
               <li>404 Error Page</li>
@@ -32,7 +31,6 @@ export default function Custom404() {
           </div>
         </div>
       </div>
-
       <div className="error-area ptb-100">
         <div className="container">
           <div className="error-content">
@@ -42,15 +40,13 @@ export default function Custom404() {
               The page you are looking for might have been removed had its name
               changed or is temporarily unavailable.
             </p>
-            <Link href="/">
-              <a className="default-btn">Back to Homepage</a>
+            <Link href="/" className="default-btn">
+              Back to Homepage
             </Link>
           </div>
         </div>
       </div>
-
       <CTO />
-
       <Footer />
     </>
   );

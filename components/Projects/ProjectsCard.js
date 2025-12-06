@@ -24,25 +24,25 @@ const ProjectsCard = () => {
               >
                 <div className="projects-image">
                   <Link href="/projects/projects-details">
-                    <a>
-                      <img
-                        src="/images/projects-two/projects-1.jpg"
-                        alt="image"
-                      />
-                    </a>
+
+                    <img
+                      src="/images/projects-two/projects-1.jpg"
+                      alt="image"
+                    />
+
                   </Link>
                 </div>
                 <div className="projects-content">
-                  <Link href="#">
-                    <a className="category">Animation</a>
+                  <Link href="#" className="category">
+                    Animation
                   </Link>
                   <h3>
                     <Link href="/projects/projects-details">
-                      <a>3D Animation</a>
+                      3D Animation
                     </Link>
                   </h3>
-                  <Link href="/projects/projects-details">
-                    <a className="projects-btn">View More</a>
+                  <Link href="/projects/projects-details" className="projects-btn">
+                    View More
                   </Link>
                 </div>
               </div>
@@ -56,25 +56,25 @@ const ProjectsCard = () => {
               >
                 <div className="projects-image">
                   <Link href="/projects/projects-details">
-                    <a>
-                      <img
-                        src="/images/projects-two/projects-2.jpg"
-                        alt="image"
-                      />
-                    </a>
+
+                    <img
+                      src="/images/projects-two/projects-2.jpg"
+                      alt="image"
+                    />
+
                   </Link>
                 </div>
                 <div className="projects-content">
-                  <Link href="#">
-                    <a className="category">Software</a>
+                  <Link href="#" className="category">
+                    Software
                   </Link>
                   <h3>
                     <Link href="/projects/projects-details">
-                      <a>Online Banking Software</a>
+                      Online Banking Software
                     </Link>
                   </h3>
-                  <Link href="/projects/projects-details">
-                    <a className="projects-btn">View More</a>
+                  <Link href="/projects/projects-details" className="projects-btn">
+                    View More
                   </Link>
                 </div>
               </div>
@@ -89,25 +89,25 @@ const ProjectsCard = () => {
               >
                 <div className="projects-image">
                   <Link href="/projects/projects-details">
-                    <a>
-                      <img
-                        src="/images/projects-two/projects-3.jpg"
-                        alt="image"
-                      />
-                    </a>
+
+                    <img
+                      src="/images/projects-two/projects-3.jpg"
+                      alt="image"
+                    />
+
                   </Link>
                 </div>
                 <div className="projects-content">
-                  <Link href="#">
-                    <a className="category">Web Design</a>
+                  <Link href="#" className="category">
+                    Web Design
                   </Link>
                   <h3>
                     <Link href="/projects/projects-details">
-                      <a>Cashier Software</a>
+                      Cashier Software
                     </Link>
                   </h3>
-                  <Link href="/projects/projects-details">
-                    <a className="projects-btn">View More</a>
+                  <Link href="/projects/projects-details" className="projects-btn">
+                    View More
                   </Link>
                 </div>
               </div>
@@ -122,25 +122,25 @@ const ProjectsCard = () => {
               >
                 <div className="projects-image">
                   <Link href="/projects/projects-details">
-                    <a>
-                      <img
-                        src="/images/projects-two/projects-4.jpg"
-                        alt="image"
-                      />
-                    </a>
+
+                    <img
+                      src="/images/projects-two/projects-4.jpg"
+                      alt="image"
+                    />
+
                   </Link>
                 </div>
                 <div className="projects-content">
-                  <Link href="#">
-                    <a className="category">Mobile App</a>
+                  <Link href="#" className="category">
+                    Mobile App
                   </Link>
                   <h3>
                     <Link href="/projects/projects-details">
-                      <a>Messaging App</a>
+                      Messaging App
                     </Link>
                   </h3>
-                  <Link href="/projects/projects-details">
-                    <a className="projects-btn">View More</a>
+                  <Link href="/projects/projects-details" className="projects-btn">
+                    View More
                   </Link>
                 </div>
               </div>
@@ -154,25 +154,25 @@ const ProjectsCard = () => {
               >
                 <div className="projects-image">
                   <Link href="/projects/projects-details">
-                    <a>
-                      <img
-                        src="/images/projects-two/projects-5.jpg"
-                        alt="image"
-                      />
-                    </a>
+
+                    <img
+                      src="/images/projects-two/projects-5.jpg"
+                      alt="image"
+                    />
+
                   </Link>
                 </div>
                 <div className="projects-content">
-                  <Link href="#">
-                    <a className="category">Development</a>
+                  <Link href="#" className="category">
+                    Development
                   </Link>
                   <h3>
                     <Link href="/projects/projects-details">
-                      <a>Analytics Software</a>
+                      Analytics Software
                     </Link>
                   </h3>
-                  <Link href="/projects/projects-details">
-                    <a className="projects-btn">View More</a>
+                  <Link href="/projects/projects-details" className="projects-btn">
+                    View More
                   </Link>
                 </div>
               </div>

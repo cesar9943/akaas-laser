@@ -9,7 +9,6 @@ export default function Blog2() {
   return (
     <>
       <NavbarTwo />
-
       <div
         className="page-banner-area mt-94"
         style={{ backgroundImage: `url(/images/page-banner/banner-bg.jpg` }}
@@ -26,7 +25,7 @@ export default function Blog2() {
             <ul>
               <li>
                 <Link href="/">
-                  <a>Home</a>
+                  Home
                 </Link>
               </li>
               <li>Blog</li>
@@ -34,12 +33,9 @@ export default function Blog2() {
           </div>
         </div>
       </div>
-
       <BlogGridStyle2 />
-
       <CTO />
-
       <Footer />
     </>
-  )
+  );
 }

@@ -9,7 +9,6 @@ export default function Team() {
   return (
     <>
       <NavbarTwo />
-
       <div
         className="page-banner-area mt-94"
         style={{ backgroundImage: `url(/images/page-banner/banner-bg-5.jpg` }}
@@ -26,7 +25,7 @@ export default function Team() {
             <ul>
               <li>
                 <Link href="/">
-                  <a>Home</a>
+                  Home
                 </Link>
               </li>
               <li>Team</li>
@@ -34,12 +33,9 @@ export default function Team() {
           </div>
         </div>
       </div>
-
       <TeamMembers />
-
       <CTO />
-
       <Footer />
     </>
-  )
+  );
 }

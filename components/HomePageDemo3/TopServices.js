@@ -17,15 +17,15 @@ const TopServices = () => {
                 <div className="single-features-card">
                   <div className="features-image">
                     <Link href="/services/laser-hair-removal">
-                      <a>
-                        <img src="/images/laser-service.jpg" alt="image" />
-                      </a>
+
+                      <img src="/images/laser-service.jpg" alt="image" />
+
                     </Link>
                   </div>
                   <div className="content">
                     <h3>
                       <Link href="/services/laser-hair-removal">
-                        <a>Laser Hair Removal</a>
+                        Laser Hair Removal
                       </Link>
                     </h3>
                     <p>
@@ -36,11 +36,11 @@ const TopServices = () => {
                   <div className="hover-content">
                     <h3>
                       <Link href="/services/laser-hair-removal">
-                        <a>Laser Hair Removal</a>
+                        Laser Hair Removal
                       </Link>
                     </h3>
-                    <Link href="/services/laser-hair-removal">
-                      <a className="features-btn">View More</a>
+                    <Link href="/services/laser-hair-removal" className="features-btn">
+                      View More
                     </Link>
                   </div>
                 </div>
@@ -56,15 +56,15 @@ const TopServices = () => {
                 <div className="single-features-card" data-tilt>
                   <div className="features-image" data-tilt>
                     <Link href="/services/sculpsure-body-contouring-treatments/">
-                      <a>
-                        <img src="/images/sculpsure-service.jpg" alt="image" />
-                      </a>
+
+                      <img src="/images/sculpsure-service.jpg" alt="image" />
+
                     </Link>
                   </div>
                   <div className="content">
                     <h3>
                       <Link href="/services/sculpsure-body-contouring-treatments/">
-                        <a>SculpSure</a>
+                        SculpSure
                       </Link>
                     </h3>
                     <p>
@@ -75,11 +75,13 @@ const TopServices = () => {
                   <div className="hover-content">
                     <h3>
                       <Link href="/services/sculpsure-body-contouring-treatments">
-                        <a>SculpSure</a>
+                        SculpSure
                       </Link>
                     </h3>
-                    <Link href="/services/sculpsure-body-contouring-treatments">
-                      <a className="features-btn">View More</a>
+                    <Link
+                      href="/services/sculpsure-body-contouring-treatments"
+                      className="features-btn">
+                      View More
                     </Link>
                   </div>
                 </div>
@@ -95,15 +97,15 @@ const TopServices = () => {
                 <div className="single-features-card" data-tilt>
                   <div className="features-image" data-tilt>
                     <Link href="/services/facials">
-                      <a>
-                        <img src="/images/facial-service.jpg" alt="image" />
-                      </a>
+
+                      <img src="/images/facial-service.jpg" alt="image" />
+
                     </Link>
                   </div>
                   <div className="content">
                     <h3>
                       <Link href="/services/facials">
-                        <a>Facials</a>
+                        Facials
                       </Link>
                     </h3>
                     <p>
@@ -114,11 +116,11 @@ const TopServices = () => {
                   <div className="hover-content">
                     <h3>
                       <Link href="/services/facials">
-                        <a>Facials</a>
+                        Facials
                       </Link>
                     </h3>
-                    <Link href="/services/facials">
-                      <a className="features-btn">View More</a>
+                    <Link href="/services/facials" className="features-btn">
+                      View More
                     </Link>
                   </div>
                 </div>

@@ -26,9 +26,9 @@ const BlogGrid = () => {
                   <div className="col-lg-6">
                     <div className="blog-image">
                       <Link href="/blog/single-blog">
-                        <a>
-                          <img src="/images/blog/blog-1.jpg" alt="image" />
-                        </a>
+
+                        <img src="/images/blog/blog-1.jpg" alt="image" />
+
                       </Link>
                     </div>
                   </div>
@@ -37,17 +37,17 @@ const BlogGrid = () => {
                       <div className="date">9th July, 2022</div>
                       <h3>
                         <Link href="/blog/single-blog">
-                          <a>
+                          
                             How Technology Dominate In The new World In 2022
-                          </a>
+                          
                         </Link>
                       </h3>
                       <p>
                         Lorem ipsum dolor sit amet conset sadipscing elitr sed
                         diam nonumy eir m od tempor invidunt ut labore.
                       </p>
-                      <Link href="/blog/single-blog">
-                        <a className="blog-btn">View More</a>
+                      <Link href="/blog/single-blog" className="blog-btn">
+                        View More
                       </Link>
                     </div>
                   </div>
@@ -67,9 +67,9 @@ const BlogGrid = () => {
                   <div className="col-lg-6">
                     <div className="blog-image">
                       <Link href="/blog/single-blog">
-                        <a>
-                          <img src="/images/blog/blog-2.jpg" alt="image" />
-                        </a>
+
+                        <img src="/images/blog/blog-2.jpg" alt="image" />
+
                       </Link>
                     </div>
                   </div>
@@ -78,15 +78,15 @@ const BlogGrid = () => {
                       <div className="date">7th July, 2022</div>
                       <h3>
                         <Link href="/blog/single-blog">
-                          <a>Top 10 Most Famous Technology Trend In 2022</a>
+                          Top 10 Most Famous Technology Trend In 2022
                         </Link>
                       </h3>
                       <p>
                         Lorem ipsum dolor sit amet conset sadipscing elitr sed
                         diam nonumy eir m od tempor invidunt ut labore.
                       </p>
-                      <Link href="/blog/single-blog">
-                        <a className="blog-btn">View More</a>
+                      <Link href="/blog/single-blog" className="blog-btn">
+                        View More
                       </Link>
                     </div>
                   </div>
@@ -106,9 +106,9 @@ const BlogGrid = () => {
                   <div className="col-lg-6">
                     <div className="blog-image">
                       <Link href="/blog/single-blog">
-                        <a>
-                          <img src="/images/blog/blog-3.jpg" alt="image" />
-                        </a>
+
+                        <img src="/images/blog/blog-3.jpg" alt="image" />
+
                       </Link>
                     </div>
                   </div>
@@ -117,15 +117,15 @@ const BlogGrid = () => {
                       <div className="date">9th July, 2022</div>
                       <h3>
                         <Link href="/blog/single-blog">
-                          <a>Open Source Job Report Show More Openings Fewer</a>
+                          Open Source Job Report Show More Openings Fewer
                         </Link>
                       </h3>
                       <p>
                         Lorem ipsum dolor sit amet conset sadipscing elitr sed
                         diam nonumy eir m od tempor invidunt ut labore.
                       </p>
-                      <Link href="/blog/single-blog">
-                        <a className="blog-btn">View More</a>
+                      <Link href="/blog/single-blog" className="blog-btn">
+                        View More
                       </Link>
                     </div>
                   </div>
@@ -145,9 +145,9 @@ const BlogGrid = () => {
                   <div className="col-lg-6">
                     <div className="blog-image">
                       <Link href="/blog/single-blog">
-                        <a>
-                          <img src="/images/blog/blog-4.jpg" alt="image" />
-                        </a>
+
+                        <img src="/images/blog/blog-4.jpg" alt="image" />
+
                       </Link>
                     </div>
                   </div>
@@ -156,17 +156,17 @@ const BlogGrid = () => {
                       <div className="date">7th July, 2022</div>
                       <h3>
                         <Link href="/blog/single-blog">
-                          <a>
+                          
                             Tech Products That Makes Its Easier To Stay At Home
-                          </a>
+                          
                         </Link>
                       </h3>
                       <p>
                         Lorem ipsum dolor sit amet conset sadipscing elitr sed
                         diam nonumy eir m od tempor invidunt ut labore.
                       </p>
-                      <Link href="/blog/single-blog">
-                        <a className="blog-btn">View More</a>
+                      <Link href="/blog/single-blog" className="blog-btn">
+                        View More
                       </Link>
                     </div>
                   </div>
@@ -186,9 +186,9 @@ const BlogGrid = () => {
                   <div className="col-lg-6">
                     <div className="blog-image">
                       <Link href="/blog/single-blog">
-                        <a>
-                          <img src="/images/blog/blog-5.jpg" alt="image" />
-                        </a>
+
+                        <img src="/images/blog/blog-5.jpg" alt="image" />
+
                       </Link>
                     </div>
                   </div>
@@ -197,17 +197,17 @@ const BlogGrid = () => {
                       <div className="date">7th July, 2022</div>
                       <h3>
                         <Link href="/blog/single-blog">
-                          <a>
+                          
                             Necessity May Give Us Your Best Virtual Court System
-                          </a>
+                          
                         </Link>
                       </h3>
                       <p>
                         Lorem ipsum dolor sit amet conset sadipscing elitr sed
                         diam nonumy eir m od tempor invidunt ut labore.
                       </p>
-                      <Link href="/blog/single-blog">
-                        <a className="blog-btn">View More</a>
+                      <Link href="/blog/single-blog" className="blog-btn">
+                        View More
                       </Link>
                     </div>
                   </div>
@@ -227,9 +227,9 @@ const BlogGrid = () => {
                   <div className="col-lg-6">
                     <div className="blog-image">
                       <Link href="/blog/single-blog">
-                        <a>
-                          <img src="/images/blog/blog-6.jpg" alt="image" />
-                        </a>
+
+                        <img src="/images/blog/blog-6.jpg" alt="image" />
+
                       </Link>
                     </div>
                   </div>
@@ -238,18 +238,18 @@ const BlogGrid = () => {
                       <div className="date">7th July, 2022</div>
                       <h3>
                         <Link href="/blog/single-blog">
-                          <a>
+                          
                             How Technology Helps In The Education System In The
                             World
-                          </a>
+                          
                         </Link>
                       </h3>
                       <p>
                         Lorem ipsum dolor sit amet conset sadipscing elitr sed
                         diam nonumy eir m od tempor invidunt ut labore.
                       </p>
-                      <Link href="/blog/single-blog">
-                        <a className="blog-btn">View More</a>
+                      <Link href="/blog/single-blog" className="blog-btn">
+                        View More
                       </Link>
                     </div>
                   </div>
@@ -264,7 +264,7 @@ const BlogGrid = () => {
         </div>
       </div>
     </>
-  )
+  );
 }
 
 export default BlogGrid

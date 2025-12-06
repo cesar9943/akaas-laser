@@ -106,8 +106,8 @@ const Skills = () => {
               </div>
 
               <div className="skill-bar-btn" data-aos="fade-up" data-aos-delay="90" data-aos-duration="900" data-aos-once="true">
-                <Link href="/about">
-                  <a className="default-btn">Explore More</a>
+                <Link href="/about" className="default-btn">
+                  Explore More
                 </Link>
               </div>
             </div>

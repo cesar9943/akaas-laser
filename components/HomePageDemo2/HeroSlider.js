@@ -57,8 +57,8 @@ const HeroSlider = () => {
                     data-aos-duration="700"
                     data-aos-once="true"
                   >
-                    <Link href="/contact">
-                      <a className="default-btn">Get Started</a>
+                    <Link href="/contact" className="default-btn">
+                      Get Started
                     </Link>
                   </div>
                 </div>
@@ -105,8 +105,8 @@ const HeroSlider = () => {
                     data-aos-duration="700"
                     data-aos-once="true"
                   >
-                    <Link href="/contact">
-                      <a className="default-btn">Get Started</a>
+                    <Link href="/contact" className="default-btn">
+                      Get Started
                     </Link>
                   </div>
                 </div>
@@ -153,8 +153,8 @@ const HeroSlider = () => {
                     data-aos-duration="700"
                     data-aos-once="true"
                   >
-                    <Link href="/contact">
-                      <a className="default-btn">Get Started</a>
+                    <Link href="/contact" className="default-btn">
+                      Get Started
                     </Link>
                   </div>
                 </div>

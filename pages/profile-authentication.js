@@ -9,7 +9,6 @@ export default function ProfileAuthentication() {
   return (
     <>
       <NavbarTwo />
-
       <div
         className="page-banner-area mt-94"
         style={{ backgroundImage: `url(/images/page-banner/banner-bg-4.jpg` }}
@@ -26,7 +25,7 @@ export default function ProfileAuthentication() {
             <ul>
               <li>
                 <Link href="/">
-                  <a>Home</a>
+                  Home
                 </Link>
               </li>
               <li>Profile Authentication</li>
@@ -34,12 +33,9 @@ export default function ProfileAuthentication() {
           </div>
         </div>
       </div>
-
       <Authentication />
-
       <CTO />
-
       <Footer />
     </>
-  )
+  );
 }

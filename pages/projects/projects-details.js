@@ -10,7 +10,6 @@ export default function ProjectsDetails() {
   return (
     <>
       <NavbarTwo />
-
       <div
         className="page-banner-area mt-94"
         style={{ backgroundImage: `url(/images/page-banner/banner-bg-3.jpg` }}
@@ -27,7 +26,7 @@ export default function ProjectsDetails() {
             <ul>
               <li>
                 <Link href="/">
-                  <a>Home</a>
+                  Home
                 </Link>
               </li>
               <li>Projects Details</li>
@@ -35,14 +34,10 @@ export default function ProjectsDetails() {
           </div>
         </div>
       </div>
-
       <ProjectsDetailsContent />
-
       <CTO />
-
       <ContactForm />
-
       <Footer />
     </>
-  )
+  );
 }

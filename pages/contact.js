@@ -9,7 +9,6 @@ export default function Contact() {
   return (
     <>
       <NavbarThree />
-
       <div
         className="page-banner-area mt-94"
         style={{
@@ -28,7 +27,7 @@ export default function Contact() {
             <ul>
               <li>
                 <Link href="/">
-                  <a>Home</a>
+                  Home
                 </Link>
               </li>
               <li>Contact</li>
@@ -36,13 +35,9 @@ export default function Contact() {
           </div>
         </div>
       </div>
-
       <CTO />
-
       <ContactForm />
-
       <GoogleMap />
-
       <Footer />
     </>
   );

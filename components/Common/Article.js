@@ -45,9 +45,9 @@ const Article = () => {
                   <div className="col-lg-6">
                     <div className="blog-image">
                       <Link href="/blog/single-blog">
-                        <a>
-                          <img src="/images/blog/blog-1.jpg" alt="image" />
-                        </a>
+
+                        <img src="/images/blog/blog-1.jpg" alt="image" />
+
                       </Link>
                     </div>
                   </div>
@@ -56,9 +56,9 @@ const Article = () => {
                       <div className="date">9th July, 2022</div>
                       <h3>
                         <Link href="/blog/single-blog">
-                          <a>
+                          
                             How Technology Dominate In The new World In 2022
-                          </a>
+                          
                         </Link>
                       </h3>
                       <p>
@@ -66,8 +66,8 @@ const Article = () => {
                         diam nonumy eir m od tempor invidunt ut labore.
                       </p>
 
-                      <Link href="/blog/single-blog">
-                        <a className="blog-btn">View More</a>
+                      <Link href="/blog/single-blog" className="blog-btn">
+                        View More
                       </Link>
                     </div>
                   </div>
@@ -81,9 +81,9 @@ const Article = () => {
                   <div className="col-lg-6">
                     <div className="blog-image">
                       <Link href="/blog/single-blog">
-                        <a>
-                          <img src="/images/blog/blog-2.jpg" alt="image" />
-                        </a>
+
+                        <img src="/images/blog/blog-2.jpg" alt="image" />
+
                       </Link>
                     </div>
                   </div>
@@ -92,15 +92,15 @@ const Article = () => {
                       <div className="date">7th July, 2022</div>
                       <h3>
                         <Link href="/blog/single-blog">
-                          <a>Top 10 Most Famous Technology Trend In 2022</a>
+                          Top 10 Most Famous Technology Trend In 2022
                         </Link>
                       </h3>
                       <p>
                         Lorem ipsum dolor sit amet conset sadipscing elitr sed
                         diam nonumy eir m od tempor invidunt ut labore.
                       </p>
-                      <Link href="/blog/single-blog">
-                        <a className="blog-btn">View More</a>
+                      <Link href="/blog/single-blog" className="blog-btn">
+                        View More
                       </Link>
                     </div>
                   </div>
@@ -114,9 +114,9 @@ const Article = () => {
                   <div className="col-lg-6">
                     <div className="blog-image">
                       <Link href="/blog/single-blog">
-                        <a>
-                          <img src="/images/blog/blog-3.jpg" alt="image" />
-                        </a>
+
+                        <img src="/images/blog/blog-3.jpg" alt="image" />
+
                       </Link>
                     </div>
                   </div>
@@ -125,17 +125,17 @@ const Article = () => {
                       <div className="date">9th July, 2022</div>
                       <h3>
                         <Link href="/blog/single-blog">
-                          <a>
+                          
                             How Technology Dominate In The new World In 2022
-                          </a>
+                          
                         </Link>
                       </h3>
                       <p>
                         Lorem ipsum dolor sit amet conset sadipscing elitr sed
                         diam nonumy eir m od tempor invidunt ut labore.
                       </p>
-                      <Link href="/blog/single-blog">
-                        <a className="blog-btn">View More</a>
+                      <Link href="/blog/single-blog" className="blog-btn">
+                        View More
                       </Link>
                     </div>
                   </div>
@@ -149,9 +149,9 @@ const Article = () => {
                   <div className="col-lg-6">
                     <div className="blog-image">
                       <Link href="/blog/single-blog">
-                        <a>
-                          <img src="/images/blog/blog-2.jpg" alt="image" />
-                        </a>
+
+                        <img src="/images/blog/blog-2.jpg" alt="image" />
+
                       </Link>
                     </div>
                   </div>
@@ -160,15 +160,15 @@ const Article = () => {
                       <div className="date">7th July, 2022</div>
                       <h3>
                         <Link href="/blog/single-blog">
-                          <a>Top 10 Most Famous Technology Trend In 2022</a>
+                          Top 10 Most Famous Technology Trend In 2022
                         </Link>
                       </h3>
                       <p>
                         Lorem ipsum dolor sit amet conset sadipscing elitr sed
                         diam nonumy eir m od tempor invidunt ut labore.
                       </p>
-                      <Link href="/blog/single-blog">
-                        <a className="blog-btn">View More</a>
+                      <Link href="/blog/single-blog" className="blog-btn">
+                        View More
                       </Link>
                     </div>
                   </div>

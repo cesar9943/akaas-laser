@@ -8,7 +8,6 @@ export default function TermsOfService() {
   return (
     <>
       <NavbarTwo />
-
       <div
         className="page-banner-area mt-94"
         style={{ backgroundImage: `url(/images/page-banner/banner-bg-4.jpg` }}
@@ -25,7 +24,7 @@ export default function TermsOfService() {
             <ul>
               <li>
                 <Link href="/">
-                  <a>Home</a>
+                  Home
                 </Link>
               </li>
               <li>Terms of Service</li>
@@ -33,7 +32,6 @@ export default function TermsOfService() {
           </div>
         </div>
       </div>
-
       <div className="terms-of-service-area ptb-100">
         <div className="container">
           <div className="row justify-content-center">
@@ -155,10 +153,8 @@ export default function TermsOfService() {
           </div>
         </div>
       </div>
-
       <CTO />
-
       <Footer />
     </>
-  )
+  );
 }

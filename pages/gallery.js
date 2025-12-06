@@ -7,7 +7,6 @@ export default function Gallery() {
   return (
     <>
       <NavbarTwo />
-
       <div
         className="page-banner-area mt-94"
         style={{ backgroundImage: `url(/images/page-banner/banner-bg.jpg` }}
@@ -24,7 +23,7 @@ export default function Gallery() {
             <ul>
               <li>
                 <Link href="/">
-                  <a>Home</a>
+                  Home
                 </Link>
               </li>
               <li>Gallery</li>
@@ -32,7 +31,6 @@ export default function Gallery() {
           </div>
         </div>
       </div>
-
       <section className="gallery-area pt-100 pb-75">
         <div className="container">
           <div className="row">
@@ -98,7 +96,6 @@ export default function Gallery() {
           </div>
         </div>
       </section>
-
       <Footer />
     </>
   );

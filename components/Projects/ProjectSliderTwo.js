@@ -24,8 +24,8 @@ const ProjectSliderTwo = () => {
                   world doing over 40 years.
                 </p>
                 <div className="projects-section-btn">
-                  <Link href="/projects/projects">
-                    <a className="default-btn">Explore All Projects</a>
+                  <Link href="/projects/projects" className="default-btn">
+                    Explore All Projects
                   </Link>
                 </div>
               </div>
@@ -56,22 +56,22 @@ const ProjectSliderTwo = () => {
                   <div className="projects-item bg-F2F1F3">
                     <div className="projects-image">
                       <Link href="/projects/projects-details">
-                        <a>
-                          <img
-                            src="/images/projects/projects-1.jpg"
-                            alt="image"
-                          />
-                        </a>
+
+                        <img
+                          src="/images/projects/projects-1.jpg"
+                          alt="image"
+                        />
+
                       </Link>
                     </div>
                     <div className="projects-content">
                       <h3>
                         <Link href="/projects/projects-details">
-                          <a>3D Animation</a>
+                          3D Animation
                         </Link>
                       </h3>
-                      <Link href="/projects/projects-details">
-                        <a className="projects-btn">View More</a>
+                      <Link href="/projects/projects-details" className="projects-btn">
+                        View More
                       </Link>
                     </div>
                   </div>
@@ -81,22 +81,22 @@ const ProjectSliderTwo = () => {
                   <div className="projects-item bg-F2F1F3">
                     <div className="projects-image">
                       <Link href="/projects/projects-details">
-                        <a>
-                          <img
-                            src="/images/projects/projects-2.jpg"
-                            alt="image"
-                          />
-                        </a>
+
+                        <img
+                          src="/images/projects/projects-2.jpg"
+                          alt="image"
+                        />
+
                       </Link>
                     </div>
                     <div className="projects-content">
                       <h3>
                         <Link href="/projects/projects-details">
-                          <a>Online Banking Software</a>
+                          Online Banking Software
                         </Link>
                       </h3>
-                      <Link href="/projects/projects-details">
-                        <a className="projects-btn">View More</a>
+                      <Link href="/projects/projects-details" className="projects-btn">
+                        View More
                       </Link>
                     </div>
                   </div>
@@ -106,22 +106,22 @@ const ProjectSliderTwo = () => {
                   <div className="projects-item bg-F2F1F3">
                     <div className="projects-image">
                       <Link href="/projects/projects-details">
-                        <a>
-                          <img
-                            src="/images/projects/projects-3.jpg"
-                            alt="image"
-                          />
-                        </a>
+
+                        <img
+                          src="/images/projects/projects-3.jpg"
+                          alt="image"
+                        />
+
                       </Link>
                     </div>
                     <div className="projects-content">
                       <h3>
                         <Link href="/projects/projects-details">
-                          <a>Cashier Software</a>
+                          Cashier Software
                         </Link>
                       </h3>
-                      <Link href="/projects/projects-details">
-                        <a className="projects-btn">View More</a>
+                      <Link href="/projects/projects-details" className="projects-btn">
+                        View More
                       </Link>
                     </div>
                   </div>
@@ -131,22 +131,22 @@ const ProjectSliderTwo = () => {
                   <div className="projects-item bg-F2F1F3">
                     <div className="projects-image">
                       <Link href="/projects/projects-details">
-                        <a>
-                          <img
-                            src="/images/projects/projects-4.jpg"
-                            alt="image"
-                          />
-                        </a>
+
+                        <img
+                          src="/images/projects/projects-4.jpg"
+                          alt="image"
+                        />
+
                       </Link>
                     </div>
                     <div className="projects-content">
                       <h3>
                         <Link href="/projects/projects-details">
-                          <a>Analytics Software</a>
+                          Analytics Software
                         </Link>
                       </h3>
-                      <Link href="/projects/projects-details">
-                        <a className="projects-btn">View More</a>
+                      <Link href="/projects/projects-details" className="projects-btn">
+                        View More
                       </Link>
                     </div>
                   </div>
@@ -156,22 +156,22 @@ const ProjectSliderTwo = () => {
                   <div className="projects-item bg-F2F1F3">
                     <div className="projects-image">
                       <Link href="/projects/projects-details">
-                        <a>
-                          <img
-                            src="/images/projects/projects-5.jpg"
-                            alt="image"
-                          />
-                        </a>
+
+                        <img
+                          src="/images/projects/projects-5.jpg"
+                          alt="image"
+                        />
+
                       </Link>
                     </div>
                     <div className="projects-content">
                       <h3>
                         <Link href="/projects/projects-details">
-                          <a>Messaging App</a>
+                          Messaging App
                         </Link>
                       </h3>
-                      <Link href="/projects/projects-details">
-                        <a className="projects-btn">View More</a>
+                      <Link href="/projects/projects-details" className="projects-btn">
+                        View More
                       </Link>
                     </div>
                   </div>

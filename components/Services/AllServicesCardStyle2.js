@@ -22,22 +22,22 @@ const AllServicesCardStyle2 = () => {
               <div className="services-item">
                 <div className="services-image">
                   <Link href="/services/service-details">
-                    <a>
-                      <img src="/images/services/services-1.jpg" alt="image" />
-                    </a>
+
+                    <img src="/images/services/services-1.jpg" alt="image" />
+
                   </Link>
                 </div>
                 <div className="services-content">
                   <h3>
                     <Link href="/services/service-details">
-                      <a>Database Administrator</a>
+                      Database Administrator
                     </Link>
                   </h3>
                   <p>
                     Lorem ipsum dolor sit amet con setetur sadipscing elitr sed…
                   </p>
-                  <Link href="/services/service-details">
-                    <a className="services-btn">View More</a>
+                  <Link href="/services/service-details" className="services-btn">
+                    View More
                   </Link>
                 </div>
               </div>
@@ -47,22 +47,22 @@ const AllServicesCardStyle2 = () => {
               <div className="services-item">
                 <div className="services-image">
                   <Link href="/services/service-details">
-                    <a>
-                      <img src="/images/services/services-2.jpg" alt="image" />
-                    </a>
+
+                    <img src="/images/services/services-2.jpg" alt="image" />
+
                   </Link>
                 </div>
                 <div className="services-content">
                   <h3>
                     <Link href="/services/service-details">
-                      <a>Software Development</a>
+                      Software Development
                     </Link>
                   </h3>
                   <p>
                     Lorem ipsum dolor sit amet con setetur sadipscing elitr sed…
                   </p>
-                  <Link href="/services/service-details">
-                    <a className="services-btn">View More</a>
+                  <Link href="/services/service-details" className="services-btn">
+                    View More
                   </Link>
                 </div>
               </div>
@@ -72,22 +72,22 @@ const AllServicesCardStyle2 = () => {
               <div className="services-item">
                 <div className="services-image">
                   <Link href="/services/service-details">
-                    <a>
-                      <img src="/images/services/services-3.jpg" alt="image" />
-                    </a>
+
+                    <img src="/images/services/services-3.jpg" alt="image" />
+
                   </Link>
                 </div>
                 <div className="services-content">
                   <h3>
                     <Link href="/services/service-details">
-                      <a>App Development</a>
+                      App Development
                     </Link>
                   </h3>
                   <p>
                     Lorem ipsum dolor sit amet con setetur sadipscing elitr sed…
                   </p>
-                  <Link href="/services/service-details">
-                    <a className="services-btn">View More</a>
+                  <Link href="/services/service-details" className="services-btn">
+                    View More
                   </Link>
                 </div>
               </div>
@@ -97,22 +97,22 @@ const AllServicesCardStyle2 = () => {
               <div className="services-item">
                 <div className="services-image">
                   <Link href="/services/service-details">
-                    <a>
-                      <img src="/images/services/services-4.jpg" alt="image" />
-                    </a>
+
+                    <img src="/images/services/services-4.jpg" alt="image" />
+
                   </Link>
                 </div>
                 <div className="services-content">
                   <h3>
                     <Link href="/services/service-details">
-                      <a>Web Development</a>
+                      Web Development
                     </Link>
                   </h3>
                   <p>
                     Lorem ipsum dolor sit amet con setetur sadipscing elitr sed…
                   </p>
-                  <Link href="/services/service-details">
-                    <a className="services-btn">View More</a>
+                  <Link href="/services/service-details" className="services-btn">
+                    View More
                   </Link>
                 </div>
               </div>
@@ -122,22 +122,22 @@ const AllServicesCardStyle2 = () => {
               <div className="services-item">
                 <div className="services-image">
                   <Link href="/services/service-details">
-                    <a>
-                      <img src="/images/services/services-5.jpg" alt="image" />
-                    </a>
+
+                    <img src="/images/services/services-5.jpg" alt="image" />
+
                   </Link>
                 </div>
                 <div className="services-content">
                   <h3>
                     <Link href="/services/service-details">
-                      <a>Analytic Solutions</a>
+                      Analytic Solutions
                     </Link>
                   </h3>
                   <p>
                     Lorem ipsum dolor sit amet con setetur sadipscing elitr sed…
                   </p>
-                  <Link href="/services/service-details">
-                    <a className="services-btn">View More</a>
+                  <Link href="/services/service-details" className="services-btn">
+                    View More
                   </Link>
                 </div>
               </div>
@@ -147,22 +147,22 @@ const AllServicesCardStyle2 = () => {
               <div className="services-item">
                 <div className="services-image">
                   <Link href="/services/service-details">
-                    <a>
-                      <img src="/images/services/services-6.jpg" alt="image" />
-                    </a>
+
+                    <img src="/images/services/services-6.jpg" alt="image" />
+
                   </Link>
                 </div>
                 <div className="services-content">
                   <h3>
                     <Link href="/services/service-details">
-                      <a>Product Design</a>
+                      Product Design
                     </Link>
                   </h3>
                   <p>
                     Lorem ipsum dolor sit amet con setetur sadipscing elitr sed…
                   </p>
-                  <Link href="/services/service-details">
-                    <a className="services-btn">View More</a>
+                  <Link href="/services/service-details" className="services-btn">
+                    View More
                   </Link>
                 </div>
               </div>

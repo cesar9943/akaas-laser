@@ -10,7 +10,6 @@ export default function ServiceDetails() {
   return (
     <>
       <NavbarThree />
-
       <div
         className="page-banner-area mt-94"
         style={{ backgroundImage: `url(/images/page-banner/banner-bg-4.jpg` }}
@@ -27,7 +26,7 @@ export default function ServiceDetails() {
             <ul>
               <li>
                 <Link href="/">
-                  <a>Home</a>
+                  Home
                 </Link>
               </li>
               <li>Services Details</li>
@@ -35,17 +34,12 @@ export default function ServiceDetails() {
           </div>
         </div>
       </div>
-
       <ServicesDetailsContent />
-
       <ContactForm />
-
       <div className="radius-0">
         <ServiceSlider />
       </div>
-
       <CTO />
-
       <Footer />
     </>
   );

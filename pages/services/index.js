@@ -8,7 +8,6 @@ export default function Services() {
   return (
     <>
       <NavbarThree />
-
       <div
         className="page-banner-area mt-94"
         style={{ backgroundImage: `url(/images/page-banner/banner-bg-4.jpg` }}
@@ -25,7 +24,7 @@ export default function Services() {
             <ul>
               <li>
                 <Link href="/">
-                  <a>Home</a>
+                  Home
                 </Link>
               </li>
               <li>Services</li>
@@ -33,13 +32,9 @@ export default function Services() {
           </div>
         </div>
       </div>
-
       {/* <KeyFeatures /> */}
-
       <AllServicesCard />
-
       <ContactForm />
-
       <Footer />
     </>
   );
