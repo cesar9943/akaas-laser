@@ -17,9 +17,7 @@ const TopServices = () => {
                 <div className="single-features-card">
                   <div className="features-image">
                     <Link href="/services/laser-hair-removal">
-
                       <img src="/images/laser-service.jpg" alt="image" />
-
                     </Link>
                   </div>
                   <div className="content">
@@ -29,7 +27,7 @@ const TopServices = () => {
                       </Link>
                     </h3>
                     <p>
-                      Revolutionize hair removal with ourside-menu-btn gentle,
+                      Revolutionize hair removal in Orlando with our gentle,
                       effective Elite MPX Laser.
                     </p>
                   </div>
@@ -39,7 +37,10 @@ const TopServices = () => {
                         Laser Hair Removal
                       </Link>
                     </h3>
-                    <Link href="/services/laser-hair-removal" className="features-btn">
+                    <Link
+                      href="/services/laser-hair-removal"
+                      className="features-btn"
+                    >
                       View More
                     </Link>
                   </div>
@@ -56,9 +57,7 @@ const TopServices = () => {
                 <div className="single-features-card" data-tilt>
                   <div className="features-image" data-tilt>
                     <Link href="/services/sculpsure-body-contouring-treatments/">
-
                       <img src="/images/sculpsure-service.jpg" alt="image" />
-
                     </Link>
                   </div>
                   <div className="content">
@@ -68,7 +67,7 @@ const TopServices = () => {
                       </Link>
                     </h3>
                     <p>
-                      Slim down effortlessly with SculpSure&apos;s 25-minute,
+                      Slim down in Orlando with SculpSure&apos;s 25-minute,
                       non-invasive fat reduction.
                     </p>
                   </div>
@@ -80,7 +79,8 @@ const TopServices = () => {
                     </h3>
                     <Link
                       href="/services/sculpsure-body-contouring-treatments"
-                      className="features-btn">
+                      className="features-btn"
+                    >
                       View More
                     </Link>
                   </div>
@@ -97,27 +97,21 @@ const TopServices = () => {
                 <div className="single-features-card" data-tilt>
                   <div className="features-image" data-tilt>
                     <Link href="/services/facials">
-
                       <img src="/images/facial-service.jpg" alt="image" />
-
                     </Link>
                   </div>
                   <div className="content">
                     <h3>
-                      <Link href="/services/facials">
-                        Facials
-                      </Link>
+                      <Link href="/services/facials">Facials</Link>
                     </h3>
                     <p>
-                      Indulge in rejuvenation with personalized facials for a
-                      radiant glow.
+                      Indulge in rejuvenation in Orlando with personalized
+                      facials for a radiant glow.
                     </p>
                   </div>
                   <div className="hover-content">
                     <h3>
-                      <Link href="/services/facials">
-                        Facials
-                      </Link>
+                      <Link href="/services/facials">Facials</Link>
                     </h3>
                     <Link href="/services/facials" className="features-btn">
                       View More

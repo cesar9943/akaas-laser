@@ -1,5 +1,6 @@
 import CTO from "@/components/Common/CTO";
 import ContactForm from "@/components/Common/ContactForm";
+import SeoHead from "@/components/Common/SeoHead";
 import Footer from "@/components/Layout/Footer";
 import NavbarThree from "@/components/Layout/NavbarThree";
 import ServiceSlider from "@/components/Services/ServiceSlider";
@@ -9,6 +10,12 @@ import Link from "next/link";
 export default function ServiceDetails() {
   return (
     <>
+      <SeoHead
+        title="Plasma Fibroblast in Orlando | Surgery-free skin tightening"
+        description="Tighten and rejuvenate skin with Plasma Fibroblast in Orlando. Non-surgical option for eyelids, neck, and fine lines with minimal downtime."
+        canonical="/services/fibroblast-plasma-skin-tightening"
+        keywords="Plasma Fibroblast Orlando, skin tightening Orlando, non-surgical rejuvenation Orlando"
+      />
       <NavbarThree />
       <div
         className="page-banner-area mt-94"
@@ -25,14 +32,10 @@ export default function ServiceDetails() {
             <h2>Fibroblast Plasma</h2>
             <ul>
               <li>
-                <Link href="/">
-                  Home
-                </Link>
+                <Link href="/">Home</Link>
               </li>
               <li>
-                <Link href="/services">
-                  Services
-                </Link>
+                <Link href="/services">Services</Link>
               </li>
               <li>Fibroblast</li>
             </ul>

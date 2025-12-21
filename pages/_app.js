@@ -26,15 +26,15 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>AKAAS - Laser MedSpa</title>
+        <title>AKAAS Laser MedSpa | Orlando, FL Medical Spa</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta
           name="description"
-          content="Laser MedSpa in Orlando, TX. We offer Laser Hair Removal, SculpSure, Facial, Body Contouring, Lymphatic Drainage, Cryolipolysis, Nails, Botox, Fillers, PRP, Weight Loss Injections, IV Therapy and more."
+          content="Medical spa in Orlando, Florida specializing in laser hair removal, body contouring, facials, and advanced aesthetic therapies."
         />
         <meta
           name="keywords"
-          content="Laser MedSpa, Laser Hair Removal, SculpSure, Facial, Body Contouring, Lymphatic Drainage, Cryolipolysis, Nails, Botox, Fillers, PRP, Weight Loss Injections, IV Therapy"
+          content="medical spa Orlando, laser hair removal Orlando, body contouring Orlando, facials Orlando, aesthetic treatments Orlando, med spa Orlando"
         />
         <meta name="author" content="Armando Cesar Martin Calderón" />
         <meta name="robots" content="index, follow" />

@@ -1,5 +1,6 @@
 import CTO from "@/components/Common/CTO";
 import ContactForm from "@/components/Common/ContactForm";
+import SeoHead from "@/components/Common/SeoHead";
 import Footer from "@/components/Layout/Footer";
 import NavbarThree from "@/components/Layout/NavbarThree";
 import ServiceSlider from "@/components/Services/ServiceSlider";
@@ -9,6 +10,12 @@ import Link from "next/link";
 export default function ServiceDetails() {
   return (
     <>
+      <SeoHead
+        title="HIFU in Orlando | Non-surgical lift"
+        description="HIFU treatment in Orlando to lift and tighten face, neck, and body without surgery. Visible results with minimal downtime near UCF."
+        canonical="/services/hifu-treatment"
+        keywords="HIFU Orlando, non-surgical lift Orlando, skin tightening Orlando"
+      />
       <NavbarThree />
       <div
         className="page-banner-area mt-94"
@@ -25,14 +32,10 @@ export default function ServiceDetails() {
             <h2>HIFU Services</h2>
             <ul>
               <li>
-                <Link href="/">
-                  Home
-                </Link>
+                <Link href="/">Home</Link>
               </li>
               <li>
-                <Link href="/services">
-                  Services
-                </Link>
+                <Link href="/services">Services</Link>
               </li>
               <li>HIFU Non-Surgical Facelift</li>
             </ul>

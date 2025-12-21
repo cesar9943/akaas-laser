@@ -1,6 +1,7 @@
 import CTO from "@/components/Common/CTO";
 import ContactForm from "@/components/Common/ContactForm";
 import IntroVideo from "@/components/Common/IntroVideo";
+import SeoHead from "@/components/Common/SeoHead";
 import TeamMember from "@/components/Common/TeamMember";
 import TestimonialSliderStyle2 from "@/components/Common/TestimonialSliderStyle2";
 import WorkingProcess from "@/components/Common/WorkingProcess";
@@ -41,6 +42,12 @@ export default function Home3() {
 
   return (
     <>
+      <SeoHead
+        title="AKAAS Laser MedSpa in Orlando | Laser Hair Removal, Facials & Body Contouring"
+        description="Medical spa in Orlando, Florida specializing in laser hair removal, body contouring, facials, and advanced aesthetic treatments near UCF and Oviedo."
+        canonical="/"
+        keywords="medical spa Orlando, laser hair removal Orlando, facials Orlando, body contouring Orlando, med spa near UCF"
+      />
       <Head>
         <script
           type="application/ld+json"

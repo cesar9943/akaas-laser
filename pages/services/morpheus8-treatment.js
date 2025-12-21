@@ -1,5 +1,6 @@
 import CTO from "@/components/Common/CTO";
 import ContactForm from "@/components/Common/ContactForm";
+import SeoHead from "@/components/Common/SeoHead";
 import Footer from "@/components/Layout/Footer";
 import NavbarThree from "@/components/Layout/NavbarThree";
 import ServiceSlider from "@/components/Services/ServiceSlider";
@@ -9,6 +10,12 @@ import Link from "next/link";
 export default function ServiceDetails() {
   return (
     <>
+      <SeoHead
+        title="Morpheus8 in Orlando | Fractional RF microneedling"
+        description="Morpheus8 in Orlando to improve laxity, fine lines, and scars with microneedling plus RF. Advanced treatment near UCF."
+        canonical="/services/morpheus8-treatment"
+        keywords="Morpheus8 Orlando, fractional RF Orlando, RF microneedling Orlando"
+      />
       <NavbarThree />
       <div
         className="page-banner-area mt-94"
@@ -25,14 +32,10 @@ export default function ServiceDetails() {
             <h2>Morpheus8 Service</h2>
             <ul>
               <li>
-                <Link href="/">
-                  Home
-                </Link>
+                <Link href="/">Home</Link>
               </li>
               <li>
-                <Link href="/services">
-                  Services
-                </Link>
+                <Link href="/services">Services</Link>
               </li>
               <li>Morpheus8 Skin Rejuvenation</li>
             </ul>

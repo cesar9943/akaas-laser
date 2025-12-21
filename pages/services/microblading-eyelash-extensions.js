@@ -1,5 +1,6 @@
 import CTO from "@/components/Common/CTO";
 import ContactForm from "@/components/Common/ContactForm";
+import SeoHead from "@/components/Common/SeoHead";
 import Footer from "@/components/Layout/Footer";
 import NavbarThree from "@/components/Layout/NavbarThree";
 import ServiceSlider from "@/components/Services/ServiceSlider";
@@ -9,6 +10,12 @@ import Link from "next/link";
 export default function ServiceDetails() {
   return (
     <>
+      <SeoHead
+        title="Microblading and lash extensions in Orlando"
+        description="Define brows and lashes with microblading and extensions in Orlando. Natural, customized results near UCF and Oviedo."
+        canonical="/services/microblading-eyelash-extensions"
+        keywords="microblading Orlando, lash extensions Orlando, brow shaping Orlando"
+      />
       <NavbarThree />
       <div
         className="page-banner-area mt-94"
@@ -25,14 +32,10 @@ export default function ServiceDetails() {
             <h2>Microblading Services</h2>
             <ul>
               <li>
-                <Link href="/">
-                  Home
-                </Link>
+                <Link href="/">Home</Link>
               </li>
               <li>
-                <Link href="/services">
-                  Services
-                </Link>
+                <Link href="/services">Services</Link>
               </li>
               <li>Microblading Eyelash-Extensions.</li>
             </ul>

@@ -1,5 +1,6 @@
 import CTO from "@/components/Common/CTO";
 import ContactForm from "@/components/Common/ContactForm";
+import SeoHead from "@/components/Common/SeoHead";
 import Footer from "@/components/Layout/Footer";
 import NavbarThree from "@/components/Layout/NavbarThree";
 import ServiceSlider from "@/components/Services/ServiceSlider";
@@ -9,6 +10,12 @@ import Link from "next/link";
 export default function ServiceDetails() {
   return (
     <>
+      <SeoHead
+        title="Cryolipolysis in Orlando | Fat reduction by cooling"
+        description="Reduce localized fat with cryolipolysis in Orlando. Suction and flat-plate options ideal for abdomen, flanks, and thighs near UCF."
+        canonical="/services/cryolipolysis-fat-reduction"
+        keywords="cryolipolysis Orlando, coolsculpting Orlando, fat reduction Orlando, fat freeze Orlando"
+      />
       <NavbarThree />
       <div
         className="page-banner-area mt-94"

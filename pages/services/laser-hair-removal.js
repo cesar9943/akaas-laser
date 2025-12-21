@@ -1,5 +1,6 @@
 import CTO from "@/components/Common/CTO";
 import ContactForm from "@/components/Common/ContactForm";
+import SeoHead from "@/components/Common/SeoHead";
 import Footer from "@/components/Layout/Footer";
 import NavbarThree from "@/components/Layout/NavbarThree";
 import ServiceSlider from "@/components/Services/ServiceSlider";
@@ -9,6 +10,12 @@ import Link from "next/link";
 export default function ServiceDetails() {
   return (
     <>
+      <SeoHead
+        title="Laser Hair Removal in Orlando | AKAAS Laser MedSpa"
+        description="Elite MPX laser hair removal for all skin tones in Orlando near UCF. Safe, comfortable sessions for long-lasting results."
+        canonical="/services/laser-hair-removal"
+        keywords="laser hair removal Orlando, Elite MPX Orlando, medical spa Orlando"
+      />
       <NavbarThree />
       <div
         className="page-banner-area mt-94"
@@ -25,14 +32,10 @@ export default function ServiceDetails() {
             <h2>Laser Services</h2>
             <ul>
               <li>
-                <Link href="/">
-                  Home
-                </Link>
+                <Link href="/">Home</Link>
               </li>
               <li>
-                <Link href="/services">
-                  Services
-                </Link>
+                <Link href="/services">Services</Link>
               </li>
               <li>Laser Hair Removal</li>
             </ul>
