@@ -2,12 +2,6 @@ const CryolipolysisDetailsContent = () => {
   const bookingUrl =
     "https://squareup.com/appointments/book/k4rk6vt3qij078/L8GRWK7WDVDT7/start";
 
-  const ctaLabels = [
-    "Book Now",
-    "Get Your Consultation",
-    "Start My Transformation",
-  ];
-
   return (
     <>
       <div className="services-details-area ptb-100">
@@ -38,22 +32,19 @@ const CryolipolysisDetailsContent = () => {
                 <li>No downtime</li>
                 <li>Real results in weeks</li>
               </ul>
-
-              {ctaLabels.map((label) => (
-                <div key={`hero-${label}`} className="mb-4">
-                  <p>
-                    <strong>Spots fill quickly - reserve yours today</strong>
-                  </p>
-                  <a
-                    href={bookingUrl}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="default-btn"
-                  >
-                    {label}
-                  </a>
-                </div>
-              ))}
+              <div className="mb-4">
+                <p>
+                  <strong>Spots fill quickly - reserve yours today</strong>
+                </p>
+                <a
+                  href={bookingUrl}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="default-btn"
+                >
+                  Book Your Consultation
+                </a>
+              </div>
 
               <h4>Why Clients Choose Us</h4>
               <p>Most places just do the treatment.</p>
@@ -131,22 +122,6 @@ const CryolipolysisDetailsContent = () => {
                 Not sure which one you need? We customize it for you during your
                 consultation.
               </p>
-
-              {ctaLabels.map((label) => (
-                <div key={`middle-${label}`} className="mb-4">
-                  <p>
-                    <strong>Spots fill quickly - reserve yours today</strong>
-                  </p>
-                  <a
-                    href={bookingUrl}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="default-btn"
-                  >
-                    {label}
-                  </a>
-                </div>
-              ))}
 
               <div className="article-services-middle-image">
                 <img
@@ -243,22 +218,19 @@ const CryolipolysisDetailsContent = () => {
                 Book your consultation today for a personalized treatment plan
                 with real results, no surgery, and no downtime.
               </p>
-
-              {ctaLabels.map((label) => (
-                <div key={`footer-${label}`} className="mb-4">
-                  <p>
-                    <strong>Spots fill quickly - reserve yours today</strong>
-                  </p>
-                  <a
-                    href={bookingUrl}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="default-btn"
-                  >
-                    {label}
-                  </a>
-                </div>
-              ))}
+              <div className="mb-4">
+                <p>
+                  <strong>Spots fill quickly - reserve yours today</strong>
+                </p>
+                <a
+                  href={bookingUrl}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="default-btn"
+                >
+                  Start My Transformation
+                </a>
+              </div>
             </div>
           </div>
         </div>
