@@ -13,6 +13,11 @@ const HIFUServiceContent = () => {
             <div className="article-services-content">
               <h3>HIFU Treatment - Non-Surgical Face and Body Lift</h3>
               <p>
+                Non-invasive skin lifting and tightening using ultrasound
+                technology to stimulate collagen and elastin for a firmer,
+                youthful appearance.
+              </p>
+              <p>
                 Our HIFU (High Intensity Focused Ultrasound) treatment is a
                 non-surgical cosmetic solution that revitalizes aging skin by
                 lifting sagging areas and refining the body without the need for
@@ -41,6 +46,43 @@ const HIFUServiceContent = () => {
                 your daily activities immediately, feeling and looking better
                 than ever.
               </p>
+
+              <h4>Face & Neck</h4>
+              <p>Full Face: 1 Session - $600</p>
+              <p>Full Face & Neck: 1 Session - $750</p>
+              <p>Half Face: 1 Session - $450</p>
+              <p>
+                <strong>Benefits:</strong>
+              </p>
+              <ul>
+                <li>Lifts and tightens sagging skin</li>
+                <li>Reduces fine lines and wrinkles</li>
+                <li>Improves facial contours</li>
+                <li>Stimulates natural collagen production</li>
+              </ul>
+
+              <h4>Body & Abdomen</h4>
+              <p>Abdomen Laxity (loose, soft skin): 1 Session - $450</p>
+              <p>Body (15 cm x 15 cm area): 1 Session - $450</p>
+              <p>
+                <strong>Benefits:</strong>
+              </p>
+              <ul>
+                <li>Tightens loose skin</li>
+                <li>Reduces mild sagging</li>
+                <li>Improves skin firmness and texture</li>
+              </ul>
+
+              <h4>Why Choose Packages?</h4>
+              <p>
+                Multiple HIFU sessions enhance results by gradually stimulating
+                deeper collagen layers, leading to:
+              </p>
+              <ul>
+                <li>More noticeable lifting and tightening</li>
+                <li>Long-lasting skin firmness</li>
+                <li>Improved contour and overall appearance</li>
+              </ul>
             </div>
 
             <div className="row">
