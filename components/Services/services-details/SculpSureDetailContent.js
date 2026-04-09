@@ -70,8 +70,8 @@ const SculpSureDetailContent = () => {
               <h5>Glute Sculpting Treatment (Butt Enhancement)</h5>
               <p>
                 A specialized treatment combining Botox technique, Russian
-                currents, and Endospheres therapy to lift, tone, and enhance
-                the appearance of the glutes.
+                currents, and Endospheres therapy to lift, tone, and enhance the
+                appearance of the glutes.
               </p>
               <p>
                 <strong>Benefits:</strong>
