@@ -10,7 +10,7 @@ const faqData = [
   {
     question: "What are your main services?",
     answer:
-      "Our main services include Laser Hair Removal using Elite MPX technology, SculpSure Body Contouring, custom Facials, Botox & Fillers, Massage Therapy, Nail Treatments, and IV Nutritional Therapy.",
+      "Our most requested services include Laser Hair Removal, SculpSure body sculpting, advanced facial and laser treatments, massage and lymphatic therapies, Botox, Morpheus8 with PRP, HIFU, Fibroblast, intimate whitening, and stretch mark camouflage. We also offer additional medspa services depending on your goals.",
   },
   {
     question: "What type of clients do you work with?",
@@ -20,7 +20,7 @@ const faqData = [
   {
     question: "How much do your services cost?",
     answer:
-      "Pricing varies depending on the treatment area and the number of sessions required. We offer competitive pricing and packages. Please contact us for a personalized consultation and quote.",
+      "Pricing varies by treatment and package size. Many services include single-session and multi-session pricing, and some body contouring treatments also offer bundle options with lymphatic massage. Contact us for a personalized recommendation.",
   },
   {
     question: "What results do you guarantee?",
@@ -50,7 +50,7 @@ const faqData = [
   {
     question: "What can I expect from SculpSure Body Contouring?",
     answer:
-      "SculpSure offers a non-invasive way to reduce stubborn fat in areas like the abdomen and thighs. Each session lasts 25 minutes, with results visible as early as 6 weeks and optimal outcomes in 12 weeks.",
+      "SculpSure is a non-invasive way to contour stubborn fat using customized packages based on treatment area size. Sessions are fast, there is no downtime, and clients typically start seeing changes around 6 weeks with fuller results over the following weeks.",
   },
   {
     question: "How often should I get Facials for the best results?",
@@ -58,9 +58,9 @@ const faqData = [
       "For optimal skin health and radiance, we recommend a facial every 4 to 6 weeks. This frequency matches your skin's natural renewal cycle, allowing treatments to work in harmony with your body's physiology.",
   },
   {
-    question: "Are Botox & Fillers safe?",
+    question: "Are Botox treatments safe?",
     answer:
-      "Botox and fillers are FDA-approved, safe treatments for reducing wrinkles and restoring facial volume. Our specialists are highly trained to ensure the safety and effectiveness of these procedures.",
+      "Botox is a widely used, non-surgical treatment for expression lines when performed by a trained professional. We customize the treatment based on your goals and review whether you are a good candidate before proceeding.",
   },
   {
     question: "What are the benefits of Massage Therapy?",

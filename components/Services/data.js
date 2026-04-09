@@ -10,8 +10,15 @@ export const servicesData = [
     title: "SculpSure Body Contouring Treatments",
     imageUrl: "/images/services/sculpsure-body-contouring-treatments.avif",
     description:
-      "Slim down in Orlando with 25-minute SculpSure sessions at our med spa near UCF. Non-invasive, FDA-cleared fat reduction for the abdomen, flanks, and thighs with no downtime.",
+      "Choose targeted SculpSure body sculpting packages in Orlando with up to 16 applicators per session and optional lymphatic massage bundles.",
     link: "/services/sculpsure-body-contouring-treatments",
+  },
+  {
+    title: "Body Contouring & Sculpting Treatments",
+    imageUrl: "/images/services/cryolipolysis.avif",
+    description:
+      "Tone and contour with radiofrequency, pressotherapy, lymphatic support, and glute sculpting packages designed for progressive results.",
+    link: "/services/body-contouring-sculpting-treatments",
   },
   {
     title: "Facials",
@@ -21,10 +28,10 @@ export const servicesData = [
     link: "/services/facials",
   },
   {
-    title: "Botox & Fillers",
+    title: "Botox Treatments",
     imageUrl: "/images/services/botox-fillers.avif",
     description:
-      "Orlando injectors deliver natural-looking Botox and filler treatments to soften lines and restore volume safely, enhancing your features with confidence.",
+      "Smooth forehead lines, frown lines, and crow's feet with customized Botox treatments in Orlando and flexible unit-based pricing.",
     link: "/services/botox-fillers",
   },
   {

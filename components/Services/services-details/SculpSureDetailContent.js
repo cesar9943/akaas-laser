@@ -4,166 +4,89 @@ const SculpSureDetailContent = () => {
       <div className="services-details-area ptb-100">
         <div className="container">
           <div className="services-details-desc">
-            <div className="article-services-image"></div>
+            <div className="article-services-image">
+              <img
+                src="/images/services-details/sculpsure-1.jpg"
+                alt="SculpSure body sculpting treatment"
+              />
+            </div>
             <div className="article-services-content">
-              <h3>SculpSure® Non-Invasive Body Contouring</h3>
+              <h3>SculpSure Body Sculpting Packages</h3>
               <p>
-                The SculpSure device provides treatments for non-invasive body
-                contouring that permanently reduces stubborn fat without surgery
-                or downtime.
+                Sculpt, contour, and redefine your body with our advanced
+                non-invasive treatments. Choose from our customized packages
+                designed to maximize results.
               </p>
 
-              <h4>Body Contouring & Sculpting Treatments</h4>
+              <h4>Package Pricing</h4>
+
+              <h5>Small Area - $900 (3 Sessions)</h5>
+              <p>Includes up to 4 applicators per session.</p>
+              <p>With Lymphatic Massage (15 sessions): $1,950</p>
+
+              <h5>Medium Area - $1,200 (3 Sessions)</h5>
+              <p>Includes up to 8 applicators per session.</p>
+              <p>With Lymphatic Massage (15 sessions): $2,250</p>
+
+              <h5>Large Area - $1,400 (3 Sessions)</h5>
+              <p>Includes up to 12 applicators per session.</p>
+              <p>With Lymphatic Massage (15 sessions): $2,450</p>
+
+              <h5>Extra Large Area - $1,600 (3 Sessions)</h5>
+              <p>Includes up to 16 applicators per session.</p>
+              <p>With Lymphatic Massage (15 sessions): $2,650</p>
+
+              <h4>Why Add Lymphatic Massage?</h4>
               <p>
-                Achieve a more defined, toned, and sculpted body with our
-                advanced non-invasive technologies designed to tighten skin,
-                reduce fat appearance, and improve circulation.
+                Lymphatic drainage helps enhance results by reducing swelling,
+                improving circulation, and accelerating the elimination of fat
+                cells after treatment.
               </p>
 
-              <h5>Monopolar Radiofrequency + Lymphatic Massage</h5>
+              <h4>Why Choose SculpSure?</h4>
               <p>
-                A powerful combination that tightens the skin while enhancing
-                lymphatic drainage to reduce fluid retention and improve body
-                contour.
-              </p>
-              <p>
-                <strong>Benefits:</strong>
+                SculpSure is a non-surgical body contouring technology designed
+                to permanently reduce stubborn fat without surgery or downtime.
+                Treatments are fast, customizable, and built to fit different
+                body shapes and target areas.
               </p>
               <ul>
-                <li>Skin tightening and firming</li>
-                <li>Improves circulation</li>
-                <li>Reduces fluid retention</li>
-                <li>Enhances body contouring results</li>
-              </ul>
-              <p>
-                <strong>Pricing:</strong>
-              </p>
-              <ul>
-                <li>1 Session - $350</li>
-                <li>3 Sessions - $900</li>
-                <li>6 Sessions - $1,500</li>
+                <li>25-minute treatments per area</li>
+                <li>No surgery and no downtime</li>
+                <li>Advanced contact cooling for comfort</li>
+                <li>Natural-looking contour improvement over time</li>
               </ul>
 
-              <h5>Monopolar Radiofrequency + Pressotherapy (30 min)</h5>
+              <h4>How SculpSure Works</h4>
               <p>
-                Combines deep skin tightening with pressotherapy to stimulate
-                lymphatic flow and detoxify the body.
+                The 1060nm wavelength used by SculpSure has a specific affinity
+                for adipose tissue while minimizing absorption in the dermis.
+                This allows targeted treatment of troublesome fat with a
+                treatment plan designed for consistent, visible contouring.
               </p>
               <p>
-                <strong>Benefits:</strong>
-              </p>
-              <ul>
-                <li>Promotes detoxification</li>
-                <li>Reduces swelling and bloating</li>
-                <li>Improves circulation</li>
-                <li>Supports fat reduction treatments</li>
-              </ul>
-              <p>
-                <strong>Pricing:</strong>
-              </p>
-              <ul>
-                <li>1 Session - $300</li>
-                <li>3 Sessions - $850</li>
-                <li>6 Sessions - $1,350</li>
-              </ul>
-
-              <h5>Glute Sculpting Treatment (Butt Enhancement)</h5>
-              <p>
-                A specialized treatment combining Botox technique, Russian
-                currents, and Endospheres therapy to lift, tone, and enhance the
-                appearance of the glutes.
-              </p>
-              <p>
-                <strong>Benefits:</strong>
-              </p>
-              <ul>
-                <li>Lifts and tones the glutes</li>
-                <li>Improves muscle activation</li>
-                <li>Enhances shape and firmness</li>
-                <li>Improves skin texture</li>
-              </ul>
-              <p>
-                <strong>Pricing:</strong>
-              </p>
-              <ul>
-                <li>1 Session - $250</li>
-                <li>3 Sessions - $600</li>
-              </ul>
-
-              <h5>Why Choose a Package?</h5>
-              <p>
-                Body contouring requires consistency to achieve visible and
-                long-lasting results. While a single session can provide
-                temporary improvement, multiple sessions allow:
-              </p>
-              <ul>
-                <li>Progressive fat reduction and skin tightening</li>
-                <li>Improved lymphatic drainage and detoxification</li>
-                <li>More sculpted and defined results</li>
-                <li>Longer-lasting body transformation</li>
-              </ul>
-              <p>
-                <strong>Recommended:</strong> Most clients see optimal results
-                with 3-6 sessions, depending on their goals and body area.
+                Over time, the body naturally eliminates the disrupted fat
+                cells. Initial changes may appear as early as 6 weeks, with
+                optimal results usually visible in about 12 weeks.
               </p>
 
-              {/* SculpSure Body Contouring Treatments */}
-              <h4>SculpSure Body Contouring Treatments</h4>
-              <p>
-                Safely and effectively eliminate unwanted fat cells in just 25
-                minutes per treatment with our revolutionary SculpSure
-                technology. Now you can provide patients with non-invasive body
-                contouring that permanently reduces stubborn fat without surgery
-                or downtime.
-              </p>
-              <p>
-                SculpSure is the world’s first FDA-cleared laser device for
-                non-invasive lipolysis of the abdomen, flanks, back, inner
-                thighs, outer thighs, and submental area.
-              </p>
-
-              {/* SculpSure Submental Treatment */}
-              <h4>SculpSure Submental Treatment</h4>
-              <p>
-                Our Submental applicator design is perfect for providing precise
-                and effective treatments resulting in a slimmer appearance under
-                the chin. The addition of the submental application makes the
-                SculpSure device an all-encompassing, non-invasive body
-                contouring system.
-              </p>
+              <h4>Common Treatment Areas</h4>
               <ul>
-                <li>100% patient satisfaction rating in clinical study1</li>
-                <li>FDA-cleared for individuals with a BMI up to 49</li>
+                <li>Abdomen</li>
+                <li>Flanks</li>
+                <li>Back</li>
+                <li>Inner and outer thighs</li>
+                <li>Submental area</li>
               </ul>
 
-              {/* How SculpSure works */}
-              <h4>How SculpSure works</h4>
+              <h4>Results Timeline</h4>
               <p>
-                The 1060nm wavelength’s specific affinity for adipose tissue,
-                coupled with minimal absorption in the dermis, allows SculpSure
-                to efficiently treat areas of troublesome fat in just 25 minutes
-                per treatment. Over time, the body naturally eliminates the
-                disrupted fat cells with results seen as quickly as 6 weeks and
-                optimal results usually seen in as few as 12 weeks.
+                SculpSure works best as a package approach. Most clients see the
+                strongest transformation after completing their recommended
+                sessions and supporting recovery with lymphatic care when
+                appropriate.
               </p>
-              <ul>
-                <li>
-                  Minimal absorption in the dermis leaves the skin’s surface
-                  unharmed
-                </li>
-                <li>Advanced Contact Cooling™ enhances patient comfort</li>
-                <li>
-                  Feathering of heat spread provides natural-looking results
-                </li>
-                <li>Mild and transient side effects</li>
-              </ul>
 
-              {/* Maximum results. Maximize success. */}
-              <h4>Maximum results. Maximize success.</h4>
-              <p>
-                Fast, 25-minute treatment per area. Versatile applicators to fit
-                a variety of body shapes and sizes.
-              </p>
               <div className="d-flex flex-column gap-3">
                 <div className="row ">
                   <div className="col-lg-6">

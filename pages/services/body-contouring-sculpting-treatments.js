@@ -4,17 +4,17 @@ import SeoHead from "@/components/Common/SeoHead";
 import Footer from "@/components/Layout/Footer";
 import NavbarThree from "@/components/Layout/NavbarThree";
 import ServiceSlider from "@/components/Services/ServiceSlider";
-import BotoxFillersContent from "@/components/Services/services-details/BotoxDetailsContent";
+import BodyContouringDetailsContent from "@/components/Services/services-details/BodyContouringDetailsContent";
 import Link from "next/link";
 
 export default function ServiceDetails() {
   return (
     <>
       <SeoHead
-        title="Botox Treatments in Orlando | Smooth, natural results"
-        description="Customized Botox treatments in Orlando to soften forehead lines, frown lines, and crow's feet with natural-looking results near UCF."
-        canonical="/services/botox-fillers"
-        keywords="Botox Orlando, wrinkle relaxer Orlando, forehead lines Orlando, crow's feet Orlando"
+        title="Body Contouring Treatments in Orlando | Sculpt and tone"
+        description="Non-invasive body contouring in Orlando with radiofrequency, lymphatic massage, pressotherapy, and glute sculpting packages near UCF."
+        canonical="/services/body-contouring-sculpting-treatments"
+        keywords="body contouring Orlando, skin tightening Orlando, pressotherapy Orlando, glute sculpting Orlando"
       />
       <NavbarThree />
       <div
@@ -29,7 +29,7 @@ export default function ServiceDetails() {
             data-aos-duration="500"
             data-aos-once="true"
           >
-            <h2>Botox Treatments</h2>
+            <h2>Body Contouring Treatments</h2>
             <ul>
               <li>
                 <Link href="/">Home</Link>
@@ -37,12 +37,12 @@ export default function ServiceDetails() {
               <li>
                 <Link href="/services">Services</Link>
               </li>
-              <li>Botox Treatments</li>
+              <li>Body Contouring Treatments</li>
             </ul>
           </div>
         </div>
       </div>
-      <BotoxFillersContent />
+      <BodyContouringDetailsContent />
       <ContactForm />
       <div className="radius-0">
         <ServiceSlider />
