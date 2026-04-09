@@ -8,6 +8,8 @@ const CTO = () => {
               <div className="overview-card">
                 <h3>Call Us</h3>
                 <span>
+                  Use this number for phone calls:
+                  <br />
                   <a href="tel:4073072925">407-307-2925</a>
                 </span>
 

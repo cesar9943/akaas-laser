@@ -13,6 +13,11 @@ const faqData = [
       "Our most requested services include Laser Hair Removal, SculpSure body sculpting, advanced facial and laser treatments, massage and lymphatic therapies, Botox, Morpheus8 with PRP, HIFU, Fibroblast, intimate whitening, and stretch mark camouflage. We also offer additional medspa services depending on your goals.",
   },
   {
+    question: "What number should I use to call you by phone?",
+    answer:
+      "For phone calls, please use 407-307-2925. If you would rather send a message, you can also contact us on WhatsApp separately.",
+  },
+  {
     question: "What type of clients do you work with?",
     answer:
       "We work with both men and women of all skin types who are looking for effective, non-invasive aesthetic treatments. Our technology is safe and effective for a wide range of skin tones.",
