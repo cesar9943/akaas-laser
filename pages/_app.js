@@ -16,7 +16,6 @@ import "../styles/globals.css";
 // Responsive CSS
 import "../styles/responsive.css";
 
-import ScrollToTop from "@/components/Layout/ScrollToTop";
 import Head from "next/head";
 import Script from "next/script";
 
@@ -42,8 +41,6 @@ function MyApp({ Component, pageProps }) {
       </Head>
 
       <Component {...pageProps} />
-
-      <ScrollToTop />
       <Script
         src="https://easy.eazychat.io/easychat/load/boot.ez.js"
         data-id="3721c493-3c53-4b90-bb53-55e040741305"
