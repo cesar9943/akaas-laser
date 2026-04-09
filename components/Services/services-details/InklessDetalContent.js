@@ -48,6 +48,11 @@ const StretchMarkRemovalContent = () => {
             <div className="article-services-content">
               <h3>Inkless Stretch Mark Removal Camouflage Treatment</h3>
               <p>
+                Also known as Brazilian micropuncture, this treatment helps
+                reduce the appearance of stretch marks by stimulating collagen
+                production and improving skin texture.
+              </p>
+              <p>
                 Did you know 80-90% of women and a significant percentage of men
                 have stretch marks? The Inkless Technique offers a new hope for
                 those looking to improve the appearance of their stretch marks.
@@ -62,6 +67,28 @@ const StretchMarkRemovalContent = () => {
                 your stretch marks or just looking for a non-invasive solution,
                 Inkless Stretch Mark Removal offers a promising option.
               </p>
+
+              <h4>Pricing</h4>
+              <ul>
+                <li>Small Area: 1 Session - $100 | 3 Sessions - $280</li>
+                <li>Medium Area: 1 Session - $150 | 3 Sessions - $400</li>
+                <li>Large Area: 1 Session - $300 | 3 Sessions - $750</li>
+              </ul>
+
+              <h4>Benefits</h4>
+              <ul>
+                <li>Reduces the visibility of stretch marks</li>
+                <li>Improves skin texture and firmness</li>
+                <li>Stimulates natural collagen production</li>
+                <li>Restores confidence in treated areas</li>
+              </ul>
+
+              <h4>Why Packages?</h4>
+              <p>
+                Multiple sessions ensure gradual and consistent improvement,
+                giving the best long-term results.
+              </p>
+
               <p>
                 If you&apos;d like to learn more or book an appointment at AKAAS
                 Laser MedSpa, please call us. We&apos;re here to help you

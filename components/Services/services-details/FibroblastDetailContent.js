@@ -14,6 +14,11 @@ const PlasmaPenContent = () => {
             <div className="article-services-content">
               <h2>What is Fibroblast Plasma Skin Tightening?</h2>
               <p>
+                Fibroblast is a non-invasive treatment that tightens and lifts
+                the skin using plasma technology. It stimulates collagen and
+                elastin production for smoother, firmer, and rejuvenated skin.
+              </p>
+              <p>
                 As we age, the dermal layer of our skin thins, our bodies
                 produce less collagen, and we lose elasticity, leading to
                 wrinkles and sagging skin. Our certified plasma pen technicians
@@ -95,11 +100,83 @@ const PlasmaPenContent = () => {
 
             <div className="article-services-content">
               <h2>Special Pricing</h2>
+              <h3>Face & Neck</h3>
               <p>
-                SPECIAL PRICING / PACKAGES AVAILABLE FOR MULTIPLE AREAS. Pricing
-                is subject to individual treatment needs and will be determined
-                during a private consultation.
+                <strong>Pricing:</strong>
               </p>
+              <ul>
+                <li>1 Session - $1,100</li>
+                <li>3 Sessions - $2,500</li>
+              </ul>
+              <p>
+                <strong>Benefits:</strong>
+              </p>
+              <ul>
+                <li>Tightens sagging skin</li>
+                <li>Reduces fine lines and wrinkles</li>
+                <li>Improves skin texture and elasticity</li>
+              </ul>
+
+              <h3>Eye Treatment (Around the Eyes)</h3>
+              <p>
+                <strong>Pricing:</strong>
+              </p>
+              <ul>
+                <li>1 Session - $400</li>
+                <li>3 Sessions - $800</li>
+              </ul>
+              <p>
+                <strong>Benefits:</strong>
+              </p>
+              <ul>
+                <li>Reduces crow&apos;s feet and under-eye wrinkles</li>
+                <li>Lifts drooping eyelids</li>
+                <li>Brightens and rejuvenates the eye area</li>
+              </ul>
+
+              <h3>Abdomen</h3>
+              <p>
+                <strong>Pricing:</strong>
+              </p>
+              <ul>
+                <li>1 Session - $1,500</li>
+                <li>3 Sessions - $3,500</li>
+              </ul>
+              <p>
+                <strong>Benefits:</strong>
+              </p>
+              <ul>
+                <li>Tightens loose skin after weight loss or pregnancy</li>
+                <li>Improves appearance of stretch marks</li>
+                <li>Firms and tones the abdominal area</li>
+              </ul>
+
+              <h3>Hands</h3>
+              <p>
+                <strong>Pricing:</strong>
+              </p>
+              <ul>
+                <li>1 Session - $400</li>
+              </ul>
+              <p>
+                <strong>Benefits:</strong>
+              </p>
+              <ul>
+                <li>Reduces wrinkles and loose skin on hands</li>
+                <li>Restores youthful texture and appearance</li>
+              </ul>
+
+              <h3>Why Choose Packages?</h3>
+              <p>
+                Fibroblast works best with multiple sessions for long-lasting,
+                progressive results. Packages allow:
+              </p>
+              <ul>
+                <li>Deeper collagen stimulation</li>
+                <li>Better overall skin tightening</li>
+                <li>Consistent and enhanced results</li>
+              </ul>
+
               <div className="article-services-image">
                 <img
                   src="/images/services-details/fibroblast-2.png"
