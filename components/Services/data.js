@@ -93,4 +93,11 @@ export const servicesData = [
       "Cryolipolysis body contouring in Orlando, Florida with suction and flat plate options to safely freeze stubborn fat and deliver long-lasting reduction without surgery.",
     link: "/services/cryolipolysis-fat-reduction",
   },
+  {
+    title: "Intimate & Sensitive Area Whitening",
+    imageUrl: "/images/services/facials.avif",
+    description:
+      "Safe whitening treatments in Orlando for intimate and sensitive areas, including underarms and areolas, with package options for lasting brightening.",
+    link: "/services/intimate-sensitive-area-whitening",
+  },
 ];
