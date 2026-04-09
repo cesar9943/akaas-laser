@@ -6,6 +6,7 @@ import TeamMember from "@/components/Common/TeamMember";
 import TestimonialSliderStyle2 from "@/components/Common/TestimonialSliderStyle2";
 import WorkingProcess from "@/components/Common/WorkingProcess";
 import MainBanner from "@/components/HomePageDemo3/MainBanner";
+import PricingSnapshot from "@/components/HomePageDemo3/PricingSnapshot";
 import TopServices from "@/components/HomePageDemo3/TopServices";
 import WhoWeAre from "@/components/HomePageDemo3/WhoWeAre";
 import Footer from "@/components/Layout/Footer";
@@ -59,6 +60,8 @@ export default function Home3() {
       <MainBanner />
 
       <TopServices />
+
+      <PricingSnapshot />
 
       <WhoWeAre />
 

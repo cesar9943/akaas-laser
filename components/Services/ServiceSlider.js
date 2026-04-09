@@ -22,9 +22,10 @@ const ServiceSlider = () => {
                   We Provide the Best Quality <b>Services</b>
                 </h3>
                 <p>
-                  We offer Laser Hair Removal, SculpSure, Facial, Body
-                  Contouring, Lymphatic Drainage, Cryolipolysis, Nails, Botox,
-                  Fillers, PRP, Weight Loss Injections, IV Therapy and more.
+                  We offer laser hair removal packages, SculpSure body
+                  sculpting, advanced facials, massage therapies, Botox,
+                  Morpheus8, HIFU, Fibroblast, intimate whitening, stretch mark
+                  camouflage, and more.
                 </p>
                 <div className="services-section-btn">
                   <Link href="/services" className="default-btn">
@@ -53,16 +54,12 @@ const ServiceSlider = () => {
                     <div className="services-item">
                       <div className="services-image">
                         <Link href={service.link}>
-
                           <img src={service.imageUrl} alt="image" />
-
                         </Link>
                       </div>
                       <div className="services-content">
                         <h3>
-                          <Link href={service.link}>
-                            {service.title}
-                          </Link>
+                          <Link href={service.link}>{service.title}</Link>
                         </h3>
                         {/* Max 100 chars */}
 
