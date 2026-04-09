@@ -15,6 +15,174 @@ const FacialsDetailsContent = () => {
               />
             </div>
             <div className="article-services-content">
+              <h3>Advanced Facial & Laser Treatments</h3>
+              <p>
+                Enhance your skin with our cutting-edge laser and facial
+                technologies designed to rejuvenate, correct, and restore your
+                natural glow.
+              </p>
+
+              <h4>Laser Skin Treatment (Laser Genesis)</h4>
+              <p>
+                A gentle, non-invasive laser treatment that improves skin
+                texture, reduces redness, minimizes pores, and stimulates
+                collagen production.
+              </p>
+              <p>
+                <strong>Best for:</strong>
+                <br />
+                Fine lines, enlarged pores, uneven texture, and dull skin.
+              </p>
+              <p>
+                <strong>Pricing:</strong>
+              </p>
+              <ul>
+                <li>1 Session - $199</li>
+                <li>3 Sessions - $450</li>
+              </ul>
+              <p>
+                <strong>Why multiple sessions?</strong>
+                <br />A series of treatments delivers deeper collagen
+                stimulation and long-lasting results.
+              </p>
+
+              <h4>IPL Photofacial (Intense Pulsed Light)</h4>
+              <p>
+                Targets pigmentation, sun damage, and uneven skin tone for a
+                clearer, brighter complexion.
+              </p>
+              <p>
+                <strong>Best for:</strong>
+                <br />
+                Sun damage, age spots, redness, and pigmentation issues.
+              </p>
+              <p>
+                <strong>Pricing:</strong>
+              </p>
+              <ul>
+                <li>1 Session - $150</li>
+                <li>3 Sessions - $350</li>
+              </ul>
+              <p>
+                <strong>Note:</strong>
+                <br />
+                IPL works best on lighter skin tones and is ideal for correcting
+                discoloration.
+              </p>
+
+              <h4>Combined Laser + IPL Treatment</h4>
+              <p>
+                A powerful combination of Laser Skin Treatment and IPL for total
+                skin rejuvenation.
+              </p>
+              <p>
+                <strong>Benefits:</strong>
+              </p>
+              <ul>
+                <li>Improves texture and tone</li>
+                <li>Reduces pigmentation and redness</li>
+                <li>Stimulates collagen</li>
+                <li>Enhances overall skin clarity</li>
+              </ul>
+              <p>
+                <strong>Pricing:</strong>
+              </p>
+              <ul>
+                <li>1 Session - $250</li>
+                <li>3 Sessions - $550</li>
+              </ul>
+
+              <h4>Deep Cleansing Facial with Microdermabrasion</h4>
+              <p>
+                A complete facial that includes cleansing, exfoliation, mask,
+                LED light therapy, and extractions if needed. High-frequency may
+                be used for acne.
+              </p>
+              <p>
+                <strong>Includes:</strong>
+                <br />
+                Deep cleansing, exfoliation, microdermabrasion, mask, LED
+                therapy, and extractions (if needed).
+              </p>
+              <p>
+                <strong>Pricing:</strong>
+              </p>
+              <ul>
+                <li>1 Session - $75</li>
+                <li>3 Sessions - $199</li>
+              </ul>
+              <p>
+                <strong>Add-on:</strong>
+                <br />
+                Chemical Peel - $50 per session.
+              </p>
+
+              <h4>Deluxe Hydrafacial Experience</h4>
+              <p>
+                An advanced, deep-cleansing facial that combines hydration,
+                exfoliation, and skin rejuvenation for an instant glow.
+              </p>
+              <p>
+                Includes everything in the deep facial plus enhanced hydration
+                and infusion.
+              </p>
+              <p>
+                <strong>Pricing:</strong>
+              </p>
+              <ul>
+                <li>1 Session - $120</li>
+                <li>3 Sessions - $310</li>
+              </ul>
+
+              <h4>Ultimate Acne & Skin Correction Treatment</h4>
+              <p>
+                A customized treatment combining Deep Facial + IPL + Laser Skin
+                Treatment for maximum results.
+              </p>
+              <p>
+                <strong>Ideal for:</strong>
+                <br />
+                Acne, acne marks, uneven tone, and overall skin rejuvenation.
+              </p>
+              <p>
+                <strong>Benefits:</strong>
+              </p>
+              <ul>
+                <li>Deep pore cleansing</li>
+                <li>Reduces acne and inflammation</li>
+                <li>Improves pigmentation</li>
+                <li>Stimulates collagen</li>
+                <li>Leaves skin smoother and clearer</li>
+              </ul>
+              <p>
+                <strong>Important:</strong>
+                <br />
+                IPL is recommended for lighter skin tones, while Laser Skin
+                Treatment is safe for all skin types.
+              </p>
+              <p>
+                <strong>Pricing:</strong>
+              </p>
+              <ul>
+                <li>1 Session - $290</li>
+                <li>3 Sessions - $799</li>
+              </ul>
+
+              <h4>Why Choose a Package?</h4>
+              <p>
+                Packages are designed to deliver progressive, long-lasting
+                results.
+              </p>
+              <p>
+                While you may see improvement after one session, multiple
+                treatments ensure:
+              </p>
+              <ul>
+                <li>Deeper skin correction</li>
+                <li>Longer-lasting collagen production</li>
+                <li>More even and consistent results</li>
+              </ul>
+
               <h3>Facials: What Are They, and What Do They Really Do?</h3>
               <p>
                 Lie back and relax as a skin specialist cleanses, exfoliates and
@@ -153,7 +321,8 @@ const FacialsDetailsContent = () => {
                 <p>
                   There are different types of peels, all designed to do
                   different things for your skin. Which kind you get will depend
-                  on your specific needs and your provider’s recommendations.{" "}
+                  on your specific needs and your provider’s
+                  recommendations.{" "}
                 </p>
 
                 <p className="fw-bold">
