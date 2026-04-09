@@ -33,6 +33,42 @@ const Morpheus8Content = () => {
                 choice for those looking to improve skin quality without the
                 need for extensive surgery.
               </p>
+
+              <h4>Morpheus8 with PRP (Advanced Skin Rejuvenation)</h4>
+              <p>
+                A powerful combination of microneedling with radiofrequency
+                (Morpheus8) and PRP (platelet-rich plasma) to deeply remodel the
+                skin, boost collagen, and accelerate natural healing.
+              </p>
+              <p>
+                <strong>Benefits:</strong>
+              </p>
+              <ul>
+                <li>Improves skin texture and firmness</li>
+                <li>Reduces fine lines and wrinkles</li>
+                <li>Minimizes acne scars and pores</li>
+                <li>Enhances overall skin tone and glow</li>
+              </ul>
+              <p>
+                <strong>Pricing:</strong>
+              </p>
+              <ul>
+                <li>1 Session - $550</li>
+                <li>3 Sessions - $1,595</li>
+              </ul>
+
+              <h4>Why Choose a Package?</h4>
+              <p>
+                While noticeable results can be seen after one session, a series
+                of treatments is recommended for optimal skin remodeling.
+              </p>
+              <p>Multiple sessions help:</p>
+              <ul>
+                <li>Stimulate deeper collagen production</li>
+                <li>Improve long-term skin tightening</li>
+                <li>Deliver more consistent and visible results</li>
+              </ul>
+
               <h4>Key Treatment Areas</h4>
               <ul className="list">
                 <li>
