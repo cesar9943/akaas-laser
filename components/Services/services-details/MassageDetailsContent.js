@@ -11,6 +11,190 @@ const LymphaticDrainageContent = () => {
               />
             </div>
             <div className="article-services-content">
+              <h3>Advanced Massage & Body Therapies</h3>
+              <p>
+                Restore, sculpt, and rejuvenate your body with our specialized
+                massage treatments designed to improve circulation, reduce
+                tension, and enhance natural beauty.
+              </p>
+
+              <h4>Kinesiolifting Facial</h4>
+              <p>
+                A unique, non-invasive facial massage technique that lifts,
+                tones, and rejuvenates the face naturally by stimulating
+                muscles, lymphatic flow, and collagen production.
+              </p>
+              <p>
+                <strong>Benefits:</strong>
+              </p>
+              <ul>
+                <li>Natural lifting effect</li>
+                <li>Improves skin elasticity</li>
+                <li>Reduces puffiness and fine lines</li>
+                <li>Enhances facial contour</li>
+              </ul>
+              <p>
+                <strong>Pricing:</strong>
+              </p>
+              <ul>
+                <li>1 Session - $150</li>
+                <li>5 Sessions - $650</li>
+                <li>10 Sessions - $1,200</li>
+              </ul>
+              <p>
+                <strong>Why choose a package?</strong>
+                <br />
+                Consistent sessions retrain facial muscles and provide
+                longer-lasting lifting results.
+              </p>
+
+              <h4>Neurolymphatic Massage</h4>
+              <p>
+                A therapeutic massage that targets the nervous system and
+                lymphatic pathways to detoxify the body, reduce inflammation,
+                and promote overall wellness.
+              </p>
+              <p>
+                <strong>Benefits:</strong>
+              </p>
+              <ul>
+                <li>Boosts immune system</li>
+                <li>Reduces fluid retention</li>
+                <li>Relieves stress and fatigue</li>
+                <li>Enhances detoxification</li>
+              </ul>
+              <p>
+                <strong>Pricing:</strong>
+              </p>
+              <ul>
+                <li>1 Session - $130</li>
+                <li>5 Sessions - $600</li>
+                <li>10 Sessions - $1,110</li>
+              </ul>
+
+              <h4>Myofascial Lifting Massage</h4>
+              <p>
+                A deep technique focused on releasing tension in the fascia to
+                improve mobility, tone, and body contour.
+              </p>
+              <p>
+                <strong>Benefits:</strong>
+              </p>
+              <ul>
+                <li>Releases muscle tightness</li>
+                <li>Improves posture</li>
+                <li>Enhances body definition</li>
+                <li>Reduces stiffness and discomfort</li>
+              </ul>
+              <p>
+                <strong>Pricing:</strong>
+              </p>
+              <ul>
+                <li>1 Session - $75</li>
+                <li>5 Sessions - $350</li>
+                <li>10 Sessions - $650</li>
+              </ul>
+
+              <h4>Lymphatic Drainage Massage</h4>
+              <p>
+                A gentle massage that stimulates the lymphatic system to
+                eliminate toxins and reduce swelling.
+              </p>
+              <p>
+                <strong>Benefits:</strong>
+              </p>
+              <ul>
+                <li>Reduces bloating and fluid retention</li>
+                <li>Speeds up recovery after treatments</li>
+                <li>Improves circulation</li>
+                <li>Supports body contouring results</li>
+              </ul>
+              <p>
+                <strong>Pricing:</strong>
+              </p>
+              <ul>
+                <li>1 Session - $99</li>
+                <li>3 Sessions - $249</li>
+                <li>6 Sessions - $419</li>
+              </ul>
+
+              <h4>Top Corpus (Brazilian Body Sculpting Massage)</h4>
+              <p>
+                A popular Brazilian technique focused on body contouring,
+                reducing localized fat appearance, and improving skin firmness.
+              </p>
+              <p>
+                <strong>Benefits:</strong>
+              </p>
+              <ul>
+                <li>Enhances body shape</li>
+                <li>Improves skin texture</li>
+                <li>Stimulates circulation</li>
+                <li>Helps reduce appearance of cellulite</li>
+              </ul>
+              <p>
+                <strong>Pricing:</strong>
+              </p>
+              <ul>
+                <li>1 Session - $120</li>
+              </ul>
+
+              <h4>Relaxing Massage</h4>
+              <p>
+                A soothing full-body massage designed to relieve stress and
+                promote relaxation.
+              </p>
+              <p>
+                <strong>Benefits:</strong>
+              </p>
+              <ul>
+                <li>Reduces stress and anxiety</li>
+                <li>Improves sleep quality</li>
+                <li>Relieves muscle tension</li>
+                <li>Promotes overall well-being</li>
+              </ul>
+              <p>
+                <strong>Pricing:</strong>
+              </p>
+              <ul>
+                <li>1 Session - $100</li>
+                <li>3 Sessions - $270</li>
+              </ul>
+
+              <h4>Deep Tissue Massage</h4>
+              <p>
+                A therapeutic massage that targets deeper layers of muscles to
+                relieve chronic tension and pain.
+              </p>
+              <p>
+                <strong>Benefits:</strong>
+              </p>
+              <ul>
+                <li>Relieves chronic muscle pain</li>
+                <li>Breaks down knots and tension</li>
+                <li>Improves mobility</li>
+                <li>Ideal for active or stressed muscles</li>
+              </ul>
+              <p>
+                <strong>Pricing:</strong>
+              </p>
+              <ul>
+                <li>1 Session - $120</li>
+              </ul>
+
+              <h4>Why Choose a Package?</h4>
+              <p>
+                Packages are the best way to achieve visible and lasting
+                results. While a single session provides immediate relief,
+                multiple sessions allow:
+              </p>
+              <ul>
+                <li>Deeper muscle and lymphatic correction</li>
+                <li>Long-term body contouring and toning</li>
+                <li>Better detoxification and circulation</li>
+                <li>More consistent and enhanced results</li>
+              </ul>
+
               <h3>Lymphatic Drainage Massage</h3>
               <p>
                 Lymphatic drainage massage is a form of gentle massage that
