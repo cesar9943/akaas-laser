@@ -68,29 +68,34 @@ const CryolipolysisDetailsContent = () => {
               </ul>
               <p>No surgery. No needles. No downtime.</p>
 
-              <h4>Prices</h4>
+              <h4>SculpSure Body Sculpting Packages</h4>
               <p>
-                <strong>360 Body Contouring</strong>
-                <br />
-                (Abdomen + Flanks + Lower Back)
-                <br />
-                $1,500 per session
+                Sculpt, contour, and redefine your body with our advanced
+                non-invasive treatments. Choose from our customized packages
+                designed to maximize results.
               </p>
+
+              <h5>Small Area - $900 (3 Sessions)</h5>
+              <p>Includes up to 4 applicators per session.</p>
+              <p>With Lymphatic Massage (15 sessions): $1,950</p>
+
+              <h5>Medium Area - $1,200 (3 Sessions)</h5>
+              <p>Includes up to 8 applicators per session.</p>
+              <p>With Lymphatic Massage (15 sessions): $2,250</p>
+
+              <h5>Large Area - $1,400 (3 Sessions)</h5>
+              <p>Includes up to 12 applicators per session.</p>
+              <p>With Lymphatic Massage (15 sessions): $2,450</p>
+
+              <h5>Extra Large Area - $1,600 (3 Sessions)</h5>
+              <p>Includes up to 16 applicators per session.</p>
+              <p>With Lymphatic Massage (15 sessions): $2,650</p>
+
+              <h4>Why Add Lymphatic Massage?</h4>
               <p>
-                <strong>Single Area</strong>
-                <br />
-                (Example: Abdomen)
-                <br />
-                $750 per session
-              </p>
-              <p>Repeat every 90 days for enhanced results.</p>
-              <p>Add-on services available:</p>
-              <ul>
-                <li>Post-treatment lymphatic massage</li>
-                <li>Dynamic cryolipolysis sessions</li>
-              </ul>
-              <p>
-                These significantly improve results and are highly recommended.
+                Lymphatic drainage helps enhance results by reducing swelling,
+                improving circulation, and accelerating the elimination of fat
+                cells after treatment.
               </p>
 
               <h4>Real Results</h4>
