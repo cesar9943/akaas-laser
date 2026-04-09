@@ -195,7 +195,7 @@ const NavbarThree = () => {
                 <ul className="info-list">
                   <li>
                     <i className="ri-phone-fill"></i>{" "}
-                    <a href="tel:9901234567">+990-123-4567</a>
+                    <a href="tel:4073072925">407-307-2925</a>
                   </li>
 
                   <li>

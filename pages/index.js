@@ -21,7 +21,7 @@ export default function Home3() {
     description:
       "Premier medical spa in Orlando specializing in Laser Hair Removal, Body Contouring, and Facials.",
     url: "https://akaaslasermedspa.com",
-    telephone: "+14074971272",
+    telephone: "+14073072925",
     email: "akaaslaser@gmail.com",
     address: {
       "@type": "PostalAddress",

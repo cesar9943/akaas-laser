@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Topbar = () => {
   return (
     <>
@@ -11,13 +9,14 @@ const Topbar = () => {
                 <li>
                   <i className="ri-phone-line"></i>
                   <span>
-                    Phone: <a href="tel:9901234567">+990-123-4567</a>
+                    Phone: <a href="tel:4073072925">407-307-2925</a>
                   </span>
                 </li>
                 <li>
                   <i className="ri-mail-line"></i>
                   <span>
-                    Mail: <a href="mailto:hellostax@gmail.com">hellostax@gmail.com</a>
+                    Mail:{" "}
+                    <a href="mailto:hellostax@gmail.com">hellostax@gmail.com</a>
                   </span>
                 </li>
                 <li>
@@ -30,22 +29,38 @@ const Topbar = () => {
             <div className="col-lg-3 col-md-3">
               <ul className="social-links text-end">
                 <li>
-                  <a href='https://www.facebook.com/' target='_blank' rel="noreferrer">
+                  <a
+                    href="https://www.facebook.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <i className="ri-facebook-line"></i>
                   </a>
                 </li>
                 <li>
-                  <a href='https://www.twitter.com/' target='_blank' rel="noreferrer">
+                  <a
+                    href="https://www.twitter.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <i className="ri-twitter-line"></i>
                   </a>
                 </li>
                 <li>
-                  <a href='https://www.linkedin.com/' target='_blank' rel="noreferrer">
-                  <i className="ri-linkedin-line"></i>
+                  <a
+                    href="https://www.linkedin.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <i className="ri-linkedin-line"></i>
                   </a>
                 </li>
                 <li>
-                  <a href='https://www.instagram.com/' target='_blank' rel="noreferrer">
+                  <a
+                    href="https://www.instagram.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <i className="ri-instagram-line"></i>
                   </a>
                 </li>
@@ -55,7 +70,7 @@ const Topbar = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Topbar
+export default Topbar;

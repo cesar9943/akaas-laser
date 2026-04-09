@@ -245,7 +245,7 @@ const LaserDetailsContent = () => {
                 Laser MedSpa, our team of experts will analyze your goals and
                 devise a customized treatment plan for you. To learn more about
                 Cynosure, schedule a consultation with us. You can speak to us
-                on +14074971272 , email on akaaslaser@gmail.com, or schedule an
+                at 407-307-2925, email on akaaslaser@gmail.com, or schedule an
                 appointment here.
               </p>
 

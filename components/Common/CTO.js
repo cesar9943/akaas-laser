@@ -8,7 +8,7 @@ const CTO = () => {
               <div className="overview-card">
                 <h3>Call Us</h3>
                 <span>
-                  <a href="tel:9901234567">+407-497-1272</a>
+                  <a href="tel:4073072925">407-307-2925</a>
                 </span>
 
                 <div className="overview-shape">
@@ -34,9 +34,7 @@ const CTO = () => {
               <div className="overview-card">
                 <h3>Whatsapp</h3>
                 <span>
-                  <a href="https://wa.me/message/LSHIRNNROM44K1">
-                    Whatsapp community
-                  </a>
+                  <a href="https://wa.me/14074971272">407-497-1272</a>
                 </span>
 
                 <div className="overview-shape">
