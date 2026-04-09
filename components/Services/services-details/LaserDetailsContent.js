@@ -236,6 +236,59 @@ const LaserDetailsContent = () => {
                 sessions depending on the area of the body for lasting results.
               </p>
 
+              <h4>Laser Hair Removal Packages (8 Sessions)</h4>
+              <p>
+                Achieve long-lasting, smooth skin with our advanced laser hair
+                removal treatments. Save more with our package pricing and enjoy
+                enhanced results over multiple sessions.
+              </p>
+
+              <h5>Small Area - $279 (8 Sessions)</h5>
+              <p>
+                Choose one of the following areas: upper lip, chin, ears, or
+                nose.
+              </p>
+
+              <h5>Medium Area - $499 (8 Sessions)</h5>
+              <p>
+                Choose one of the following areas: underarms or bikini line.
+              </p>
+
+              <h5>Large Area - $699 (8 Sessions)</h5>
+              <p>
+                Choose one of the following areas: Brazilian, full face, neck,
+                chest, or glutes.
+              </p>
+
+              <h5>Half Legs - $820 (8 Sessions)</h5>
+
+              <h5>Extra Large Area - $1,500 (8 Sessions)</h5>
+              <p>
+                Choose one of the following areas: full legs, full back, or
+                abdomen and chest.
+              </p>
+
+              <h4>Special Promotion</h4>
+              <p>Enhance your results with our exclusive package offers:</p>
+              <ul>
+                <li>
+                  Purchase an Extra Large Area (8 sessions) and receive 8
+                  sessions of one Medium Area FREE (client selects one area from
+                  each category).
+                </li>
+                <li>
+                  Purchase a Large Area (8 sessions) and receive 8 sessions of
+                  one Small Area FREE (client selects one area).
+                </li>
+              </ul>
+
+              <h4>Why Choose Our Packages?</h4>
+              <p>
+                Our multi-session packages are designed to target hair in
+                different growth cycles, delivering optimal and long-lasting
+                reduction with safe, advanced technology.
+              </p>
+
               {/* Additional information about where to get Cynosure laser hair removal */}
               <p>
                 <strong>Where to get Cynosure laser hair removal?</strong>
